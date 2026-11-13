@@ -1,0 +1,8 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Source dataset and generated analysis artifacts
+swift_umdac_datathon_2026_fictitious_payment_data.csv
+outputs/
