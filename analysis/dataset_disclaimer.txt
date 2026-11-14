@@ -1,0 +1,8 @@
+WARNING: This dataset contains purely fictitious data that has been generated exclusively through hard-coded rules, NumPy 'random number' calls and the Python Faker library.
+This dataset does not represent any real payment transactions, and therefore any resemblance to real data is purely coincidental.
+
+Swift disclaims all liability for any decisions based on this dataset, and for their consequences.
+
+This is a fictitious dataset created for the UMDAC Datathon 2026.
+
+SWIFT © 2026. All rights reserved.

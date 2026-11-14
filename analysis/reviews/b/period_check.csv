@@ -1,0 +1,13 @@
+continuity,route,period,rows,visible_equal,distinct_equal,gapped
+N,Covered,early,36330,36330,35034,36330
+N,Covered,late,14932,14932,14401,14932
+N,Direct,early,223597,223597,223597,223597
+N,Direct,late,91669,91669,91669,91669
+N,Indirect,early,284379,284379,278679,284379
+N,Indirect,late,116297,116297,113821,116297
+Y,Covered,early,259440,259440,252643,0
+Y,Covered,late,105260,105260,102491,0
+Y,Direct,early,4266103,4266103,4266097,0
+Y,Direct,late,1741911,1741911,1741911,0
+Y,Indirect,early,2030872,2030872,2002651,0
+Y,Indirect,late,829210,829210,817815,0

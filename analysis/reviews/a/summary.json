@@ -1,0 +1,67 @@
+{
+  "rows": 10000000,
+  "labels": {
+    "": 9992994,
+    "FAT_FINGER_MISTAKE": 1940,
+    "ROMANCE_SCAM": 2476,
+    "ACCOUNT_REPLACEMENT_SCAM": 649,
+    "CEO_SCAM": 945,
+    "DUPLICATE_PAYMENT": 679,
+    "CUSTOMER_RECALL": 317
+  },
+  "elapsed_seconds": 175.41367020001053,
+  "N/Covered": {
+    "rows": 51262,
+    "visible_equals_participants": 51262,
+    "entries_equals_participants": 0,
+    "distinct_equals_visible": 49435,
+    "with_gap": 51262,
+    "other_path_tokens": 0,
+    "visible_exceeds_participants": 0
+  },
+  "N/Direct": {
+    "rows": 315266,
+    "visible_equals_participants": 315266,
+    "entries_equals_participants": 0,
+    "distinct_equals_visible": 315266,
+    "with_gap": 315266,
+    "other_path_tokens": 0,
+    "visible_exceeds_participants": 0
+  },
+  "N/Indirect": {
+    "rows": 400676,
+    "visible_equals_participants": 400676,
+    "entries_equals_participants": 0,
+    "distinct_equals_visible": 392500,
+    "with_gap": 400676,
+    "other_path_tokens": 0,
+    "visible_exceeds_participants": 0
+  },
+  "Y/Covered": {
+    "rows": 364700,
+    "visible_equals_participants": 364700,
+    "entries_equals_participants": 364700,
+    "distinct_equals_visible": 355134,
+    "with_gap": 0,
+    "other_path_tokens": 0,
+    "visible_exceeds_participants": 0
+  },
+  "Y/Direct": {
+    "rows": 6008014,
+    "visible_equals_participants": 6008014,
+    "entries_equals_participants": 6008014,
+    "distinct_equals_visible": 6008008,
+    "with_gap": 0,
+    "other_path_tokens": 0,
+    "visible_exceeds_participants": 0
+  },
+  "Y/Indirect": {
+    "rows": 2860082,
+    "visible_equals_participants": 2860082,
+    "entries_equals_participants": 2860082,
+    "distinct_equals_visible": 2820466,
+    "with_gap": 0,
+    "other_path_tokens": 0,
+    "visible_exceeds_participants": 0
+  }
+}

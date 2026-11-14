@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reproducible EDA"
+  short_description: "Keep EDA code, evidence and explanations reviewable"
+  default_prompt: "Use $reproducible-eda to continue the next scoped analysis, save executed outputs, review candidate findings, and explain the results plainly."

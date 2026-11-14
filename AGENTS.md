@@ -1,6 +1,21 @@
 # UMDAC 2026 · Swift payments preliminary round
 
-Use this checklist when working on the datathon. The team’s objective is to **reverse-engineer how the artificial payments were generated**. A finding should describe a candidate rule, the records where it applies, and the evidence for its limits. The current user request covers planning. The unchecked items below describe future work.
+Use this checklist when working on the datathon. The team’s objective is to **reverse-engineer how the artificial payments were generated**. A finding should describe a candidate rule, the records where it applies, and the evidence for its limits. The current request covers starting-point checks and initial EDA only. Unchecked items below remain future work; PDF production has not started.
+
+## Current progress · 2026-11-14
+
+- [x] Package this workflow as the reusable `reproducible-eda` skill: [team copy](skills/reproducible-eda/SKILL.md). Validated and installed in the personal Codex skills folder. It preserves executed outputs, question/theory records, independent review and plain-language explanations. Invoke with `$reproducible-eda` for upcoming analysis.
+- [x] Read supplied case brief appendix and reconcile starting-point definitions and labels.
+- [x] Create [question/theory register](analysis/questions.md) using comparison, trend, relationship, distribution and composition questions. Human owners remain unassigned.
+- [x] Execute initial EDA on all **10,000,000** cleaned rows; preserve inputs and historical profile. [Executed notebook with code, outputs and charts](analysis/initial_eda.ipynb); [reproduction instructions](analysis/README.md); [run log](outputs/initial_eda_run.log).
+- [x] Initial routing review R1/R1b and label coverage A0: two independent full-file analyses, exchanged debate, exact aggregate reconciliation and temporal stability checks. [Evidence/limits/final wording](analysis/progress.md), [A initial](analysis/reviews/a/initial.md), [B initial](analysis/reviews/b/initial.md), [A debate](analysis/reviews/a/debate.md), [B debate](analysis/reviews/b/debate.md), [verification](outputs/eda_initial/review_verification.json).
+- [x] Save exact route, gap, diagnostic, FX, label, party-pair and UTC-time aggregate tables plus provenance in [initial EDA outputs](outputs/eda_initial/). FX/time tables are baselines only; no mechanism inferred.
+- [ ] Assign human feature owners, deck editor and submission owner. Names are not available to the agent.
+- [ ] Investigate endpoint disagreements on continuous paths; test conditional FX/amount/timing questions next, after choosing the next feature group. No anomaly-history or counterparty inference completed yet.
+
+**Reviewed initial results:** `participant_count` equals visible BIC **occurrences**, excluding `...`, in 10M/10M rows. Distinct-BIC counting differs in **59,191** rows. Gap presence agrees exactly with continuity N (**767,204** rows), so semicolon-token counts create that participant diagnostic; gaps do not explain every endpoint diagnostic. Six labels reconcile exactly, including **317 CUSTOMER_RECALL** records whose mechanism remains undefined. These are observed field/coverage relationships, not proof of the generator code or economic causality. See the evidence record for populations, exceptions and limits. UTC coverage includes a partial April 2023 boundary as well as May–July; monthly checks are retrospective, not an untouched holdout.
+
+**Provenance correction:** The original `profile.json` contains a stale limitation saying duration and B/C meanings are undocumented. The appendix defines them. Preserve the historical file and use the corrections in `outputs/eda_initial/manifest.json` and the notebook.
 
 ## Competition criteria
 
@@ -23,8 +38,8 @@ The judges explicitly value analytically grounded partial and negative results. 
 
 - [x] Cleaned and profiled all **10,000,000** records using [clean_data.py](clean_data.py). All rows were retained. The five numeric fields passed the implemented parsing and range checks. Use the [full profile](outputs/cleaned/profile.json) for counts and [cleaned data](outputs/cleaned/payments_cleaned.csv.gz) for analysis. The preview contains the first 1,000 rows.
 - [x] Identified **1,665,936** records with at least one routing diagnostic and **7,006** with an anomaly label. These measure different things. Preserve repeated payments, unusual amounts, multiline text, and blank labels because they can carry evidence about the generator.
-- [ ] Apply the appendix when interpreting earlier cleaning notes. Duration is in **seconds**. B and C mean **business** and **consumer**. Amounts are normalized to USD. Tokens summarize patterns derived from the corresponding detail text. A path can contain a literal `...` gap, and `CONTINUITY_QFLAG` records observability. Counting semicolon-delimited entries as institutions can therefore mislead.
-- [ ] Reconcile label coverage. The data contain six nonblank labels. Appendix p. 4 describes five. The additional `CUSTOMER_RECALL` label occurs **317** times. Treat its generating mechanism as an open question. Keep blank labels as “no recorded anomaly label.”
+- [x] Apply the appendix when interpreting earlier cleaning notes. Duration is in **seconds**. B and C mean **business** and **consumer**. Amounts are normalized to USD. Tokens summarize patterns derived from the corresponding detail text. A path can contain a literal `...` gap, and `CONTINUITY_QFLAG` records observability. Counting semicolon-delimited entries as institutions can therefore mislead. Corrections recorded alongside initial EDA; historical outputs preserved.
+- [x] Reconcile label coverage. Independently recount all 10M rows: six nonblank labels; appendix p. 4 describes five. Additional `CUSTOMER_RECALL` occurs **317** times. Its generating mechanism remains open. Blank labels retained as “no recorded anomaly label.” See notebook block 3 and `analysis/progress.md` A0.
 
 ## Who does what
 
@@ -44,6 +59,8 @@ At kickoff, put a teammate's name beside each feature group the team wants to in
 
 For each task that extracts or materially revises an insight, the lead agent must involve at least two sub-agents. Related candidate rules can share a review, but each rule needs its own conclusion. This is a team workflow requested by the user.
 
+**Completed for initial batch R1, R1b and A0:** all four steps below; records linked in Current progress. The unchecked checklist remains a reusable requirement for each future insight task, not outstanding review of this batch.
+
 1. [ ] **Independent analysis.** Give both agents the same question, field definitions, and data access. Have each return an initial conclusion, population, supporting calculation, and uncertainty before seeing the other's answer. Ask one to estimate the proposed relationship and the other to investigate a plausible competing explanation or counterexample.
 2. [ ] **Debate.** Exchange the two findings. Have each agent respond to the other's strongest evidence and identify a comparison that could distinguish their explanations. The lead runs or verifies that comparison and resolves disagreements using the results. Record any question the available data leave open.
 3. [ ] **Self-consistency.** For every candidate, including those on which both agents agree, compare the independently derived results on the same population. Reconcile denominators, units, effect direction, and magnitude. Test whether the conclusion holds under a relevant change of period, subgroup, or calculation where feasible. If it changes, document the boundary and narrow the claim or mark it inconclusive.
@@ -53,7 +70,7 @@ For each task that extracts or materially revises an insight, the lead agent mus
 
 These are team planning choices. The feature groups and hypotheses can change as evidence comes in.
 
-1. [ ] **Establish comparable populations.** Use the full-file counts as controls. Parse UTC time, keep account IDs as text, and preserve repeated directed sender-to-receiver edges. For route analysis, count visible BICs and gaps separately. Cross-tabulate each route flag by continuity and routing type before interpreting it as an exception.
+1. [ ] **Establish comparable populations (partially complete).** Initial EDA reconciles full-file counts, parses UTC, retains every row, counts valid visible BIC entries/gaps/distinct BICs separately and cross-tabulates all three existing routing diagnostics by continuity and routing type. Account-pair temporal features remain future work; keep account IDs as text and preserve repeated directed edges when implementing them.
 2. [ ] **Test candidate rules by feature group.** Start with the comparisons below. Record the denominator and comparison group before interpreting a difference.
 
    | Feature group | First test |

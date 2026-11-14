@@ -1,5 +1,10 @@
 # Datathon payment data
 
+Initial EDA is now available in [analysis/initial_eda.ipynb](analysis/initial_eda.ipynb)
+with executed code, results and charts. See [analysis/README.md](analysis/README.md)
+for reproduction, [questions and theories](analysis/questions.md), and
+[reviewed evidence and limits](analysis/progress.md). Current checklist: [AGENTS.md](AGENTS.md).
+
 The source is a roughly 4.95 GB CSV, not an Excel workbook. It contains quoted
 multiline fields, so physical line counts are not transaction counts. Avoid
 opening the whole file in Excel or loading it into memory without chunking.

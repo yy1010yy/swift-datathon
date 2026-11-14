@@ -1,0 +1,170 @@
+[
+  {
+    "source_record": "105",
+    "path": "0185NL20;0185NL20;0186FRP0;0002UAU0;0098CAT0",
+    "participants": 5,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "315",
+    "path": "0149LUL0;0005DKK0;0748US30;0309CHZ0;0309CHZ0",
+    "participants": 5,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "466",
+    "path": "0082LUL0;0044SAR0;0044SAR0",
+    "participants": 3,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "641",
+    "path": "0309CHZ0;0309CHZ0;0609US30",
+    "participants": 3,
+    "continuity": "Y",
+    "route": "Covered"
+  },
+  {
+    "source_record": "933",
+    "path": "0026FIH0;0074SGS0;0026FIH0;0061SAR0;0003FRP0;0001CKC0",
+    "participants": 6,
+    "continuity": "Y",
+    "route": "Covered"
+  },
+  {
+    "source_record": "1189",
+    "path": "0165IT20;0001ALT0;0033US30;0300CHZ0;0300CHZ0",
+    "participants": 5,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "1236",
+    "path": "0068IT20;0068IT20;0474FRP0",
+    "participants": 3,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "1332",
+    "path": "0074SGS0;0074SGS0;0000QAQ0",
+    "participants": 3,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "1350",
+    "path": "0301CHZ0;0300CHZ0;0300CHZ0;0082CHZ0",
+    "participants": 4,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "1604",
+    "path": "0071KRS0;0071KRS0;0004IMD0;0157CNB0",
+    "participants": 4,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "1699",
+    "path": "0023CY20;0229DEF0;0155US30;0068IT20;0033US30;0018KWK0;0033US30;0000MQM0",
+    "participants": 8,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "1940",
+    "path": "0026FIH0;0125CHZ0;0026FIH0;0005BDD0;0311CHZ0",
+    "participants": 5,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "2479",
+    "path": "0309CHZ0;0309CHZ0;0035LUL0;0354FRP0",
+    "participants": 4,
+    "continuity": "Y",
+    "route": "Covered"
+  },
+  {
+    "source_record": "2624",
+    "path": "0471FRP0;...;0611US30;0309CHZ0;...;0026FIH0;0611US30",
+    "participants": 5,
+    "continuity": "N",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "2812",
+    "path": "0018IE20;0029NZ20;0774US30;0097IT20;0004IMD0;0006PLP0;0097IT20",
+    "participants": 7,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "2842",
+    "path": "0132BEB0;0174IT20;0174IT20",
+    "participants": 3,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "3019",
+    "path": "0020DEF0;0026FIH0;0031IQB0;0026FIH0;0085BEB0",
+    "participants": 5,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "3053",
+    "path": "0293DEF0;0293DEF0;0030BSN0;0412FRP0",
+    "participants": 4,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "3125",
+    "path": "0174IT20;0026FIH0;0624GB20;0026FIH0",
+    "participants": 4,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "3179",
+    "path": "0004IMD0;0124US30;0175DEF0;0085BEB0;0175DEF0;0551US30;...;0012BGS0",
+    "participants": 7,
+    "continuity": "N",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "3548",
+    "path": "0186FRP0;0085BEB0;0085BEB0",
+    "participants": 3,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "3561",
+    "path": "0019IE20;0309CHZ0;0309CHZ0",
+    "participants": 3,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "3568",
+    "path": "0004IMD0;0004IMD0;0093US30;0773US30",
+    "participants": 4,
+    "continuity": "Y",
+    "route": "Indirect"
+  },
+  {
+    "source_record": "3749",
+    "path": "0085BEB0;0026FIH0;0309CHZ0;0026FIH0",
+    "participants": 4,
+    "continuity": "Y",
+    "route": "Covered"
+  }
+]
