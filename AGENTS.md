@@ -17,6 +17,7 @@ Use this checklist when working on the datathon. The team’s objective is to **
 - [x] Text/tokens: full-file census and A/B country-token checks complete. Exact text-generation grammar is an open partial result.
 - [x] Exchange independent findings and run deciding/self-consistency comparisons for every promoted rule. Provisional items are labeled rather than silently promoted.
 - [x] Consolidate methodology, executable artifacts and per-rule evidence in [extended findings](analysis/round2/findings.md), [evidence registry](analysis/round2/evidence_registry.md), and [code/output index](analysis/round2/README.md).
+- [x] Add evidence-backed stakeholder business explanations for all eight headline finding groups in the canonical [findings report](analysis/round2/findings.md), clearly separating measured rules from plausible economic meaning.
 
 ## Current progress · 2026-11-14
 

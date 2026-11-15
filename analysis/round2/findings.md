@@ -44,6 +44,154 @@ groups are the recommended stopping-point shortlist for the eventual dashboard/d
 | 7. Text and account encoding | Ordering country tokens mirror bank code. Every account is `_FAKE_`; about 94% copy its suffix into the first detail line. | Full census of 20M detail/account fields plus independent A/B scans. | Beneficiary tokens usually do not mirror their own bank; identifiers can be omitted, reused across BICs and paired with changing details. |
 | 8. Counterparty recurrence | Ordinary repeated pairs require strong heterogeneity; one party-type Poisson/geometric count or exponential wait model fails. | 9,992,994 blank rows, 8,258,480 pairs, 1,734,514 strict-prior rows; B/C and lead verification pass. | Censoring, activity, popularity, corridor mix and pair affinity cannot yet be separated. |
 
+## Business explanation for stakeholders
+
+The interpretations below translate the reconstructed rules into banking and customer
+behaviour. They are plausible explanations supported by the measured patterns, not
+claims that the records describe actual customers or that a specific economic story
+has been proved.
+
+### 1. Payment value reflects who is paying, who is receiving and the currency used
+
+The generator appears to treat customer type as a proxy for the economic purpose and
+scale of a payment. Within the same currency, adding a business sender raises the typical
+amount scale by about **7.15 times**, while adding a business receiver raises it by about
+**7.41 times**. Because the effects are approximately separate, a business-to-business
+payment can have a typical scale roughly 53 times that of a consumer-to-consumer payment
+in the same currency, although individual payments still vary widely.
+
+For stakeholders, this resembles a market in which company payments include supplier
+invoices, payroll, settlement and treasury transfers, while consumer payments are more
+often smaller purchases or personal transfers. The strong USD whole-dollar pattern
+(about 38–39%, versus about 1% for EUR) also suggests that the generator includes
+currency-specific payment conventions rather than merely converting one universal
+amount distribution. This means amount-monitoring thresholds should be conditioned on
+currency and both customer roles. A large consumer transfer and a similarly sized
+business transfer should not automatically receive the same interpretation. The evidence
+supports different amount scales; it does not reveal the actual payment purpose.
+
+### 2. Most payment routes are intentionally short, while gaps represent observability
+
+The route generator strongly favours short paths: **63.23%** of payments are Direct and
+therefore contain exactly two visible banks. Longer routes become progressively less
+common according to a simple geometric-length pattern. After a route is constructed,
+display gaps appear to be inserted by a separate process with a continuation probability
+near 5% per opportunity.
+
+In business terms, this resembles correspondent banking. Institutions prefer a direct
+relationship when one is available; otherwise one or more intermediaries connect the
+sender and receiver. A displayed `...` should be understood as incomplete visibility,
+not as one known additional institution. For operations, compliance and fee analysis,
+route length can indicate likely intermediation, but gap count cannot safely be converted
+into a count of hidden banks. The exact geometric sampler is not uniquely identified,
+yet the separation between route construction and route display is strongly supported.
+
+### 3. FX follows currency areas, while Covered routing reflects the sender's network
+
+FX steps are best explained by movement between learned currency-zone groups, not by
+every change in national bank code. This matches real payment economics: two countries
+may use the same currency or operate within a shared settlement area, so crossing their
+border need not require conversion. Conversely, crossing into a different currency area
+creates an FX step. The earlier-data rule predicts **9,999,964 of 10,000,000** observed
+FX counts before exception-based refinement.
+
+For non-Direct routes, Covered versus Indirect is also not one universal random choice.
+The probability varies materially and very consistently by sending-bank country code;
+adding FX and customer type improves prediction further. A plausible business reading is
+that different sending markets rely on different correspondent networks and funding
+arrangements. Some routinely use reimbursement or cover chains, while others use serial
+intermediation. This can inform route-cost and liquidity analysis: the relevant drivers
+are the currency area and the sender's network, not nationality alone. Sender code may,
+however, be standing in for particular banks or corridors, so the causal level remains
+unresolved.
+
+### 4. Endpoint inconsistencies look like a controlled data process; duration needs SLA segments
+
+Each visible route endpoint disagrees with its separately listed bank field in about
+**5%** of records, and the two disagreements occur almost independently. That regularity
+is more consistent with a deliberate synthetic perturbation or separately generated
+representation than with occasional uncontrolled data-entry mistakes. Stakeholders
+should therefore retain and investigate these rows rather than automatically deleting
+them as corrupt. The data cannot tell us whether the route endpoint or the separate bank
+field was altered.
+
+Processing duration is also not a simple “one more bank adds a fixed number of seconds”
+rule. Route, participant and FX counts explain only **2.20%** of July duration variation,
+and even otherwise similar Direct payments range from seconds to hours. Operationally,
+this resembles multiple service modes or processing states—such as straight-through
+processing, review queues, cut-off windows or bank-specific handling. A stakeholder
+should segment service-level analysis by processing regime and corridor instead of
+promising one universal duration increment. The data support multiple time scales but
+do not identify the exact operational stages.
+
+### 5. Currency and transaction timing are anchored to the sending institution
+
+A sending-bank code's usual currency predicts **89.43%** of July payments; considering
+the usual currency at either endpoint covers **94.07%**. This suggests that customers
+normally transact in currencies familiar to their bank or corridor, with a smaller set
+of alternative-currency cases. For treasury and liquidity stakeholders, the result
+implies that currency demand can largely be planned from the sending network, while the
+remaining 6–11% needs a separate corridor or customer-choice model.
+
+Payment timing follows a related pattern. One shared weekly activity shape, shifted to
+a different phase for each sender code, predicts July better than one global UTC profile
+or separate customer-type profiles. This is consistent with institutions operating on
+different market clocks and weekly schedules. Capacity planning should therefore align
+staffing and liquidity buffers to sender-specific activity windows rather than one global
+peak. The phases are only relative patterns learned from the data; without external
+timezone evidence they must not be labelled as local timezones or business hours.
+
+### 6. Different anomaly labels require different detection logic
+
+Duplicate payments have the clearest recoverable business mechanism. Among the 515
+labelled duplicates with usable same-pair history, **493 (95.73%)** copy an exact earlier
+amount. A practical control would therefore search recent payments for the same sender,
+receiver, currency and amount, while recognising that missing history prevents a match
+for some genuine duplicates.
+
+Romance-labelled payments behave differently: they occur in short episodes, usually
+minutes apart, and amounts generally grow by a random multiplier rather than repeating
+exactly. This is consistent with escalating requests to the same recipient, so useful
+detection features include recent sequence length, short inter-payment time and amount
+growth. Fat-finger labels instead have an unusually wide amount distribution consistent
+with decimal-place shifts applied to an unobserved intended amount. Their intended value
+usually does not appear as an earlier payment, so history matching alone is inadequate.
+These findings support label-specific controls rather than one generic anomaly score.
+They do not recover every labelled event, and the `CUSTOMER_RECALL` mechanism remains
+undefined and unresolved.
+
+### 7. Detail text is structured payment-message data, not an independent customer profile
+
+The ordering-side country token, when present, always repeats the ordering bank's country
+code. Likewise, every account value has a `_FAKE_` prefix, and about 94% of detail fields
+copy the account suffix into their first line. These patterns indicate that much of the
+text was constructed from other transaction fields. Treating each token as a separate
+customer fact would therefore double-count the same information.
+
+For data engineering, sanctions screening and entity resolution, the implication is to
+preserve the raw message but identify which elements are derived. Exact account text is
+not a guaranteed global customer key: some beneficiary account strings appear with
+multiple BICs, some details omit the identifier, and detail text can change over time.
+Matching systems should combine account, role, bank and context rather than assuming one
+string always means one immutable customer. The beneficiary country-token asymmetry also
+warns against treating a bank location as the beneficiary customer's residence.
+
+### 8. Repeat-payment behaviour comes from a mixture of customer relationships
+
+Most observed sender–receiver pairs appear only once, but a small group repeats hundreds
+or even thousands of times. This combination of many one-off relationships and a very
+long repeat tail cannot be produced well by one common repeat probability within each
+business/consumer category. The generator must contain substantial heterogeneity.
+
+A plausible business explanation is a mixture of occasional purchases, recurring bills,
+supplier relationships, payroll-like flows, high-activity customers and popular
+receivers. This matters for forecasting and monitoring: a repeated payment is normal for
+some relationships but unusual for others. Models should learn relationship history and
+sender/receiver activity rather than applying one party-type average. The current data
+cannot separate true pair affinity from sender activity, receiver popularity, corridor
+mix or observation-window effects, so July's longer observed gaps must not be presented
+as evidence that customers slowed their payment activity.
+
 ## V2 · Customer types shift the scale of amounts
 
 Plain meaning: business-related payments tend to be larger, even when we compare the
