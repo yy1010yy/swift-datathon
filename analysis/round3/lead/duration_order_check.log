@@ -1,0 +1,59 @@
+               model       n  log_rmse  log_mae   log_r2
+                base 2896968  1.993851 1.817421 0.046414
+         sender_only 2896968  1.533473 1.204568 0.435938
+       receiver_only 2896968  1.643923 1.367900 0.351757
+sender_then_receiver 2896968  1.188965 0.902089 0.660912
+receiver_then_sender 2896968  1.181604 0.891820 0.665097
+  average_two_orders 2896968  1.175170 0.890666 0.668735
+{
+  "status": "PASS",
+  "train_rows": 7094560,
+  "july_rows": 2896968,
+  "scores": [
+    {
+      "model": "base",
+      "n": 2896968,
+      "log_rmse": 1.9938507485554584,
+      "log_mae": 1.817421422460109,
+      "log_r2": 0.046413678519933055
+    },
+    {
+      "model": "sender_only",
+      "n": 2896968,
+      "log_rmse": 1.5334728394634642,
+      "log_mae": 1.2045678037545453,
+      "log_r2": 0.4359379286166549
+    },
+    {
+      "model": "receiver_only",
+      "n": 2896968,
+      "log_rmse": 1.6439231013121247,
+      "log_mae": 1.3678996251164526,
+      "log_r2": 0.351757175349781
+    },
+    {
+      "model": "sender_then_receiver",
+      "n": 2896968,
+      "log_rmse": 1.188965206860316,
+      "log_mae": 0.9020887239758627,
+      "log_r2": 0.6609115374858665
+    },
+    {
+      "model": "receiver_then_sender",
+      "n": 2896968,
+      "log_rmse": 1.1816037665538086,
+      "log_mae": 0.8918203329112572,
+      "log_r2": 0.6650974496607625
+    },
+    {
+      "model": "average_two_orders",
+      "n": 2896968,
+      "log_rmse": 1.1751695143068908,
+      "log_mae": 0.8906659172320298,
+      "log_r2": 0.6687348458723072
+    }
+  ],
+  "max_additive_order_rmse_difference": 0.007361440306507427,
+  "interpretation": "Both endpoints add duration-location information; ordering sensitivity is reported rather than treated as causality.",
+  "elapsed_seconds": 5.971964999975171
+}

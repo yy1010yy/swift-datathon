@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "source_rows": 10000000,
+  "rows": 3676720,
+  "train": 2611021,
+  "july": 1065699,
+  "banks_including_path": 8365,
+  "currencies": 154,
+  "countries": 228,
+  "elapsed_seconds": 266.8549977999646,
+  "limits": [
+    "Visible intermediaries only; gaps do not reveal hidden banks.",
+    "Earlier/July is retrospective.",
+    "Target encoding prediction does not prove selection order."
+  ]
+}

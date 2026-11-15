@@ -1,0 +1,4 @@
+First execution reached all 8,258,480 pair rows but failed the payment-total assertion.
+Cause: dict(zip(account, n)) retained only the last pair for accounts repeated within a
+chunk. Correction: group n by exact account string inside each chunk before updating
+the cross-chunk Counter. The failed partial totals were not used as evidence.

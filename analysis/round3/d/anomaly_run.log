@@ -1,0 +1,41 @@
+target_scan 1000000 5.5
+target_scan 2000000 12.7
+target_scan 3000000 18.7
+target_scan 4000000 24.5
+target_scan 5000000 30.5
+target_scan 6000000 36.6
+target_scan 7000000 42.7
+target_scan 8000000 48.8
+target_scan 9000000 55.5
+target_scan 10000000 61.8
+history_scan 1000000 68.5
+history_scan 2000000 75.2
+history_scan 3000000 81.6
+history_scan 4000000 87.8
+history_scan 5000000 93.8
+history_scan 6000000 100.0
+history_scan 7000000 106.2
+history_scan 8000000 113.4
+history_scan 9000000 120.1
+history_scan 10000000 126.7
+                   label    role   n  history  account_seen  bic_seen  same_bic_diff  exact_any  exact_same  exact_diff  reverse  reverse_exact  amount_pct_median  amount_ratio_median  lag_any_median  lag_account_median  reverse_lag_median
+ACCOUNT_REPLACEMENT_SCAM control 603      591            90       293            292         12           0          12        3              0           0.500000             1.003623         14838.0            656778.0            862223.0
+ACCOUNT_REPLACEMENT_SCAM  target 649      603             0        49             49          8           0           8        0              0           0.500000             1.012365         17077.0                 NaN                 NaN
+                CEO_SCAM control 822      765           102       324            312         15           0          15        9              0           0.517015             1.120518         34735.0            842451.0            339549.0
+                CEO_SCAM  target 945      822             2        62             61          9           0           9        0              0           0.711672             2.626390         46755.5           3746716.0                 NaN
+         CUSTOMER_RECALL control 301      293            58       144            142         13           2          12        2              0           0.515734             1.131209         15895.0            699853.0           1725121.5
+         CUSTOMER_RECALL  target 317      301            59       151            146          6           0           6        1              0           0.498155             0.874961         13206.0            639455.0            675254.0
+{
+  "status": "complete",
+  "source_rows": 10000000,
+  "target_rows": 1911,
+  "involved_history_rows": 2548692,
+  "controls": 1726,
+  "elapsed_seconds": 165.81335109996144,
+  "history": "strict earlier timestamp; exact account/currency; both directions retained",
+  "limits": [
+    "Controls are nearest earlier blank same-sender/currency rows and may repeat.",
+    "No invoices or intended amounts are observed.",
+    "Reverse payment is only a candidate recall signature."
+  ]
+}

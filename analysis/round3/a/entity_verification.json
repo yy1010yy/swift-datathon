@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "pairs": 8258480,
+  "payments": 9992994,
+  "sample_pairs": 126138,
+  "observed_over_expected_range": [
+    3.3594186941777466,
+    7.314208786093889
+  ],
+  "scope": "Exact denominator checks and all four activity-null effect directions."
+}

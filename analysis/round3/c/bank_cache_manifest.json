@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "rows": 10000000,
+  "unique_bics": 8686,
+  "elapsed_seconds": 49.11063589999685,
+  "alignment": "CSV physical record order; same source/profile as outputs/round2/a/numeric.npy"
+}

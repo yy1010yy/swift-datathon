@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "entity": {
+    "blank_rows": 9992994,
+    "pairs": 8258480,
+    "repeated_pairs": 628578,
+    "A_activity_null_ratio_range": [
+      3.3594186941777466,
+      7.314208786093889
+    ],
+    "B_full_activity_null_ratio": 3.735993645574066
+  },
+  "currency": {
+    "B_july_rows": 2899279,
+    "C_complete_july_rows": 2896968,
+    "B_sender_country_accuracy": 0.8942750939112794,
+    "C_sender_country_accuracy": 0.894272563590623,
+    "finding": "Exact sender BIC does not improve the sender-country currency model in either implementation."
+  },
+  "duration": {
+    "baseline_log_rmse": 1.9938507485554584,
+    "B_sender_only_log_rmse": 1.533487414191419,
+    "C_both_banks_log_rmse": 1.188965206860316,
+    "C_pair_log_rmse": 1.1096258043319933,
+    "finding": "Independent implementations agree that exact endpoint banks carry large, stable duration-location effects."
+  },
+  "timing": {
+    "country_nll": 4.885608551954626,
+    "exact_sender_bic_nll": 4.906854346365858,
+    "finding": "Exact bank does not improve sender-country weekly timing prediction."
+  },
+  "population_note": "B includes partial boundary dates for currency/duration; C uses May1-Jun30 and Jul1-30. Near-identical common baselines make this boundary immaterial to direction."
+}

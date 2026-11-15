@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "history_cache_rows": 2528044,
+  "query_rows": 3637,
+  "labels": [
+    "ACCOUNT_REPLACEMENT_SCAM",
+    "CEO_SCAM",
+    "CUSTOMER_RECALL"
+  ],
+  "elapsed_seconds": 28.522522800019942,
+  "history_rule": "strict earlier timestamp; exact raw sender/account/currency; source order unused",
+  "control": "nearest earlier blank same-sender/currency records selected in round2; rescored using their own past",
+  "limits": [
+    "Controls may be reused and have shallower histories.",
+    "No invoice or intended amount is observed.",
+    "Novel recipient/account signatures can reflect ordinary first payments."
+  ]
+}

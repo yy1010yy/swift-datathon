@@ -1,0 +1,17 @@
+1000000 4.9
+2000000 9.8
+3000000 14.6
+4000000 19.5
+5000000 24.5
+6000000 29.5
+7000000 34.4
+8000000 39.2
+9000000 44.2
+10000000 49.1
+{
+  "status": "complete",
+  "rows": 10000000,
+  "unique_bics": 8686,
+  "elapsed_seconds": 49.11063589999685,
+  "alignment": "CSV physical record order; same source/profile as outputs/round2/a/numeric.npy"
+}

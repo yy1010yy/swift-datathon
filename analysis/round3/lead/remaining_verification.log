@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "anomaly_cells": [
+    {
+      "label": "ACCOUNT_REPLACEMENT_SCAM",
+      "role": "target",
+      "n": 649,
+      "history": 603,
+      "account_seen": 0,
+      "bic_seen": 49
+    },
+    {
+      "label": "ACCOUNT_REPLACEMENT_SCAM",
+      "role": "control",
+      "n": 603,
+      "history": 591,
+      "account_seen": 90,
+      "bic_seen": 293
+    },
+    {
+      "label": "CEO_SCAM",
+      "role": "target",
+      "n": 945,
+      "history": 822,
+      "account_seen": 2,
+      "bic_seen": 62
+    },
+    {
+      "label": "CEO_SCAM",
+      "role": "control",
+      "n": 822,
+      "history": 765,
+      "account_seen": 102,
+      "bic_seen": 324
+    },
+    {
+      "label": "CUSTOMER_RECALL",
+      "role": "target",
+      "n": 317,
+      "history": 301,
+      "account_seen": 59,
+      "bic_seen": 151
+    },
+    {
+      "label": "CUSTOMER_RECALL",
+      "role": "control",
+      "n": 301,
+      "history": 293,
+      "account_seen": 58,
+      "bic_seen": 144
+    }
+  ],
+  "recall_reverse_target_rows": 1,
+  "recall_exact_reverse_target_rows": 0,
+  "covered_models": {
+    "global": {
+      "july_nll": 0.3522944114317848,
+      "coverage": 1.0
+    },
+    "sender_country": {
+      "july_nll": 0.325912226968184,
+      "coverage": 0.9999990616487394
+    },
+    "sender_bic": {
+      "july_nll": 0.23580353674666082,
+      "coverage": 0.9997813641562956
+    },
+    "bic_pair": {
+      "july_nll": 0.12036919963882395,
+      "coverage": 0.8626009783250242
+    }
+  },
+  "intermediary": {
+    "rows": 3676720,
+    "first_tv": 0.017430143266478116,
+    "first_rate_correlation": 0.9999168756631877,
+    "first_global_jeffreys_nll": 6.265022137257135,
+    "unseen_july_rows": 355
+  },
+  "scope": "C/D anomaly initials reconcile exactly; B/D Covered NLL/coverage reconcile; B/D first-intermediary stability and smoothing reconcile."
+}

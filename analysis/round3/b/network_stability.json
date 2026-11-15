@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "early_firstmid_rows": 2611021,
+  "july_firstmid_rows": 1065699,
+  "early_july_total_variation": 0.017430143266478116,
+  "active_bic_count_ge100_each": 919,
+  "active_rate_correlation": 0.9999168756631874,
+  "top10_overlap": 10,
+  "firstmid_equals_sender": 11792,
+  "firstmid_equals_receiver": 13899,
+  "indirect_covered_mid_distribution_tv": 0.026751165303095216
+}

@@ -1,0 +1,8 @@
+Both full 10M source passes completed. The first scoring implementation then filtered
+the entire selected-history table once per query, creating avoidable quadratic work.
+It was cancelled before any summary was produced. The corrected implementation groups
+outgoing and reverse histories once, then scores each query inside its exact group.
+
+The first grouped correction also materialized a DataFrame for every selected pair,
+which caused memory pressure. It too was cancelled without output. The final version
+stores compact positional group indices and only groups reverse pairs actually queried.

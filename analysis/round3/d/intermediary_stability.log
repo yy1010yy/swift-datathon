@@ -1,0 +1,3 @@
+target  train_n  july_n  total_variation  pearson_rate_correlation  banks_n_ge_100_both  train_top1_share  july_top1_share
+ first  2611021 1065699         0.017430                  0.999917                  919          0.033298         0.033135
+  last  2611021 1065699         0.017987                  0.999894                  924          0.033266         0.033210

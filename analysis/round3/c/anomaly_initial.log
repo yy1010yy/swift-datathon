@@ -1,0 +1,25 @@
+                   label          role   n  history_n_positive  recipient_account_seen_n  recipient_bic_seen_n  same_bic_different_account_n  exact_amount_same_bic_different_account_n  recipient_country_seen_n  ordering_bic_seen_n  amount_prior_percentile_known  amount_prior_percentile_median  amount_over_prior_median_known  amount_over_prior_median_median  lag_any_seconds_known  lag_any_seconds_median  lag_same_account_seconds_known  lag_same_account_seconds_median  lag_same_bic_diff_account_seconds_known  lag_same_bic_diff_account_seconds_median
+ACCOUNT_REPLACEMENT_SCAM prior_control 603                 591                        90                   293                           292                                          2                       451                  591                            591                        0.500000                             591                         1.003623                    591                 14838.0                              90                         656778.0                                      292                                  342570.5
+ACCOUNT_REPLACEMENT_SCAM        target 649                 603                         0                    49                            49                                          0                       163                  603                            603                        0.500000                             603                         1.012365                    603                 17077.0                               0                              NaN                                       49                                  902373.0
+                CEO_SCAM prior_control 822                 765                       102                   324                           312                                          0                       544                  765                            765                        0.517015                             765                         1.120518                    765                 34735.0                             102                         842451.0                                      312                                  300272.0
+                CEO_SCAM        target 945                 822                         2                    62                            61                                          0                       187                  822                            822                        0.711672                             822                         2.626390                    822                 46755.5                               2                        3746716.0                                       61                                  763170.0
+         CUSTOMER_RECALL prior_control 301                 293                        58                   144                           142                                          2                       224                  293                            293                        0.515734                             293                         1.131209                    293                 15895.0                              58                         699853.0                                      142                                  272047.0
+         CUSTOMER_RECALL        target 317                 301                        59                   151                           146                                          0                       230                  301                            301                        0.498155                             301                         0.874961                    301                 13206.0                              59                         639455.0                                      146                                  342596.5
+{
+  "status": "complete",
+  "history_cache_rows": 2528044,
+  "query_rows": 3637,
+  "labels": [
+    "ACCOUNT_REPLACEMENT_SCAM",
+    "CEO_SCAM",
+    "CUSTOMER_RECALL"
+  ],
+  "elapsed_seconds": 28.522522800019942,
+  "history_rule": "strict earlier timestamp; exact raw sender/account/currency; source order unused",
+  "control": "nearest earlier blank same-sender/currency records selected in round2; rescored using their own past",
+  "limits": [
+    "Controls may be reused and have shallower histories.",
+    "No invoice or intended amount is observed.",
+    "Novel recipient/account signatures can reflect ordinary first payments."
+  ]
+}

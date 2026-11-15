@@ -1,0 +1,48 @@
+                       model       n  log_rmse  log_mae   log_r2  seconds_mae_median_prediction
+       route+participants+fx 2896968  1.993851 1.817421 0.046414                     737.510912
+base+sender_receiver_country 2896968  1.916690 1.708285 0.118792                     713.091025
+    base+sender_receiver_bic 2896968  1.188965 0.902089 0.660912                     695.799655
+  base+bics+utc_hour_of_week 2896968  1.188472 0.907481 0.661193                     707.229846
+         base+bics+hour+pair 2896968  1.109626 0.795237 0.704656                     541.194473
+                           model  test_n  coverage_n  top1_correct  top1_accuracy_all  top1_accuracy_covered  top2_accuracy_all  top3_accuracy_all  median_train_cell_n_covered
+                          global 2896968     2896968        926468           0.319806               0.319806           0.491166           0.578141                    7094560.0
+                  sender_country 2896968     2896968       2590679           0.894273               0.894273           0.948039           0.967682                     212297.0
+                      sender_bic 2896968     2896757       2590398           0.894176               0.894241           0.948010           0.967207                       6656.0
+                receiver_country 2896968     2896968        932411           0.321858               0.321858           0.494795           0.588820                     245583.0
+                    receiver_bic 2896968     2896742       1017679           0.351291               0.351318           0.523117           0.620936                       8875.0
+  pair_mode_n>=5_else_sender_bic 2896968     2896757       2589127           0.893737               0.893802           0.943416           0.957209                        110.0
+ pair_mode_n>=20_else_sender_bic 2896968     2896757       2590329           0.894152               0.894217           0.947725           0.964122                        403.0
+pair_mode_n>=100_else_sender_bic 2896968     2896757       2590396           0.894175               0.894240           0.948815           0.967265                       2948.0
+           model  min_train_n  sender_mode_miss_n  covered_miss_n  correct_n  accuracy_covered
+          global            1              306570          306570     135085          0.440633
+          global            5              306570          306570     135085          0.440633
+          global           20              306570          306570     135085          0.440633
+          global          100              306570          306570     135085          0.440633
+receiver_country            1              306570          306570     134570          0.438954
+receiver_country            5              306570          306569     134569          0.438952
+receiver_country           20              306570          306567     134568          0.438951
+receiver_country          100              306570          306541     134562          0.438969
+    receiver_bic            1              306570          306540     134213          0.437832
+    receiver_bic            5              306570          306400     134182          0.437931
+    receiver_bic           20              306570          305822     133978          0.438091
+    receiver_bic          100              306570          301964     132420          0.438529
+            pair            1              306570          247728       4439          0.017919
+            pair            5              306570          199644       1137          0.005695
+            pair           20              306570          142702        428          0.002999
+            pair          100              306570           70842         55          0.000776
+{
+  "status": "complete",
+  "train_rows": 7094560,
+  "july_rows": 2896968,
+  "currencies": 155,
+  "banks": 8686,
+  "duration_pair_train_cells": 1079912,
+  "duration_pair_july_known": 2661260,
+  "elapsed_seconds": 15.04276270000264,
+  "limits": [
+    "Pre-July/July is retrospective validation.",
+    "Target encodings show prediction, not causal direction.",
+    "Pair modes fall back to sender BIC and are thresholded to expose sparsity.",
+    "Duration is evaluated as conditional mean on log scale; mixtures remain possible."
+  ]
+}

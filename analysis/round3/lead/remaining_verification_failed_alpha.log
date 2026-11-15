@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round3\lead\verify_remaining.py", line 24, in <module>
+    x=bc[(bc.model==model)&(bc.alpha==10)].iloc[0];y=dc[dc.model==dm].iloc[0]
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\.venv\Lib\site-packages\pandas\core\indexing.py", line 1342, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\.venv\Lib\site-packages\pandas\core\indexing.py", line 2432, in _getitem_axis
+    self._validate_integer(key, axis)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\.venv\Lib\site-packages\pandas\core\indexing.py", line 2365, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds

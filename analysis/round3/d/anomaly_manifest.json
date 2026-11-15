@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "source_rows": 10000000,
+  "target_rows": 1911,
+  "involved_history_rows": 2548692,
+  "controls": 1726,
+  "elapsed_seconds": 165.81335109996144,
+  "history": "strict earlier timestamp; exact account/currency; both directions retained",
+  "limits": [
+    "Controls are nearest earlier blank same-sender/currency rows and may repeat.",
+    "No invoices or intended amounts are observed.",
+    "Reverse payment is only a candidate recall signature."
+  ]
+}

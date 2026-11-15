@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "pair_rows": 8258480,
+  "blank_payments": 9992994,
+  "all_sender_accounts": 390725,
+  "sample_receiver_accounts": 40392,
+  "sample_pairs": 126138,
+  "sample_payments": 151383,
+  "receiver_sample": "pandas stable uint64 hash exact receiver account modulo64 equals0; all pairs retained",
+  "activity_summaries": [
+    {
+      "side": "sender",
+      "accounts": 390725,
+      "payments_median": 3.0,
+      "payments_p99": 404.0,
+      "payments_max": 75773,
+      "degree_median": 3.0,
+      "degree_p99": 324.0,
+      "degree_max": 38394,
+      "corr_log_payments_log_degree": 0.9963053845667738,
+      "accounts_with_repeat_pair": 55102
+    },
+    {
+      "side": "receiver_sample",
+      "accounts": 40392,
+      "payments_median": 1.0,
+      "payments_p99": 36.0,
+      "payments_max": 7728,
+      "degree_median": 1.0,
+      "degree_p99": 29.0,
+      "degree_max": 4558,
+      "corr_log_payments_log_degree": 0.951968685238267,
+      "accounts_with_repeat_pair": 3303
+    }
+  ],
+  "elapsed_seconds": 71.93637559999479,
+  "limits": [
+    "Configuration-style independence uses observed blank-payment endpoint volumes and conditions on an observed edge; it is a challenge model, not a fitted generator.",
+    "Finite-window censoring and omitted labelled payments remain.",
+    "Receiver statistics are a deterministic account sample; sender statistics are full population.",
+    "Exact account strings may not identify real people and beneficiary strings can occur with multiple BICs."
+  ]
+}

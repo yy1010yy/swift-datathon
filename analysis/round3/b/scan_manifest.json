@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "rows": 10000000,
+  "seconds": 186.0441854999517,
+  "bics": 8720,
+  "countries": 229,
+  "currencies": 155,
+  "source_bytes": 2050598614,
+  "source_mtime_ns": 1794563110205336900,
+  "firstmid_definition": "second visible non-gap BIC when at least3 visible BICs; otherwise uint16 max"
+}

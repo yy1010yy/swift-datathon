@@ -1,0 +1,8 @@
+source 10000000 nondirect 3676720 139.4
+Traceback (most recent call last):
+  File "analysis/round3/d/intermediary_review.py", line 38, in <module>
+    train, test = a.epoch < CUTOFF, a.epoch >= CUTOFF
+AttributeError: 'numpy.ndarray' object has no attribute 'epoch'
+
+Correction: structured NumPy fields require bracket access (`a['epoch']`). The failed
+run completed the raw scan but produced no model result and is not evidence.

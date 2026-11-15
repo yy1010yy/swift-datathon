@@ -9,11 +9,14 @@ needed to understand the conclusions are consolidated here.
 
 ## Proposed construction, with limits
 
-A useful candidate model has several parts: choose customer types and a currency;
-draw a strongly skewed amount whose scale depends on those choices; construct a bank
-route and count currency-zone crossings; insert gaps in the displayed route; draw a
-variable processing time; add some special payment sequences or anomalies. This is
-a proposed way to reproduce observations, **not a recovered causal ordering**.
+A useful candidate model now has several supported layers: draw highly unequal entity
+activity and add a relationship/compatibility layer; choose currency from a sender-
+country menu; draw a skewed amount scaled by currency, customer roles and sender bank;
+draw route length, assign Covered/Indirect mainly from the endpoint-bank pair, sample
+visible intermediaries from a global hub pool, count currency-zone crossings and insert
+display gaps; draw duration around stable endpoint-bank and corridor locations; then
+inject label-specific sequences or endpoint/amount changes. This is a proposed way to
+reproduce observations, **not a recovered causal ordering**.
 Different programs can produce the same observed distributions.
 
 ## Method used
@@ -35,14 +38,14 @@ groups are the recommended stopping-point shortlist for the eventual dashboard/d
 
 | Finding | Plain explanation | Main evidence | Strongest challenge / limit |
 |---|---|---|---|
-| 1. Amount construction | Currency supplies a baseline; business sender and receiver independently raise the typical USD amount by about 7.15× and 7.41×. USD also has a strong whole-dollar rounding process. | 9,992,994 blank rows; 1,228 A/B/C cells reconcile; July log-model R² 0.307. | Residual amounts remain extremely wide; purpose, bank and corridor mix are unobserved. |
+| 1. Amount construction | Currency supplies a baseline; business sender and receiver independently raise the typical USD amount by about 7.15× and 7.41×. Sending bank adds a smaller stable scale adjustment. | 9,992,994 blank rows; 1,228 A/B/C cells reconcile; sender-BIC adjustment lowers July log RMSE by 4.2%. | Residual amounts remain wide; bank effects can represent customer or purpose mix. |
 | 2. Route size and display gaps | Participant count follows a geometric-length rule; Direct is exactly the two-participant case. Gaps are inserted by a separate repeated-failure process near 5% per opportunity. | All 10M rows; Direct rule has zero violations; negative-binomial gap model beats support-incompatible binomial alternatives. | Geometric and rounded-exponential samplers cannot be distinguished; gaps do not reveal hidden banks. |
-| 3. FX and route labels | FX counts crossings between learned currency-zone groups. For longer routes, Covered versus Indirect uses a stable sender-code-specific probability with smaller FX/party adjustments. | Earlier Direct graph predicts 9,999,964/10M FX counts; Covered July NLL improves 0.352294→0.325958. | Final FX exceptions were used to refine the graph; sender code can proxy bank/corridor mechanisms. |
-| 4. Endpoint perturbations and duration | Route endpoints show nearly independent 5% mismatches with separate bank fields. Processing time is multi-scale, not a fixed additive delay. | Endpoint rates 4.984%/4.993%; July joint-cell TV 0.000383. Simple duration model July R² 2.20%. | Data cannot identify which endpoint field was edited; exact duration mixture remains unresolved. |
-| 5. Currency and weekly timing | Sender code strongly predicts currency. Timing follows a shared weekly shape shifted by sender code rather than one global or party-only clock. | Sender modal currency predicts 89.43% of July; shared phase model NLL 4.87493 versus pooled 5.01885. | Alternative currency choices are unresolved; relative phases are not proven timezones or local hours. |
-| 6. Anomaly processes | Many duplicates replay an earlier amount; romance episodes recur quickly with usually growing random multipliers; fat-finger amounts support latent decimal shifts. | 493/515 history-eligible duplicates exact-match; 1,973 romance predecessors; A/C fat residuals reconcile to 1.3×10⁻¹³. | Missing history and unobserved intended amounts prevent universal rules; recall remains open. |
+| 3. FX and route labels | FX counts crossings between learned currency zones. For longer routes, Covered versus Indirect is largely a persistent exact directed-bank-pair property; visible intermediaries come from a stable global hub pool. | Earlier FX graph predicts 9,999,964/10M; Covered July NLL improves 0.352294→0.120369 for seen pairs; intermediary early/July correlation 0.99992. | Pair coverage is 86.26%; gaps hide unknown banks and hub draws may still have weak context rules. |
+| 4. Endpoint perturbations and duration | Route endpoints show nearly independent 5% mismatches. Duration has stable multiplicative sender-bank, receiver-bank and corridor locations rather than a fixed per-bank delay. | Endpoint rates 4.984%/4.993%. Exact endpoint banks raise July log-duration R² from 0.046 to 0.661; pair residual reaches 0.705. | Field-edit direction and the remaining fast/slow duration mixture are unresolved. |
+| 5. Currency and weekly timing | Currency is drawn from a sender-country ranked menu; timing follows a shared weekly shape shifted by sender country. Exact bank does not improve either rule. | Sender-country top-1/2/3 currency coverage is 89.43%/94.80%/96.77%; shared timing phase NLL 4.87493. | Rare fourth-or-later currency probabilities and the economic meaning of relative phases remain unresolved. |
+| 6. Anomaly processes | Duplicate, romance and fat-finger labels use distinct mechanisms. Account replacement forces a new recipient account; CEO adds an almost always new recipient and elevated amount. | Replacement prior account 0/649; CEO prior account 2/945 and median 2.63× prior amount; independent C/D reconciliation. | Missing intended invoices prevent universal rules; no visible history or reversal reconstructs recall. |
 | 7. Text and account encoding | Ordering country tokens mirror bank code. Every account is `_FAKE_`; about 94% copy its suffix into the first detail line. | Full census of 20M detail/account fields plus independent A/B scans. | Beneficiary tokens usually do not mirror their own bank; identifiers can be omitted, reused across BICs and paired with changing details. |
-| 8. Counterparty recurrence | Ordinary repeated pairs require strong heterogeneity; one party-type Poisson/geometric count or exponential wait model fails. | 9,992,994 blank rows, 8,258,480 pairs, 1,734,514 strict-prior rows; B/C and lead verification pass. | Censoring, activity, popularity, corridor mix and pair affinity cannot yet be separated. |
+| 8. Counterparty recurrence | Entity activity is extremely unequal, but activity and popularity alone cannot generate the observed repeat relationships; an affinity, schedule or compatibility layer is required. | 9,992,994 blank rows; activity-only benchmark predicts 168,249 repeated pairs versus 628,578 observed (3.74×). | The extra layer may be pair affinity, schedules, corridor constraints or latent segments; the test does not choose one. |
 
 ## Business explanation for stakeholders
 
@@ -70,6 +73,11 @@ currency and both customer roles. A large consumer transfer and a similarly size
 business transfer should not automatically receive the same interpretation. The evidence
 supports different amount scales; it does not reveal the actual payment purpose.
 
+The sending bank supplies a smaller but stable secondary adjustment: after currency and
+customer roles, a sender-BIC correction lowers July log-amount RMSE from 2.1498 to
+2.0595, a 4.2% improvement. This can help bank-level threshold calibration, but it may
+reflect the bank's customer or payment-purpose mix rather than a price rule set by the bank.
+
 ### 2. Most payment routes are intentionally short, while gaps represent observability
 
 The route generator strongly favours short paths: **63.23%** of payments are Direct and
@@ -95,15 +103,20 @@ border need not require conversion. Conversely, crossing into a different curren
 creates an FX step. The earlier-data rule predicts **9,999,964 of 10,000,000** observed
 FX counts before exception-based refinement.
 
-For non-Direct routes, Covered versus Indirect is also not one universal random choice.
-The probability varies materially and very consistently by sending-bank country code;
-adding FX and customer type improves prediction further. A plausible business reading is
-that different sending markets rely on different correspondent networks and funding
-arrangements. Some routinely use reimbursement or cover chains, while others use serial
-intermediation. This can inform route-cost and liquidity analysis: the relevant drivers
-are the currency area and the sender's network, not nationality alone. Sender code may,
-however, be standing in for particular banks or corridors, so the causal level remains
-unresolved.
+For non-Direct routes, Covered versus Indirect is largely an exact directed-bank-pair
+property. An earlier-fitted global probability has July negative log loss 0.3523;
+sender country improves it to 0.3259, exact sender bank to 0.2358, and an earlier-seen
+endpoint pair to 0.1204. Seen-pair coverage is 86.26%, so a practical generator still
+needs sender-bank and country fallbacks. A plausible business reading is that a corridor's
+correspondent and funding arrangement is established in advance rather than chosen anew
+for every payment.
+
+The actual visible intermediary is different: first and last intermediaries follow a
+highly unequal but stable global hub pool. The top ten first intermediaries carry 19.21%
+of non-Direct routes, yet endpoint, country and currency conditioning does not improve
+robust July prediction over the global distribution. For stakeholders, route *type* is
+corridor-specific, while the particular visible hub behaves more like a draw from a
+shared correspondent pool. This conclusion does not describe banks hidden by gaps.
 
 ### 4. Endpoint inconsistencies look like a controlled data process; duration needs SLA segments
 
@@ -116,22 +129,25 @@ them as corrupt. The data cannot tell us whether the route endpoint or the separ
 field was altered.
 
 Processing duration is also not a simple “one more bank adds a fixed number of seconds”
-rule. Route, participant and FX counts explain only **2.20%** of July duration variation,
-and even otherwise similar Direct payments range from seconds to hours. Operationally,
-this resembles multiple service modes or processing states—such as straight-through
-processing, review queues, cut-off windows or bank-specific handling. A stakeholder
-should segment service-level analysis by processing regime and corridor instead of
-promising one universal duration increment. The data support multiple time scales but
-do not identify the exact operational stages.
+rule. On the log scale, route, participant and FX controls explain only 4.6% of July
+variation. Adding exact sender and receiver banks raises this to 66.1%; a smoothed
+directed-pair residual reaches 70.5%. The effects are exceptionally stable between the
+earlier period and July. Operationally, this resembles bank-specific processing regimes
+or service classes with a smaller corridor effect. A stakeholder should build SLA and
+capacity views around both endpoint banks and the corridor, while retaining a residual
+fast/slow mixture for individual variation. Prediction does not prove literal queues,
+cut-offs or causality, but it is far stronger than the earlier route-only explanation.
 
 ### 5. Currency and transaction timing are anchored to the sending institution
 
-A sending-bank code's usual currency predicts **89.43%** of July payments; considering
-the usual currency at either endpoint covers **94.07%**. This suggests that customers
-normally transact in currencies familiar to their bank or corridor, with a smaller set
-of alternative-currency cases. For treasury and liquidity stakeholders, the result
-implies that currency demand can largely be planned from the sending network, while the
-remaining 6–11% needs a separate corridor or customer-choice model.
+A sender-country code's most common currency predicts **89.43%** of July payments; its
+top two earlier currencies cover **94.80%** and top three cover **96.77%**. Exact sender
+bank and directed-pair modes do not improve this result, and receiver information does
+not explain the remaining misses. The generator therefore looks like a stable ranked
+currency menu attached to the sender country, rather than a home currency followed by
+a bank-pair override. For treasury and liquidity stakeholders, most currency demand can
+be planned from the sender market's first three choices; rare choices still need a tail
+distribution rather than ad hoc corridor rules.
 
 Payment timing follows a related pattern. One shared weekly activity shape, shifted to
 a different phase for each sender code, predicts July better than one global UTC profile
@@ -139,7 +155,9 @@ or separate customer-type profiles. This is consistent with institutions operati
 different market clocks and weekly schedules. Capacity planning should therefore align
 staffing and liquidity buffers to sender-specific activity windows rather than one global
 peak. The phases are only relative patterns learned from the data; without external
-timezone evidence they must not be labelled as local timezones or business hours.
+timezone evidence they must not be labelled as local timezones or business hours. Exact
+sender BIC makes the later-period timing score worse than the sender-country profile,
+which supports keeping this mechanism at the country/market level.
 
 ### 6. Different anomaly labels require different detection logic
 
@@ -157,8 +175,19 @@ growth. Fat-finger labels instead have an unusually wide amount distribution con
 with decimal-place shifts applied to an unobserved intended amount. Their intended value
 usually does not appear as an earlier payment, so history matching alone is inadequate.
 These findings support label-specific controls rather than one generic anomaly score.
-They do not recover every labelled event, and the `CUSTOMER_RECALL` mechanism remains
-undefined and unresolved.
+They do not recover every labelled event. `CUSTOMER_RECALL` receives a stricter
+bidirectional negative test in A6 below; its underlying off-file event remains unresolved.
+
+Two additional label rules are now visible. Every account-replacement target uses a
+recipient account not previously paid by that sender/currency; only 49 of 649 retain a
+previously seen recipient BIC, while the amount stays near the sender's ordinary median.
+This is broader than simply changing an account at the same bank. CEO labels combine a
+business sender with an almost always novel recipient (only 2 of 945 accounts previously
+seen) and an elevated amount: among history-eligible rows the median is at the sender's
+71st prior percentile and 2.63 times its prior median. Useful controls are therefore
+payee novelty plus sender-relative amount, not a universal fixed threshold. Recall still
+has no recoverable signature: only one target has a prior reverse-direction payment and
+none repeats that reverse amount exactly, no more than selected controls.
 
 ### 7. Detail text is structured payment-message data, not an independent customer profile
 
@@ -188,9 +217,11 @@ supplier relationships, payroll-like flows, high-activity customers and popular
 receivers. This matters for forecasting and monitoring: a repeated payment is normal for
 some relationships but unusual for others. Models should learn relationship history and
 sender/receiver activity rather than applying one party-type average. The current data
-cannot separate true pair affinity from sender activity, receiver popularity, corridor
-mix or observation-window effects, so July's longer observed gaps must not be presented
-as evidence that customers slowed their payment activity.
+show that activity alone is insufficient: an activity-based independence benchmark
+predicts 168,249 repeated pairs, compared with **628,578 observed**, a 3.74-fold excess.
+Models therefore need an additional relationship, schedule, compatibility or latent-
+segment layer. The test cannot choose among those explanations, and observation-window
+effects still mean July's longer gaps must not be presented as slower customer behaviour.
 
 ## V2 · Customer types shift the scale of amounts
 
@@ -253,16 +284,18 @@ debate-stage recomputation after A's numerical result was shared; preserve this
 blind-review limitation rather than treating it as a second blind initial.
 
 Route label choice needs a separate rule. Among **3,676,720** non-Direct rows, 11.31%
-are Covered overall, but a single global chance predicts July worse than an earlier-
-fitted sender-code model: negative log loss **0.352294** versus **0.325958** on
-1,065,699 rows (lead best-smoothed version **0.325912**). For 89 sender-country codes
-with at least 1,000 rows in both periods, Covered rates range from 0.88% to 50.43%,
-with early/July correlation **0.9973**. Adding FX and party type improves the lead
-score to **0.324812**. A/B independently confirm the sender heterogeneity. Candidate
-mechanism: after drawing more than two participants, choose Covered versus Indirect
-with a stable sender-code-specific chance plus smaller FX/party adjustments. Banks,
-corridors or currency zones nested inside sender code remain competing explanations.
-Evidence: `a/covered_sender_debate.md` and B Covered review files.
+are Covered overall. On 1,065,699 July rows, earlier-fitted negative log loss improves
+from **0.352294** globally to **0.325912** for sender country, **0.235804** for exact
+sender BIC and **0.120369** for an exact directed endpoint-BIC pair. Earlier pair history
+covers 86.26% of July non-Direct rows; unseen pairs therefore require sender-bank and
+country fallbacks. Among 524 pairs with at least 100 non-Direct rows in both periods,
+Covered-rate correlation is **0.99984**, and 89.31% have earlier rates below 1% or above
+99%. B and D independently reproduce the NLLs and coverage. Candidate mechanism: assign
+a persistent Covered/Indirect preference to a bank corridor, with hierarchical fallback.
+This predicts the encoded route label but does not prove that a real bank makes the
+choice or reveal the latent corridor class. Round-3 evidence: `../round3/b/initial.md`,
+`../round3/d/intermediary_debate.md`, `../round3/lead/remaining_verification.json`.
+Chart: [B3](../round3/charts/B3_covered_corridor.svg).
 
 Possible mechanism: build the visible route, then add optional display gaps. Hidden
 bank counts cannot be inferred from placeholders; this model explains presentation.
@@ -295,12 +328,12 @@ need special wording: agreement on gapped paths concerns the encoded visible seq
 not proof of which banks were hidden. Economic interpretation: conversion is needed
 when crossing currency zones rather than every national border.
 
-## D2 · Processing time has several scales; simple delay formulas are insufficient
+## D2/D3 · Processing time has stable bank and corridor scales
 
-Direct routes with the same participant count range from seconds to hours. The
-simple route/participant/FX linear model explains only **2.20%** of July duration
-variation. Extra FX steps do not show a universal positive surcharge after the basic
-route comparison; this does not prove that conversion makes payment processing faster.
+Direct routes with the same participant count range from seconds to hours. The original
+linear route/participant/FX model explains only **2.20%** of duration in seconds; on the
+more appropriate log scale, route/participant/FX cells explain **4.64%** of July
+variation. Extra FX steps therefore do not provide a universal fixed surcharge.
 
 A fitted two-group lognormal mixture outperforms a single lognormal or exponential
 for several route-length groups. Continuous Direct p=2 July mean negative log-likelihood:
@@ -309,13 +342,25 @@ The mixture still has substantial residual mismatch (total variation≈0.1325).
 It is an improved predictive family, **not an identified exact delay rule**.
 
 A/B exact conditional duration quantiles/means/counts reconcile (`verify_crosschecks.py`).
-A fits the mixture on earlier observations and evaluates July. B independently rejects
-simple fixed-delay interpretations using the same route/FX cells, but the exact
-two-component parameters have not received a second blind fit. Bank-specific processing, country/currency
-composition, queues and additional stages remain competing explanations. Mean increments
-near 200 seconds on longer indirect paths are stochastic averages, not fixed per-payment
-increments. Chart: [D2](charts/D2_duration_models.svg). Scripts/tables: A duration files,
-B `b/duration_models.json`, exact conditional tables and logs.
+Round-3 B/C models independently show that exact banks provide the missing location
+rule. On 2,896,968 complete-date July rows, adding sender and receiver BIC effects raises
+log-duration R² from **0.0464 to 0.6609** and lowers log RMSE from **1.9939 to 1.1890**.
+A smoothed exact-pair residual reaches R² **0.7047** and RMSE **1.1096**, covering
+2,661,260 July rows with earlier pair history. Effects are stable: early/July residual
+correlations are 0.99947 sender, 0.99946 receiver and 0.98742 for well-populated pairs.
+The lead reverse-order check yields R² 0.6651 receiver-first versus 0.6609 sender-first;
+averaging orders gives 0.6687, so the result is not an arbitrary fitting-order artifact.
+
+Candidate mechanism: route stages set a baseline, endpoint banks set multiplicative
+processing-time locations, and the directed corridor adds a smaller adjustment; then a
+broad or mixed residual is drawn. This is a predictive construction, not proof of queues,
+cut-offs or SLAs. The earlier two-lognormal family remains a useful residual candidate,
+but its exact components are not identified. Round-3 evidence:
+`../round3/c/initial.md`, `../round3/b/bank_duration_currency_debate.md`,
+`../round3/lead/duration_order_verification.json`, and
+`../round3/lead/core_verification.json`.
+Charts: [D2 residual-family comparison](charts/D2_duration_models.svg) and
+[D3 bank/corridor model](../round3/charts/D3_duration.svg).
 
 ## A2 · Many labeled duplicates copy an earlier amount
 
@@ -390,11 +435,44 @@ replacement different-recipient exact amount 8/603 vs 12/591 controls. These are
 target/control rows and agrees with C on every numerator and denominator
 (`sender_control_verification.json`, `b/sender_debate.md`, `c/sender_debate.md`).
 They do not refute the documented intended anomaly meanings: intended amounts/invoices
-may be unobserved or defined differently. Recall remains unresolved.
+may be unobserved or defined differently. Round 3 resolves account replacement through
+recipient novelty rather than prior-amount copying; recall remains a reviewed negative result.
 
 Full label/party census independently agrees: all 945 CEO labels have business senders;
 all 2,476 romance labels have consumer senders, but **665 have business recipients**.
 An exact consumer→consumer romance restriction therefore fails in this file.
+
+## A6 · Replacement and CEO force novel recipients; recall remains unobserved
+
+C and D independently score all **649 account-replacement**, **945 CEO** and **317
+CUSTOMER_RECALL** rows with strictly earlier exact sender/currency histories and selected
+blank-label controls. Both implementations agree on every headline denominator and
+value; D independently rescans the raw file and additionally retains reverse-direction
+account histories.
+
+For account replacement, **0/649** target recipient accounts have appeared previously
+for that sender/currency, compared with **90/603** controls. History exists for 603
+targets. Only **49/649** retain a previously seen beneficiary BIC, so the rule is not
+simply “change the account at the same bank.” Target amounts remain ordinary relative
+to sender history: median 1.012× the prior median versus 1.004× controls. Candidate
+rule: generate or force a new recipient endpoint while leaving amount scale unchanged.
+
+CEO labels combine three features: every sender is a business; only **2/945** recipient
+accounts and **62/945** recipient BICs were previously used; and among 822 history-
+eligible targets the median amount is at the **71.17th** prior percentile and **2.626×**
+the sender's prior median. Controls are at the 51.70th percentile and 1.121×. Candidate
+rule: choose a business sender, introduce an almost always novel recipient and draw an
+elevated—but not fixed—amount.
+
+Recall remains a reviewed negative result. Targets closely match controls on prior
+account/BIC reuse, amount percentile and lag. D's bidirectional scan finds one target
+with a prior reverse-direction payment versus two controls, and **zero** exact reverse-
+amount matches. No visible prior-payment rule reconstructs the label; it may depend on
+an absent request, status or post-payment event. Controls are not randomized or purpose-
+matched, but their shallower histories would bias toward *more* target novelty, not the
+opposite. Evidence: `../round3/c/initial.md`, `../round3/d/anomaly_debate.md`, and
+`../round3/lead/remaining_verification.json`.
+Chart: [A6](../round3/charts/A6_recipient_novelty.svg).
 
 ## X2 · Text country tokens have asymmetric alignment
 
@@ -406,7 +484,7 @@ Do not assume customer country equals bank country on the beneficiary side.
 Lead full text census covers 20M fields. A/B independently parse raw token/bank columns
 on all 10M transactions and agree on exact counts, including month/type strata; no
 multiple-country-token fields observed. Debate/evidence: text initial records and scripts,
-lead `text_round2.py` and `text/summarize.py`. Chart: [X2](charts/X2_country_tokens.svg).
+lead `../text_round2.py` and `text/summarize.py`. Chart: [X2](charts/X2_country_tokens.svg).
 This is an encoding relationship; international banking or independent field generation
 are possibilities, not established explanations. Token families derive from raw text
 and are not separate independent economic evidence. Full formatting census saved;
@@ -435,16 +513,23 @@ is a fake identifier plus an optional first-line rendering rule, not a proof of 
 real-world identity. Evidence: `a/account_construction.py`, `a/account_initial.log`,
 `a/account_reuse_summary.json`, `b/account_details.py`, `b/account_initial.md` and logs.
 
-## C2 · Currency choice is mostly sender-code-specific
+## C2/C3 · Currency is drawn from a sender-country ranked menu
 
-Infer modal currency for each sender/receiver code from earlier payments, freeze it,
-and evaluate July. Sender mode matches **2,592,753/2,899,279** (89.43%); either sender or
-receiver mode matches **2,727,417** (94.07%). Lead/C independently implement the same
-prediction on B's shared full-count table. A universal sender-mode currency rule fails.
-Receiver mode means observed received-currency mix, not official currency. Bank-pair
-and alternative-currency selection rules remain unresolved. Files: lead currency model,
-C currency modes, B currency counts/initial question register. This is a high-accuracy
-probabilistic rule, not a deterministic one.
+Fit earlier currency frequencies by sender-country code and evaluate complete-date July.
+The first choice matches **2,590,679/2,896,968 = 89.43%**; the top two choices cover
+**94.80%**, and the top three **96.77%**. Among first-choice misses, the second choice
+explains about 50.9% and the third another 18.6%.
+
+B/C independent implementations agree that exact bank and corridor modes do **not**
+improve the country menu: exact sender-BIC accuracy is 89.42%, and thresholded pair
+modes are equal or worse after fallback. Receiver-country mode explains 43.90% of
+sender-mode misses, slightly below the global alternative mode at 44.06%; exact receiver
+BIC and pair modes do not help. Candidate mechanism: draw currency from a stable ranked
+distribution attached to sender country, rather than a deterministic home currency plus
+receiver/corridor override. Exact probabilities for rare fourth-or-later choices remain
+unresolved. Round-3 evidence: `../round3/b/initial.md`, `../round3/c/initial.md`, and
+`../round3/lead/core_verification.json`.
+Chart: [C3](../round3/charts/C3_currency_menu.svg).
 
 ## T2 · A common weekly schedule is shifted by sender code
 
@@ -454,6 +539,11 @@ has negative log loss **5.01885**. A separate sender-code profile improves this 
 sender code—scores **4.87493**, slightly better than unrestricted sender-code profiles.
 Party-type splits do not improve later-period prediction after sender code. A and B
 independently reach the same result; the lead reproduces B's score.
+
+Round-3 exact-bank checks strengthen the boundary: sender-country hour-of-week NLL is
+**4.88561**, whereas exact sender BIC is worse at **4.90685** and directed BIC pair at
+5.00518. The timing phase therefore belongs at the country/market-code level in the
+current evidence, not at individual bank or corridor level.
 
 Plain meaning: payment activity follows a weekly rhythm whose clock position differs by
 ordering-bank code. The phases are relative rotations, **not identified timezones or
@@ -503,10 +593,40 @@ The shared extraction is disclosed; the grouping and strict-prior joins are inde
 The final B/C debate therefore promotes this as a reviewed negative/partial result, not
 a recovered exact recurrence sampler.
 
+Round-3 A/B tests separate endpoint activity from relationship structure. Sender activity
+is extremely unequal (Gini **0.8668**, median 3, maximum 75,773 blank-label payments),
+as is receiver activity (Gini **0.7146**). Activity almost determines observed degree,
+but it does not explain repeated pairs. B's full activity-independence benchmark predicts
+**168,249** repeated pairs versus **628,578** observed, a **3.736×** excess. A's distinct
+implementation and deterministic receiver sample finds observed/expected ratios from
+3.36× to 7.31× across party groups. Thus a generator needs heterogeneous activity plus
+another layer—pair affinity, recurring schedules, corridor compatibility or latent
+segments. The data do not uniquely select that layer. Evidence: `../round3/a/entity_network_initial.md`,
+`../round3/b/entity_network_debate.md`, and `../round3/lead/core_verification.json`.
+Chart: [N2](../round3/charts/N3_pair_recurrence.svg).
+
+## N3 · Visible intermediaries come from a stable global hub pool
+
+Across all **3,676,720** non-Direct routes, first-intermediary activity has Gini
+**0.9339**; the top BIC carries 3.33% and the top ten 19.21%. Early/July first-position
+distributions have total variation **0.01743** and correlation **0.99992** among 919
+well-populated BICs. D independently obtains 0.01799 and 0.99989 for the last visible
+intermediary. The same first-position top ten persist across periods.
+
+Earlier-fitted endpoint, country, currency and route-context models do not improve
+robust July prediction over the global pool. After reconciling smoothing for 355 unseen
+July BICs, B/D global negative log loss agrees at about **6.265**; conditioned models
+are equal or worse and exact pairs lose coverage. Candidate mechanism: sample visible
+intermediaries from a highly unequal, stable global hub-propensity distribution, with at
+most weak context adjustments. This does not prove independent draws at all path positions,
+model transitions between multiple intermediaries or reveal banks hidden by gaps.
+Evidence: `../round3/b/initial.md`, `../round3/d/intermediary_debate.md`, and
+`../round3/lead/remaining_verification.json`.
+
 ## Remaining boundaries
 
-The exact duration mixture, alternative-currency selection, full text grammar, ordinary
-pair-affinity process and CUSTOMER_RECALL mechanism remain unresolved. Full historical
+The residual duration mixture, rare fourth-or-later currency probabilities, full text
+grammar, exact relationship-affinity process and CUSTOMER_RECALL mechanism remain unresolved. Full historical
 invoice matching beyond visible transfers is not possible from these tests. A fully
 specified simulator also needs bank/corridor/entity-population rules that the observations
 do not uniquely identify. These are supported partial or negative results, not gaps to

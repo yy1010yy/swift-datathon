@@ -3,6 +3,8 @@
 Read `../round2_methodology.md` for questions, rival explanations and review design.
 Use `findings.md` as the canonical one-file report containing the findings,
 explanations, challenges and evidence. `evidence_registry.md` is the compact status index.
+The four targeted follow-up areas are reproducible under `../round3/` and have been
+folded back into the same canonical findings file.
 This directory holds compact, shareable scripts, actual run logs and result tables.
 Large working arrays remain in ignored `outputs/round2/`; the cleaned data is unchanged.
 Carry `../dataset_disclaimer.txt` with any derived artifacts shared outside the project.

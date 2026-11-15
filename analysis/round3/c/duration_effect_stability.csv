@@ -1,0 +1,4 @@
+effect,min_n_each_period,cells,correlation,median_abs_change
+sender_bic_log_residual,500,1105,0.9994667072871064,0.025468698530443756
+receiver_bic_after_sender_log_residual,500,925,0.9994645544943828,0.021173588656370423
+directed_pair_after_bics_hour_log_residual,100,2448,0.9874152823462392,0.056537663421864656

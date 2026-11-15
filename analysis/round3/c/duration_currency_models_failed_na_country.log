@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round3\c\duration_currency_models.py", line 34, in <module>
+    countries=sorted(codes.country.unique());cmap={v:i for i,v in enumerate(countries)}
+TypeError: '<' not supported between instances of 'float' and 'str'

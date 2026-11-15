@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "raw_rows": 10000000,
+  "non_direct_rows": 3676720,
+  "currency_test_rows": 2899279,
+  "blank_pair_rows": 9992994,
+  "observed_pairs": 8258480,
+  "repeated_pairs": 628578,
+  "scope": "denominators and artifact consistency; model interpretation independently debated later"
+}

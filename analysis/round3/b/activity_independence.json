@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "observed_pairs": 8258480,
+  "blank_payments": 9992994,
+  "actual_repeated_pairs": 628578,
+  "poisson_activity_expected_repeated_pairs_conditional_observed": 168249.2155051334,
+  "actual_payments_in_observed_pairs": 9992994,
+  "poisson_activity_expected_payments_conditional_observed": 8552840.908619428,
+  "ratio_actual_to_expected_repeated_pairs": 3.735993645574066,
+  "max_lambda": 404.4262138053921,
+  "sender_payment_activity": {
+    "entities": 390725,
+    "total": 9992994,
+    "median": 3.0,
+    "p90": 33.0,
+    "p99": 404.0,
+    "max": 75773.0,
+    "gini": 0.8668175432556986
+  },
+  "receiver_payment_activity": {
+    "entities": 2589757,
+    "total": 9992994,
+    "median": 1.0,
+    "p90": 3.0,
+    "p99": 40.0,
+    "max": 53336.0,
+    "gini": 0.7145951987666299
+  },
+  "sender_partner_degree": {
+    "entities": 390725,
+    "total": 8258480,
+    "median": 3.0,
+    "p90": 30.0,
+    "p99": 324.0,
+    "max": 38394.0,
+    "gini": 0.8472134130429085
+  },
+  "receiver_partner_degree": {
+    "entities": 2589757,
+    "total": 8258480,
+    "median": 1.0,
+    "p90": 3.0,
+    "p99": 33.0,
+    "max": 20537.0,
+    "gini": 0.6650911185184494
+  },
+  "runtime_seconds": 64.47604079998564,
+  "limit": "Shared C blank-label pair extraction; independent exact-string aggregation/scoring. Poisson benchmark conditions on observed pairs and estimated margins; it is diagnostic, not an exact configuration-model test."
+}

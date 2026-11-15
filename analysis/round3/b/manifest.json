@@ -1,0 +1,20 @@
+{
+  "status": "initial_complete",
+  "independent_of_other_round3_agents": true,
+  "raw_rows_scanned": 10000000,
+  "raw_source": "outputs/cleaned/payments_cleaned.csv.gz",
+  "shared_pair_extraction": "outputs/round2/c/counterparty_population/pair_summary.csv",
+  "scripts": ["scan.py", "models.py", "stability.py", "pair_activity.py"],
+  "result_tables": [
+    "currency_bank_models.csv", "covered_bank_models.csv",
+    "continuous_bank_models.csv", "timing_bank_models.csv",
+    "first_intermediary_models.csv", "covered_stability.csv",
+    "sender_effect_stability.csv", "bank_activity.json",
+    "network_stability.json", "activity_independence.json",
+    "activity_independence_cells.csv"
+  ],
+  "failed_attempts_preserved": [
+    "pair_activity_failed_duplicate_key.log", "stability_failed_shape.log"
+  ],
+  "validation": "pre-July fit, July score; temporal effect correlations; full-population denominators"
+}

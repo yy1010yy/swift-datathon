@@ -1,0 +1,4 @@
+First execution completed Covered-rate cells, then failed before saving because the
+baseline-residual helper returned all 10M values for a period-specific assignment.
+Correction: index y and the baseline key by the same mask inside the helper. No failed
+partial stability output was used as evidence.

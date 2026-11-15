@@ -1,0 +1,3 @@
+target  july_n  unseen_july_rows  unseen_july_share  unsmoothed_nll  jeffreys_nll  top1_accuracy
+ first 1065699               355           0.000333        6.489688      6.265022       0.033135
+  last 1065699               342           0.000321        6.481601      6.265137       0.033210

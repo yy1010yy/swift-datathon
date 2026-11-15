@@ -1,0 +1,66 @@
+source 1000000 nondirect 368577 13.0
+source 2000000 nondirect 736472 26.4
+source 3000000 nondirect 1104127 39.8
+source 4000000 nondirect 1472218 53.7
+source 5000000 nondirect 1839623 67.1
+source 6000000 nondirect 2207633 80.3
+source 7000000 nondirect 2575260 94.3
+source 8000000 nondirect 2942892 108.3
+source 9000000 nondirect 3309384 122.3
+source 10000000 nondirect 3676720 136.5
+fit first global
+fit first currency
+fit first sender_country_currency
+fit first country_pair_currency
+fit first sender_bic_currency
+fit first endpoint_pair_currency
+fit first endpoint_pair_currency_fx
+fit last global
+fit last currency
+fit last sender_country_currency
+fit last country_pair_currency
+fit last sender_bic_currency
+fit last endpoint_pair_currency
+fit last endpoint_pair_currency_fx
+covered global
+covered sender_country
+covered sender_bic
+covered country_pair
+covered endpoint_pair
+target                     model  train_n  test_n   cells  alpha  known_share  accuracy      nll
+ first                    global  2611021 1065699       1   10.0     1.000000  0.033135 6.489688
+ first                  currency  2611021 1065699     153   10.0     0.999995  0.033089 6.635736
+ first   sender_country_currency  2611021 1065699    8525   10.0     0.998773  0.033763 6.790172
+ first     country_pair_currency  2611021 1065699   74031   10.0     0.985274  0.029998 7.357384
+ first       sender_bic_currency  2611021 1065699   53595   10.0     0.989454  0.030721 7.409360
+ first    endpoint_pair_currency  2611021 1065699  779422   10.0     0.804454  0.017415 7.118834
+ first endpoint_pair_currency_fx  2611021 1065699 1156277   10.0     0.679120  0.022727 6.848091
+  last                    global  2611021 1065699       1   10.0     1.000000  0.033210 6.481601
+  last                  currency  2611021 1065699     153   10.0     0.999995  0.033179 6.629085
+  last   sender_country_currency  2611021 1065699    8525   10.0     0.998773  0.033656 6.784485
+  last     country_pair_currency  2611021 1065699   74031   10.0     0.985274  0.029860 7.350787
+  last       sender_bic_currency  2611021 1065699   53595   10.0     0.989454  0.030472 7.401498
+  last    endpoint_pair_currency  2611021 1065699  779422   10.0     0.804454  0.017427 7.108852
+  last endpoint_pair_currency_fx  2611021 1065699 1156277   10.0     0.679120  0.022639 6.839627
+         model  train_n  test_n  cells  alpha  known_share  accuracy      nll  train_rate  test_rate
+        global  2611021 1065699      1   10.0     1.000000  0.887218 0.352294    0.113278   0.112782
+sender_country  2611021 1065699    226   10.0     0.999999  0.887315 0.325912    0.113278   0.112782
+    sender_bic  2611021 1065699   7658   10.0     0.999781  0.907245 0.235804    0.113278   0.112782
+  country_pair  2611021 1065699  20361   10.0     0.998067  0.896089 0.287384    0.113278   0.112782
+ endpoint_pair  2611021 1065699 621081   10.0     0.862601  0.973812 0.120369    0.113278   0.112782
+{
+  "status": "complete",
+  "source_rows": 10000000,
+  "rows": 3676720,
+  "train": 2611021,
+  "july": 1065699,
+  "banks_including_path": 8365,
+  "currencies": 154,
+  "countries": 228,
+  "elapsed_seconds": 266.8549977999646,
+  "limits": [
+    "Visible intermediaries only; gaps do not reveal hidden banks.",
+    "Earlier/July is retrospective.",
+    "Target encoding prediction does not prove selection order."
+  ]
+}

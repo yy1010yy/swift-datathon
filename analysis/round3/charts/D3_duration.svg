@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="321">
+<rect width="100%" height="100%" fill="white"/><g font-family="Arial" fill="#183746">
+<text x="24" y="32" font-size="22">Endpoint banks and corridor explain duration location</text>
+<text x="24" y="62" font-size="13">Fit May–June complete dates; score 2,896,968 July rows on log duration.</text>
+<text x="24" y="108" font-size="14">Route / participants / FX</text>
+<rect x="390" y="88" width="39.520" height="27" fill="#247d83"/>
+<text x="439.520" y="108" font-size="14">0.04641</text>
+<text x="24" y="152" font-size="14">+ endpoint countries</text>
+<rect x="390" y="132" width="101.149" height="27" fill="#247d83"/>
+<text x="501.149" y="152" font-size="14">0.1188</text>
+<text x="24" y="196" font-size="14">+ endpoint BICs</text>
+<rect x="390" y="176" width="562.752" height="27" fill="#247d83"/>
+<text x="962.752" y="196" font-size="14">0.6609</text>
+<text x="24" y="240" font-size="14">+ directed BIC pair</text>
+<rect x="390" y="220" width="600.000" height="27" fill="#247d83"/>
+<text x="1000.000" y="240" font-size="14">0.7047</text>
+<text x="24" y="303" font-size="13">July log-duration R-squared; supplied synthetic payments only.</text>
+</g></svg>

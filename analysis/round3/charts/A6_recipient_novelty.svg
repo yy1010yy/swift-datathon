@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="409">
+<rect width="100%" height="100%" fill="white"/><g font-family="Arial" fill="#183746">
+<text x="24" y="32" font-size="22">Replacement and CEO introduce almost entirely new recipients</text>
+<text x="24" y="62" font-size="13">Strictly earlier same-sender/currency account history; controls are selected earlier blank payments.</text>
+<text x="24" y="108" font-size="14">Replacement target (n=649)</text>
+<rect x="390" y="88" width="0.000" height="27" fill="#a63603"/>
+<text x="400.000" y="108" font-size="14">0</text>
+<text x="24" y="152" font-size="14">Replacement control (n=603)</text>
+<rect x="390" y="132" width="464.745" height="27" fill="#a63603"/>
+<text x="864.745" y="152" font-size="14">14.93</text>
+<text x="24" y="196" font-size="14">CEO target (n=945)</text>
+<rect x="390" y="176" width="6.590" height="27" fill="#a63603"/>
+<text x="406.590" y="196" font-size="14">0.2116</text>
+<text x="24" y="240" font-size="14">CEO control (n=822)</text>
+<rect x="390" y="220" width="386.383" height="27" fill="#a63603"/>
+<text x="786.383" y="240" font-size="14">12.41</text>
+<text x="24" y="284" font-size="14">Recall target (n=317)</text>
+<rect x="390" y="264" width="579.539" height="27" fill="#a63603"/>
+<text x="979.539" y="284" font-size="14">18.61</text>
+<text x="24" y="328" font-size="14">Recall control (n=301)</text>
+<rect x="390" y="308" width="600.000" height="27" fill="#a63603"/>
+<text x="1000.000" y="328" font-size="14">19.27</text>
+<text x="24" y="391" font-size="13">Percent whose recipient account was seen previously; supplied synthetic payments only.</text>
+</g></svg>

@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "train_rows": 7094560,
+  "july_rows": 2896968,
+  "currencies": 155,
+  "banks": 8686,
+  "duration_pair_train_cells": 1079912,
+  "duration_pair_july_known": 2661260,
+  "elapsed_seconds": 15.04276270000264,
+  "limits": [
+    "Pre-July/July is retrospective validation.",
+    "Target encodings show prediction, not causal direction.",
+    "Pair modes fall back to sender BIC and are thresholded to expose sparsity.",
+    "Duration is evaluated as conditional mean on log scale; mixtures remain possible."
+  ]
+}
