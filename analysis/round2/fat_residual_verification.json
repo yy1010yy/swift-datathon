@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "matched_records": 1940,
+  "early": 1351,
+  "july": 589,
+  "max_abs_residual_difference": 1.247890679678676e-13,
+  "limitations": [
+    "A uses currency-specific baseline SD; C uses pooled SD, so model likelihoods differ.",
+    "Independent initial estimates on same underlying dataset; latent intended amounts and mixture weights remain unobserved.",
+    "A/C debate reconciles same-input likelihoods; exact shift powers and weights remain unresolved."
+  ]
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\lead_covered_predictors.py", line 28, in <module>
+    pred=pd.Series(k[test]).map(rate).fillna(base).to_numpy();cells=len(agg)
+         ~~~~~~~~~^^^^^^^^^
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\.venv\Lib\site-packages\pandas\core\series.py", line 427, in __init__
+    raise NotImplementedError(
+        "initializing a Series from a MultiIndex is not supported"
+    )
+NotImplementedError: initializing a Series from a MultiIndex is not supported

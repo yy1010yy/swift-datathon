@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cells": 12,
+  "labelled_targets": 7006,
+  "checks": "B/C n, usable earlier history, exact same/different-beneficiary amounts, and exact power-of-ten matches agree by label and target/control role.",
+  "shared_input": "C full sender-history extraction; B scoring independent, extraction not independently replicated.",
+  "limits": [
+    "Nearest earlier blank controls may be reused and are not randomized.",
+    "An absent observed predecessor cannot refute an unobserved intended invoice or amount.",
+    "B/C debate is complete; these are narrow observed-history tests, not tests of latent invoices or intended amounts."
+  ]
+}

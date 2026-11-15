@@ -1,0 +1,135 @@
+{
+  "status": "complete",
+  "preJuly_n": 2611021,
+  "July_n": 1065699,
+  "preJuly_covered_rate": 0.11327752630101405,
+  "July_covered_rate": 0.11278231470612246,
+  "best_by_model": [
+    {
+      "model": "sender+party+fx",
+      "alpha": 10,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 6261,
+      "july_nll": 0.32481158774943625,
+      "july_mean_predicted": 0.11357003544902997,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "sender+fx",
+      "alpha": 10,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 1984,
+      "july_nll": 0.32540716574215334,
+      "july_mean_predicted": 0.11330518620496226,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "sender",
+      "alpha": 10,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 226,
+      "july_nll": 0.3259122269688624,
+      "july_mean_predicted": 0.11317851749810802,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "currency+party+fx",
+      "alpha": 10,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 4192,
+      "july_nll": 0.3408686119153148,
+      "july_mean_predicted": 0.1135673157938418,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "currency+fx",
+      "alpha": 10,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 1341,
+      "july_nll": 0.3412411685210978,
+      "july_mean_predicted": 0.11334933494685948,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "currency",
+      "alpha": 10,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 153,
+      "july_nll": 0.3416835749460511,
+      "july_mean_predicted": 0.11323299088304976,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "fx+participants",
+      "alpha": 100,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 84,
+      "july_nll": 0.35200530388045737,
+      "july_mean_predicted": 0.1132861743474375,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "fx",
+      "alpha": 1000,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 17,
+      "july_nll": 0.3520164674731651,
+      "july_mean_predicted": 0.11327639240386943,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "party",
+      "alpha": 10,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 4,
+      "july_nll": 0.35228038453802635,
+      "july_mean_predicted": 0.11327364201495782,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "continuous",
+      "alpha": 10,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 2,
+      "july_nll": 0.3522944068727538,
+      "july_mean_predicted": 0.11327752725909115,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "constant",
+      "alpha": 0,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 1,
+      "july_nll": 0.35229441070146533,
+      "july_mean_predicted": 0.11327752630101404,
+      "july_actual": 0.11278231470612246
+    },
+    {
+      "model": "participants",
+      "alpha": 1000,
+      "train_n": 2611021,
+      "test_n": 1065699,
+      "cells": 16,
+      "july_nll": 0.35229561129448955,
+      "july_mean_predicted": 0.11327953789148892,
+      "july_actual": 0.11278231470612246
+    }
+  ],
+  "limits": [
+    "Predictors are associative; FX and route type may share earlier causes.",
+    "Receiver code and individual bank are absent from this cache.",
+    "Smoothing compared on July, so best alpha is descriptive.",
+    "Rare categories fall back to global earlier rate."
+  ]
+}

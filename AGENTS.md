@@ -1,6 +1,22 @@
 # UMDAC 2026 · Swift payments preliminary round
 
-Use this checklist when working on the datathon. The team’s objective is to **reverse-engineer how the artificial payments were generated**. A finding should describe a candidate rule, the records where it applies, and the evidence for its limits. The current request covers starting-point checks and initial EDA only. Unchecked items below remain future work; PDF production has not started.
+Use this checklist when working on the datathon. The team’s objective is to **reverse-engineer how the artificial payments were generated**. A finding should describe a candidate rule, the records where it applies, and the evidence for its limits. The current request expands work to sustained EDA and reconstruction of generating mechanisms across feature groups, including supported partial and negative results. Track code, actual outputs and methodology. PDF production has not started.
+
+## Extended investigation · EDA phase complete
+
+- [x] Run three independent full-file numeric investigations; exact blank-label amount quantiles reconcile across **1,228** currency×party×period cells and **9,992,994** rows. [Verification](analysis/round2/amount_verification.json). Preserve the caught `ALL`-currency/grand-total collision and correction in A's prior logs.
+- [x] Independently reconcile continuous-route duration summaries and core strict-prior duplicate tests. [Cross-check](analysis/round2/crosscheck_verification.json); history uses C's shared extracted raw rows with independent A/B/C scoring (extraction itself not independently replicated).
+- [x] Complete full-file text census over **20M party-detail fields**. [Code](analysis/text_round2.py), [tables/log](analysis/round2/text/), [full scan log](outputs/text_round2.log). A/B independent country-token checks agree; see the [extended evidence record](analysis/round2/findings.md).
+- [x] Independently test a latent fat-finger amount model in A and C. Both find unusually wide adjusted amounts and improved July fit from decimal-shift mixtures; all 1,940 adjusted residuals reconcile in [verification](analysis/round2/fat_residual_verification.json). Exact shifts and independent debate remain unresolved. See `analysis/round2/a/fat_latent_initial.md` and `analysis/round2/c/fat_latent_initial.md`.
+- [x] Recheck the candidate FX model against all 10M saved country sequences and reconcile 1,973 recurrence predecessor ratios with consistent tie handling: [verification](analysis/round2/fx_recurrence_verification.json). The refined FX fit uses exceptions and is not an untouched validation. Initial failed tie check is preserved.
+- [x] Run anomaly same-pair history and broader sender-history tests, including selected unlabeled controls. [C method](analysis/round2/c/method.md), [results](analysis/round2/c/). Exact duplicate predecessors supported for a substantial subset; simple fat-finger/invoice-replacement hypotheses mostly unresolved/negative. Power-of-ten tolerance sensitivity is recorded separately; no hidden rounding discrepancy.
+- [x] Routing/FX: reconstruct participant, gap, FX-zone, route-choice and endpoint-discrepancy mechanisms; A/B challenges, later-period checks and limits are recorded. Duration's simple additive model is rejected; exact mixture remains provisional.
+- [x] Values/currency/timing: reconcile amount scaling across A/B/C; test earlier-fitted currency modes and independent weekly timing models. Alternative-currency selection remains unresolved.
+- [x] Anomalies: complete strict pair and broader sender-history tests, latent fat-finger models, controls, tie audits and A/B/C review. CUSTOMER_RECALL remains an explicitly open mechanism.
+- [x] Counterparties: C's full blank-label pair scan and B's independent regrouping agree on 9,992,994 rows, 8,258,480 pairs and 1,734,514 strict-prior rows. Homogeneous count/waiting models fail; the exact heterogeneous recurrence mechanism remains open.
+- [x] Text/tokens: full-file census and A/B country-token checks complete. Exact text-generation grammar is an open partial result.
+- [x] Exchange independent findings and run deciding/self-consistency comparisons for every promoted rule. Provisional items are labeled rather than silently promoted.
+- [x] Consolidate methodology, executable artifacts and per-rule evidence in [extended findings](analysis/round2/findings.md), [evidence registry](analysis/round2/evidence_registry.md), and [code/output index](analysis/round2/README.md).
 
 ## Current progress · 2026-11-14
 
@@ -11,7 +27,7 @@ Use this checklist when working on the datathon. The team’s objective is to **
 - [x] Initial routing review R1/R1b and label coverage A0: two independent full-file analyses, exchanged debate, exact aggregate reconciliation and temporal stability checks. [Evidence/limits/final wording](analysis/progress.md), [A initial](analysis/reviews/a/initial.md), [B initial](analysis/reviews/b/initial.md), [A debate](analysis/reviews/a/debate.md), [B debate](analysis/reviews/b/debate.md), [verification](outputs/eda_initial/review_verification.json).
 - [x] Save exact route, gap, diagnostic, FX, label, party-pair and UTC-time aggregate tables plus provenance in [initial EDA outputs](outputs/eda_initial/). FX/time tables are baselines only; no mechanism inferred.
 - [ ] Assign human feature owners, deck editor and submission owner. Names are not available to the agent.
-- [ ] Investigate endpoint disagreements on continuous paths; test conditional FX/amount/timing questions next, after choosing the next feature group. No anomaly-history or counterparty inference completed yet.
+- [x] Complete endpoint, conditional FX/amount/timing, anomaly-history and counterparty investigations. Reviewed conclusions and remaining limits are consolidated in [one findings file](analysis/round2/findings.md).
 
 **Reviewed initial results:** `participant_count` equals visible BIC **occurrences**, excluding `...`, in 10M/10M rows. Distinct-BIC counting differs in **59,191** rows. Gap presence agrees exactly with continuity N (**767,204** rows), so semicolon-token counts create that participant diagnostic; gaps do not explain every endpoint diagnostic. Six labels reconcile exactly, including **317 CUSTOMER_RECALL** records whose mechanism remains undefined. These are observed field/coverage relationships, not proof of the generator code or economic causality. See the evidence record for populations, exceptions and limits. UTC coverage includes a partial April 2023 boundary as well as May–July; monthly checks are retrospective, not an untouched holdout.
 
@@ -21,7 +37,7 @@ Use this checklist when working on the datathon. The team’s objective is to **
 
 Source: [Swift preliminary-round case brief](<C:/Users/yapka/Downloads/Universiti Malaya UMDAC Datathon 2026 - Swift Case Study Preliminary Round.pdf>), pp. 1–2. The appendix on pp. 3–4 defines the fields.
 
-- [ ] **Evidence scope.** Derive findings exclusively from the supplied raw data. The brief permits AI assistance. Its currency-letter and GDP examples illustrate possible rules. Neither is a finding. The generator uses randomized distributions, so a country’s observed transaction share describes the synthetic population.
+- [x] **Evidence scope.** All current findings derive exclusively from the supplied raw data and appendix definitions. No external GDP, timezone, currency or country-population data were used.
 - [ ] **Dashboard PDF.** Aim for the expected **5–15 dashboards**, each covering one feature group. For every insight, state the reconstructed rule. Include at least one chart demonstrating the rules for each group. Several related charts can share a dashboard.
 - [ ] **Slide deck PDF.** Prepare **10–20 slides total**, including introduction and methodology. Use **at most one summary slide per feature group**. For each principal insight, restate the rule, show or reference the dashboard chart, and explain the real-world economic behaviour it *may* represent. Describe how the analysis identified and tested the rules.
 

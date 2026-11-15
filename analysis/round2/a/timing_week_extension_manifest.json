@@ -1,0 +1,11 @@
+{
+  "conditional_July_n": 2896968,
+  "complete_13week_n": 9991528,
+  "shared_shift_template_July_nll": 4.874880185142241,
+  "shift_iterations": 3,
+  "week_factorization_TV": 0.002964477169629133,
+  "shared_inputs": [
+    "B timing_counts.csv",
+    "B raw numeric cache b_rows.npy"
+  ]
+}

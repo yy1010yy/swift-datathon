@@ -1,0 +1,5 @@
+model,selected_exception_records,selected_remaining_error,direct_records,direct_errors
+all_direct_graph,36,13,6323280,0
+FM_US,36,5,6323280,0
+MP_US,36,8,6323280,0
+both,36,0,6323280,0

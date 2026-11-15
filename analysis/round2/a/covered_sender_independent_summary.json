@@ -1,0 +1,16 @@
+{
+  "fixed_alpha": 100.0,
+  "early_n": 2611021,
+  "July_n": 1065699,
+  "constant_July_nll": 0.35229441070146533,
+  "sender_July_nll": 0.32595806189779597,
+  "gain_nats": 0.026336348803669363,
+  "July_unknown_sender_n": 1,
+  "stable_cells": 89,
+  "stable_rate_range_early": [
+    0.008813559322033898,
+    0.5042956788023137
+  ],
+  "stable_weighted_absolute_rate_change": 0.0017816155805024008,
+  "stable_rate_correlation": 0.9972751086907949
+}

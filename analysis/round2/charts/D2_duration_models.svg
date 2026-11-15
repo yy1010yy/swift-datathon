@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="277">
+<rect width="100%" height="100%" fill="white"/><g font-family="Arial" fill="#183746">
+<text x="24" y="32" font-size="22">Two delay groups fit better; exact delay rule remains unresolved</text>
+<text x="24" y="62" font-size="13">Continuous Direct, 2 visible participants. Fit earlier dates, score July. Lower score is better.</text>
+<text x="24" y="108" font-size="14">single_exponential</text>
+<rect x="310" y="88" width="600.000" height="27" fill="#247d83"/>
+<text x="920.000" y="108" font-size="14">7.5</text>
+<text x="24" y="152" font-size="14">single_lognormal</text>
+<rect x="310" y="132" width="546.510" height="27" fill="#247d83"/>
+<text x="866.510" y="152" font-size="14">6.83</text>
+<text x="24" y="196" font-size="14">two_lognormals</text>
+<rect x="310" y="176" width="516.048" height="27" fill="#247d83"/>
+<text x="836.048" y="196" font-size="14">6.45</text>
+<text x="24" y="259" font-size="13">July mean negative log-likelihood, nats per payment; zero baseline; supplied synthetic payments only.</text>
+</g></svg>

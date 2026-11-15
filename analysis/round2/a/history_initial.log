@@ -1,0 +1,9 @@
+Shared extraction: C relevant_pair_history.csv.gz; no C computed findings used.
+Rows: 22523 strict earlier timestamps; ties not predecessors; powers1..6,�1cent tolerance.
+ACCOUNT_REPLACEMENT_SCAM {'n': 649, 'prior': 0, 'exact': 0, 'power': 0}
+CEO_SCAM {'n': 945, 'prior': 2, 'exact': 0, 'power': 0}
+CUSTOMER_RECALL {'n': 317, 'prior': 59, 'exact': 0, 'power': 0}
+DUPLICATE_PAYMENT {'n': 679, 'prior': 515, 'exact': 493, 'power': 0}
+FAT_FINGER_MISTAKE {'n': 1940, 'prior': 313, 'exact': 0, 'power': 3}
+ROMANCE_SCAM {'n': 2476, 'prior': 1973, 'exact': 12, 'power': 3}
+__BLANK__ {'n': 15517, 'prior': 14788, 'exact': 209, 'power': 548}

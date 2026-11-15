@@ -1,0 +1,126 @@
+
+FEATURE line35_token
+side         party  value
+beneficiary  B      no       1626356
+                    yes      1255194
+             C      no       3949400
+                    yes      3169050
+ordering     B      no       4434419
+                    yes      3440218
+             C      no       1165557
+                    yes       959806
+
+FEATURE newline_style
+side         party  value 
+beneficiary  B      actual    2810477
+                    none        71073
+             C      actual    6940492
+                    none       177958
+ordering     B      actual    7693920
+                    none       180717
+             C      actual    2070692
+                    none        54671
+
+FEATURE starts_slash
+side         party  value
+beneficiary  B      False     176324
+                    True     2705226
+             C      False     433058
+                    True     6685392
+ordering     B      False     427109
+                    True     7447528
+             C      False     136001
+                    True     1989362
+
+FEATURE country_token_count
+side         party  value
+beneficiary  B      0        1129816
+                    1        1751734
+             C      0        2762826
+                    1        4355624
+ordering     B      0        3109054
+                    1        4765583
+             C      0         806351
+                    1        1319012
+
+FEATURE country_matches_bank
+side         party  value
+beneficiary  B      False    1733355
+                    True       18379
+             C      False    4314177
+                    True       41447
+ordering     B      True     4765583
+             C      True     1319012
+
+TOKEN FAMILIES
+side         party  token_family   
+beneficiary  B      business           2473251
+                    chr                2486133
+                    city               1905873
+                    company_keyword     765012
+                    country_code       1751734
+                    country_name        686472
+                    finance_word        229787
+                    iban               1373689
+                    line_break         1379069
+                    numerical           273693
+                    other_word          115517
+                    other_words         783793
+                    post_code          1279292
+                    separator           242716
+                    stop_word           115737
+                    street             2084278
+                    truncation             136
+             C      chr                6264345
+                    city               4802035
+                    country_code       4355624
+                    country_name       1693701
+                    finance_word        570124
+                    first_name         4125358
+                    iban               3603387
+                    last_name          6149693
+                    line_break         3313320
+                    numerical           677691
+                    other_word          283585
+                    other_words        2030646
+                    post_code          3260571
+                    separator          1119795
+                    stop_word           285330
+                    street             5151774
+                    truncation             116
+ordering     B      business           6723436
+                    chr                6772809
+                    city               5103855
+                    company_keyword    2071576
+                    country_code       4765583
+                    country_name       1875906
+                    finance_word        623669
+                    iban               3915287
+                    line_break         3661628
+                    numerical           747212
+                    other_word          311748
+                    other_words        2516105
+                    post_code          3367582
+                    separator           616317
+                    stop_word           311994
+                    street             5475037
+                    truncation             134
+             C      chr                1869191
+                    city               1462910
+                    country_code       1319012
+                    country_name        493192
+                    finance_word        167436
+                    first_name         1214323
+                    iban               1132755
+                    last_name          1829991
+                    line_break          995946
+                    numerical           198175
+                    other_word           83277
+                    other_words         706760
+                    post_code           973124
+                    separator           365527
+                    stop_word            83610
+                    street             1493018
+                    truncation               1
+
+PASS20M fields across10M transactions

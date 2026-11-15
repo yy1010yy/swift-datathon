@@ -1,0 +1,59 @@
+{
+  "population": 10000000,
+  "direct_iff_p2_exceptions": 0,
+  "early_geometric_success": 0.6323028911295666,
+  "early_direct_share": 0.6322879042846494,
+  "early_covered_given_non_direct": 0.11327752630101405,
+  "scores": [
+    {
+      "model": "early_MLE",
+      "period": "July",
+      "n": 2899279,
+      "tv": 0.00026870105902517444,
+      "pearson": 10.092717876026999,
+      "cells_expected_ge10": 13
+    },
+    {
+      "model": "floor_exp_scale1",
+      "period": "July",
+      "n": 2899279,
+      "tv": 0.00038172986572228886,
+      "pearson": 10.255382515035748,
+      "cells_expected_ge10": 13
+    },
+    {
+      "model": "early_MLE",
+      "period": "early",
+      "n": 7100721,
+      "tv": 9.746253988742422e-05,
+      "pearson": 18.723418522030784,
+      "cells_expected_ge10": 14
+    },
+    {
+      "model": "floor_exp_scale1",
+      "period": "early",
+      "n": 7100721,
+      "tv": 0.00019663093295354191,
+      "pearson": 20.23991488250275,
+      "cells_expected_ge10": 14
+    },
+    {
+      "model": "covered_constant",
+      "period": "July",
+      "n": 1065699,
+      "bernoulli_nll": 0.35229441070146555
+    },
+    {
+      "model": "covered_p",
+      "period": "July",
+      "n": 1065699,
+      "bernoulli_nll": 0.3522959472090571
+    },
+    {
+      "model": "covered_p_fx",
+      "period": "July",
+      "n": 1065699,
+      "bernoulli_nll": 0.35200530388045714
+    }
+  ]
+}

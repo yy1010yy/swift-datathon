@@ -1,0 +1,20 @@
+1000000 18.6
+2000000 37.4
+3000000 56.9
+4000000 76.3
+5000000 95.8
+6000000 115.5
+7000000 135.1
+8000000 155.6
+9000000 175.8
+10000000 196.9
+beneficiary rows 10000000 missing 3892642 multiple 0
+own_bank_match 59826
+ordering_bank_match 88333
+other_bank_match 88333
+other_party_token_match 53049
+ordering rows 10000000 missing 3915405 multiple 0
+own_bank_match 6084595
+ordering_bank_match 6084595
+other_bank_match 426831
+other_party_token_match 53049

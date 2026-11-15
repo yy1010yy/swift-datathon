@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "codes": 228,
+  "reference_code": "US",
+  "iterations": 3,
+  "offset_changes": [
+    217,
+    1,
+    0
+  ],
+  "july_rows": 2896968,
+  "global_week_profile_nll": 5.0188529590639925,
+  "direct_country_profile_scores": [
+    {
+      "alpha": 10,
+      "n": 2896968,
+      "july_nll": 4.87673138704851
+    },
+    {
+      "alpha": 100,
+      "n": 2896968,
+      "july_nll": 4.876368321181606
+    },
+    {
+      "alpha": 1000,
+      "n": 2896968,
+      "july_nll": 4.881784054505826
+    }
+  ],
+  "shared_template_phase_nll": 4.874931142877636,
+  "shared_template_vs_global_improvement": 0.14392181618635647,
+  "phase_adjusted_complete_window_rows": 9982101,
+  "phase_adjusted_week_counts": [
+    735392,
+    504092,
+    500393,
+    843340,
+    850756,
+    751360,
+    849838,
+    1194282,
+    954521,
+    506974,
+    597523,
+    747637,
+    945993
+  ],
+  "nearest_50000_targets": [
+    750000,
+    500000,
+    500000,
+    850000,
+    850000,
+    750000,
+    850000,
+    1200000,
+    950000,
+    500000,
+    600000,
+    750000,
+    950000
+  ],
+  "max_abs_week_target_difference": 14608,
+  "limits": [
+    "Relative phase is data-derived and must not be called a real timezone.",
+    "Template initialization/rotation is not unique; offsets are relative to the chosen reference.",
+    "Direct country-specific profiles have many more parameters than a shared shifted template.",
+    "Local-phase boundary shifting changes which records fall inside the fixed 13-week UTC window.",
+    "Nearest-50k targets were proposed after inspecting UTC weekly totals and are exploratory."
+  ]
+}

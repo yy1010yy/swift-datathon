@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "sender_target_control_rows": 11615,
+  "sender_history_targets": 7006,
+  "currency_july_records": 2899279,
+  "sender_currency_correct": 2592753,
+  "receiver_currency_correct": 932564,
+  "checks": [
+    "B/C everyselectedcontrolsource andstrictpriorhistorycount",
+    "B/C all exactsame/differentreceiver andpower10 target/control indicators",
+    "B/C temporal currency-mode prediction exact totals"
+  ],
+  "notes": [
+    "SenderhistoryextractionsharedwithC;scorerindependent.",
+    "CurrencycountsBrawextraction;Cindependentlyscoredsharedcounts."
+  ]
+}

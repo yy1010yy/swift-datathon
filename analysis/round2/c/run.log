@@ -1,0 +1,39 @@
+pass1 1000000 seconds 11.5
+pass1 2000000 seconds 23.0
+pass1 3000000 seconds 35.2
+pass1 4000000 seconds 48.0
+pass1 5000000 seconds 60.7
+pass1 6000000 seconds 73.6
+pass1 7000000 seconds 85.9
+pass1 8000000 seconds 98.8
+pass1 9000000 seconds 111.7
+pass1 10000000 seconds 124.8
+pass2 1000000 seconds 135.0
+pass2 2000000 seconds 144.0
+pass2 3000000 seconds 153.2
+pass2 4000000 seconds 161.8
+pass2 5000000 seconds 170.5
+pass2 6000000 seconds 179.7
+pass2 7000000 seconds 188.9
+pass2 8000000 seconds 198.5
+pass2 9000000 seconds 207.0
+pass2 10000000 seconds 216.3
+                   label     n  with_prior  without_prior  exact_prior  power10_prior
+                         15517       14788            729          209            548
+ACCOUNT_REPLACEMENT_SCAM   649           0            649            0              0
+                CEO_SCAM   945           2            943            0              0
+         CUSTOMER_RECALL   317          59            258            0              0
+       DUPLICATE_PAYMENT   679         515            164          493              0
+      FAT_FINGER_MISTAKE  1940         313           1627            0              3
+            ROMANCE_SCAM  2476        1973            503           12              1
+{
+  "scope_rows": 10000000,
+  "labelled_rows": 7006,
+  "target_directed_pairs": 4535,
+  "history_rows": 22523,
+  "seconds": 346.01705150000635,
+  "input_bytes": 2050598614,
+  "input_mtime_ns": 1794563110205336900,
+  "controls": "Unlabelled rows in labelled account pairs, NOT population representative.",
+  "history": "Only strict earlier epoch timestamps; same pair and currency; tie-time excluded."
+}

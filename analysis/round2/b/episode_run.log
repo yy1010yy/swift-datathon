@@ -1,0 +1,1 @@
+{'records': 2476, 'exact_pairs': 500, 'blank_in_pairs': 0, 'size_counts': {2: 61, 3: 95, 4: 64, 5: 71, 6: 74, 7: 66, 8: 69}, 'single_currency_pairs': 500, 'consecutive_source_pairs': 500, 'repeated_timestamp_pairs': 4, 'uniform_2_to_8_pearson': 10.664}

@@ -1,0 +1,26 @@
+            model  alpha  train_n  test_n  cells  july_nll  july_mean_predicted  july_actual
+  sender+party+fx     10  2611021 1065699   6261  0.324812             0.113570     0.112782
+        sender+fx     10  2611021 1065699   1984  0.325407             0.113305     0.112782
+           sender     10  2611021 1065699    226  0.325912             0.113179     0.112782
+currency+party+fx     10  2611021 1065699   4192  0.340869             0.113567     0.112782
+      currency+fx     10  2611021 1065699   1341  0.341241             0.113349     0.112782
+         currency     10  2611021 1065699    153  0.341684             0.113233     0.112782
+  fx+participants    100  2611021 1065699     84  0.352005             0.113286     0.112782
+               fx   1000  2611021 1065699     17  0.352016             0.113276     0.112782
+            party     10  2611021 1065699      4  0.352280             0.113274     0.112782
+       continuous     10  2611021 1065699      2  0.352294             0.113278     0.112782
+         constant      0  2611021 1065699      1  0.352294             0.113278     0.112782
+     participants   1000  2611021 1065699     16  0.352296             0.113280     0.112782
+{
+  "status": "complete",
+  "preJuly_n": 2611021,
+  "July_n": 1065699,
+  "preJuly_covered_rate": 0.11327752630101405,
+  "July_covered_rate": 0.11278231470612246,
+  "limits": [
+    "Predictors are associative; FX and route type may share earlier causes.",
+    "Receiver code and individual bank are absent from this cache.",
+    "Smoothing compared on July, so best alpha is descriptive.",
+    "Rare categories fall back to global earlier rate."
+  ]
+}

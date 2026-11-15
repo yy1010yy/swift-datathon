@@ -1,5 +1,8 @@
 # Reproducible initial EDA
 
+Continued work: [canonical consolidated findings](round2/findings.md), [methodology](round2_methodology.md),
+and [code and results index](round2/README.md).
+
 Start with **[initial_eda.ipynb](initial_eda.ipynb)**. It includes the actual code and
 executed outputs, not empty cells. Open it in VS Code or Jupyter; Python/Jupyter
 is unnecessary just to read the JSON or the accompanying Markdown/CSV files.

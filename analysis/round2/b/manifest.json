@@ -1,0 +1,12 @@
+{
+  "records": 10000000,
+  "source": "C:\\Users\\yapka\\Documents\\UM\\Y1 SEM 1\\datathon\\outputs\\cleaned\\payments_cleaned.csv.gz",
+  "size_bytes": 2050598614,
+  "mtime_ns": 1794563110205336900,
+  "method": "full census, exact conditional quantiles; MayJune timing excludes April30 and July31 partial dates; July descriptive validation",
+  "script_sha256": "6cf46adfc3293da0927099da66b0ddbabeb09f50ac26f63925dbe3c968bb7db3",
+  "complete": true,
+  "duration_postprocess_seconds": 7.972914500016486,
+  "full_scan_seconds": 152.2,
+  "execution_correction": "Full scan and amount outputs completed, uint8 duration key overflow retained in run.log; corrected suffix resumed from full10M cache in duration_run.log."
+}

@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "n": 10000000,
+  "sender_mismatch_rate": 0.0498399,
+  "receiver_mismatch_rate": 0.0499265,
+  "both_observed": 24693,
+  "both_expected_under_independence": 24883.317673499998,
+  "strata": 24,
+  "max_abs_phi": 0.07707900148647484,
+  "sender_rate_range_strata": [
+    0.0,
+    0.06111111111111111
+  ],
+  "receiver_rate_range_strata": [
+    0.0,
+    0.07777777777777778
+  ],
+  "early_weighted_sender_rate": 0.0497998724354893,
+  "july_weighted_sender_rate": 0.04993793284468311,
+  "early_weighted_receiver_rate": 0.04997520674308989,
+  "july_weighted_receiver_rate": 0.049807210689278264,
+  "candidate_rule": "Independently substitute each visible path endpoint with probability approximately 0.05.",
+  "limits": [
+    "Observed flags cannot identify whether the path endpoint or separate BIC field was changed.",
+    "Approximate Bernoulli fit does not prove the random-number call or substitution source.",
+    "Sparse April strata widen rate ranges; inspect n before interpreting extremes."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "rows": 10000000,
+  "seconds": 568.8773739000026,
+  "scope": "full file; both sides, no exclusions",
+  "method": "token families count once per detail field; country comparison uses last country_code token and bank BIC characters5-6; line lengths split literal backslash-n OR newline"
+}

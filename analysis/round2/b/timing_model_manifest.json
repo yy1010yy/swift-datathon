@@ -1,0 +1,10 @@
+{
+  "train_rows": 7094560,
+  "july_rows": 2896968,
+  "calendar_train": "May1\u2013June30 UTC complete dates",
+  "calendar_test": "July1\u201330 UTC complete dates",
+  "conditioning": "July sender-code/party totals held fixed; no volume forecasts",
+  "smoothing_pseudocounts": 168,
+  "no_external_timezones": true,
+  "no_iid_significance_claim": true
+}

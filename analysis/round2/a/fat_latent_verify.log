@@ -1,0 +1,3 @@
+PASS all1940 row residuals match; maxabsdelta 1.247890679678676e-13
+PASS C likelihoods recomputed using shared exact residuals/sigma; maxabsdelta 8.881784197001252e-16
+This verifies arithmetic under matched model assumptions; it does not create another independent baseline or validate the normal family.

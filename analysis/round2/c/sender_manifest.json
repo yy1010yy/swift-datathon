@@ -1,0 +1,8 @@
+{
+  "rows_scanned": 10000000,
+  "history_rows": 2528044,
+  "labelled_rows_scored": 7006,
+  "target_senders": 3964,
+  "elapsed_seconds": 199.29932689998532,
+  "limits": "strict earlier times; exact raw account strings; same sender/currency, no assumption previous payments legitimate"
+}

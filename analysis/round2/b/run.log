@@ -1,0 +1,225 @@
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+1,000,000 rows / 14.5s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+2,000,000 rows / 29.2s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+3,000,000 rows / 44.3s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+4,000,000 rows / 59.2s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+5,000,000 rows / 74.5s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+6,000,000 rows / 89.9s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+7,000,000 rows / 105.5s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+8,000,000 rows / 121.2s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+9,000,000 rows / 136.4s
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py:39: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  'hour':dt.hour,'weekday':dt.dayofweek})
+10,000,000 rows / 152.2s
+Full scan completed, computing exact quantiles
+party period       n     q01     q10    median        q90          q99          mean  log_mean   log_sd  integer_dollar_n  round_100_n  labeled_n
+   BB  early 1612008 86.4207 1135.64 22884.420 400187.867 3834045.4776 311563.063654  9.998517 2.285662            124551        49655        762
+   BB   July  658937 83.9600 1156.03 22897.690 403019.060 3913777.6544 307921.647171  9.998693 2.290223             51441        20669        298
+   BC  early 3979970 11.3100  148.61  3116.895  54628.494  526258.4671  41666.602059  7.994052 2.286189            294592       106831       1911
+   BC   July 1623722 11.5321  149.49  3124.900  54747.906  521525.3202  39338.553316  7.997739 2.284260            121032        43933        816
+   CB  early  433425 11.3600  152.99  3239.490  56158.846  550357.8212  38745.093750  8.023499 2.288797             31069        11211        563
+   CB   July  177180 11.8200  152.93  3203.935  57225.006  546639.0174  44070.152594  8.025556 2.291331             12925         4630        280
+   CC  early 1075318  1.5700   22.38   463.310   7826.856   76804.2820   7414.483565  6.061894 2.295524             73854        20602       1643
+   CC   July  439440  1.5400   22.26   462.775   7812.325   75618.7073  10506.172966  6.059332 2.295765             30573         8435        733
+Traceback (most recent call last):
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\b\investigate.py", line 79, in <module>
+    keys=a['route'].astype('i4')*10000+a['continuous'].astype('i4')*5000+a['participants'].astype('i4')*100+a['fx'].astype('i4')*2+period
+                                       ^^^^^^^^^^^^^^^^^^^^
+OverflowError: Python integer 5000 out of bounds for uint8

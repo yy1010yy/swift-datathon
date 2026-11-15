@@ -1,0 +1,18 @@
+{
+  "scope_rows": 10000000,
+  "blank_rows": 9992994,
+  "input_bytes": 2050598614,
+  "input_mtime_ns": 1794563110205336900,
+  "partition_count": 32,
+  "identity": "Exact raw sender/receiver strings; hash only assigns partition.",
+  "scan_seconds": 97.09269269998185,
+  "pairs": 8258480,
+  "mixed_party_pairs": 0,
+  "equal_time_adjacent_pairs": 8,
+  "first_timestamp_rows_without_prior": 8258480,
+  "strict_prior_rows": 1734514,
+  "analyze_seconds": 137.7331944000034,
+  "complete": true,
+  "interval_definition": "strict earlier distinct timestamp per directedpair; tied rows use same earlier distincttimestamp, firsttimestamp rows excluded",
+  "count_models": "Conditioned on observed pairs only; no absent-pair denominator. Period models fitted separately, not a universal generator."
+}

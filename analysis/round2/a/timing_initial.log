@@ -1,0 +1,18 @@
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\a\timing_models.py:9: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  ex=pd.date_range(start,end,freq='D').dayofweek.value_counts().sort_index().to_numpy()
+C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\a\timing_models.py:9: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  ex=pd.date_range(start,end,freq='D').dayofweek.value_counts().sort_index().to_numpy()
+                         model  July_n  July_nll_nats  weighted_total_variation
+                  country_hour 2896968       4.896442                  0.074564
+              country_hour_day 2896968       4.893767                  0.076141
+            country_party_hour 2896968       4.897142                  0.074258
+           joint_country_party 2896968       4.881434                  0.059038
+               pooled_hour_day 2896968       5.026160                  0.217847
+                       uniform 2896968       5.161209                  0.342464
+weekend_multiplier_pooled_hour 2896968       5.029650                  0.223418
+Unknown sender code July records 0
+Exposure MayJune [9. 9. 9. 9. 9. 8. 8.] July [4. 4. 4. 4. 4. 5. 5.]
+Pooled weekday daily rates [146479.88888889 136747.88888889 136332.11111111 144139.88888889
+ 146791.11111111  33932.75        53585.        ] weekend/weekday 0.3079481783955944
+Full weekday variation weekdays max/min 1.0767170691831793
+Shared B extraction; conditional scheduling validation, no local-hour/countryeconomic inference.

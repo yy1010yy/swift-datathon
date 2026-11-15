@@ -1,0 +1,15 @@
+{
+  "train_sender_rate": 0.0497998724354893,
+  "train_receiver_rate": 0.04997520674308989,
+  "rows": 10000000,
+  "sender_rate_range": [
+    0.04827965868428296,
+    0.051968925796946154
+  ],
+  "receiver_rate_range": [
+    0.047701624002202035,
+    0.050629520492901155
+  ],
+  "july_joint_tv": 0.00038253000676448417,
+  "limits": "earlyincludespartialApril; sourceBtable hasperiodnotmonth. Endpoint mismatch doesnotidentify whichfield changed or whetherdata arecorrupt."
+}

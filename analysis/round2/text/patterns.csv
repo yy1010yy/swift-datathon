@@ -1,0 +1,1193 @@
+side,party,month,feature,value,records
+ordering,B,2023-05,line35_token,yes,1047298
+ordering,B,2023-05,newline_style,actual,2341705
+ordering,B,2023-05,starts_slash,True,2266495
+ordering,B,2023-05,country_token_count,1,1450798
+ordering,B,2023-05,country_matches_bank,True,1450798
+ordering,B,2023-05,line35_vs_lengths,"(True, True, 35)",957689
+ordering,B,2023-06,line35_token,yes,1393245
+ordering,B,2023-06,newline_style,actual,3116957
+ordering,B,2023-06,starts_slash,True,3017780
+ordering,B,2023-06,country_token_count,1,1931566
+ordering,B,2023-06,country_matches_bank,True,1931566
+ordering,B,2023-06,line35_vs_lengths,"(True, True, 35)",1274041
+ordering,B,2023-07,line35_token,no,1285167
+ordering,B,2023-07,newline_style,actual,2230494
+ordering,B,2023-07,starts_slash,True,2158670
+ordering,B,2023-07,country_token_count,1,1380283
+ordering,B,2023-07,country_matches_bank,True,1380283
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 26)",30751
+ordering,B,2023-06,line35_token,no,1797061
+ordering,B,2023-06,country_token_count,0,1258740
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 13)",21604
+ordering,C,2023-07,line35_token,yes,278577
+ordering,C,2023-07,newline_style,actual,600762
+ordering,C,2023-07,starts_slash,False,39237
+ordering,C,2023-07,country_token_count,1,382633
+ordering,C,2023-07,country_matches_bank,True,382633
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 35)",12517
+ordering,C,2023-06,line35_token,no,471614
+ordering,C,2023-06,newline_style,actual,837781
+ordering,C,2023-06,starts_slash,True,804567
+ordering,C,2023-06,country_token_count,0,326445
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 25)",14315
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 34)",213398
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 34)",297021
+ordering,C,2023-05,line35_token,yes,292436
+ordering,C,2023-05,newline_style,actual,630895
+ordering,C,2023-05,starts_slash,True,606200
+ordering,C,2023-05,country_token_count,0,245442
+ordering,C,2023-05,line35_vs_lengths,"(True, True, 35)",266438
+ordering,C,2023-05,line35_token,no,355173
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 24)",13744
+ordering,C,2023-07,starts_slash,True,577383
+ordering,C,2023-07,country_token_count,0,233987
+ordering,C,2023-07,line35_vs_lengths,"(True, True, 35)",253583
+ordering,B,2023-05,line35_token,no,1349493
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 28)",27968
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 34)",60118
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 35)",337904
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 25)",53881
+ordering,B,2023-05,country_token_count,0,945993
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 35)",253104
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 34)",223294
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 23)",346246
+ordering,C,2023-07,line35_token,no,338043
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 22)",7538
+ordering,C,2023-06,country_token_count,1,533409
+ordering,C,2023-06,country_matches_bank,True,533409
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 19)",12349
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 10)",10723
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 31)",6094
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 23)",76114
+ordering,B,2023-07,country_token_count,0,902376
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 23)",247183
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 20)",5208
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 15)",18283
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 16)",48573
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 20)",7516
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 25)",57067
+ordering,C,2023-05,country_token_count,1,402167
+ordering,C,2023-05,country_matches_bank,True,402167
+ordering,B,2023-07,newline_style,none,52165
+ordering,B,2023-07,starts_slash,False,123989
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 8)",46570
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 15)",13716
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 19)",9286
+ordering,B,2023-07,line35_token,yes,997492
+ordering,B,2023-07,line35_vs_lengths,"(True, True, 35)",911867
+ordering,B,2023-06,newline_style,none,73349
+ordering,B,2023-06,starts_slash,False,172526
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 8)",65363
+ordering,C,2023-06,line35_token,yes,388240
+ordering,C,2023-06,line35_vs_lengths,"(True, True, 35)",353365
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 23)",72422
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 24)",50524
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 32)",7519
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 29)",28173
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 16)",36297
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 21)",29460
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 13)",2432
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 32)",19545
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 22)",22360
+ordering,C,2023-07,line35_vs_lengths,"(False, True, 35)",63480
+ordering,C,2023-05,line35_vs_lengths,"(False, True, 35)",66376
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 30)",37362
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 27)",6904
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 23)",259859
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 26)",43230
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 34)",57337
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 30)",26849
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 27)",28922
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 18)",18401
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 19)",28397
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 29)",4776
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 30)",28076
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 31)",19162
+ordering,B,2023-05,newline_style,none,55086
+ordering,B,2023-05,starts_slash,False,130296
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 8)",49001
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 28)",4721
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 20)",19924
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 24)",70522
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 16)",4305
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 35)",45556
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 35)",240890
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 17)",24221
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 24)",18244
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 34)",79553
+ordering,C,2023-06,line35_vs_lengths,"(False, True, 35)",87918
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 28)",37151
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 22)",16132
+ordering,B,2023-04,line35_token,no,2698
+ordering,B,2023-04,newline_style,actual,4764
+ordering,B,2023-04,starts_slash,True,4583
+ordering,B,2023-04,country_token_count,1,2936
+ordering,B,2023-04,country_matches_bank,True,2936
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 23)",277
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 27)",9271
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 32)",4891
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 24)",350
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 16)",34876
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 14)",7885
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 35)",33006
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 32)",26075
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 9)",4459
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 19)",21224
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 25)",75260
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 23)",101226
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 15)",5782
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 29)",4489
+ordering,C,2023-06,starts_slash,False,55287
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 12)",9864
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 35)",17659
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 30)",4466
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 18)",19139
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 29)",857
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 26)",9342
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 26)",32415
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 29)",26431
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 21)",22322
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 17)",5027
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 15)",4435
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 30)",7162
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 33)",38606
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 30)",956
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 33)",28914
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 20)",21079
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 27)",27553
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 24)",52719
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 33)",27392
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 30)",5422
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 18)",7423
+ordering,C,2023-06,newline_style,none,22073
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 8)",17494
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 10)",8218
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 18)",25698
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 17)",23256
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 26)",3210
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 28)",6371
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 28)",3474
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 26)",9635
+ordering,C,2023-05,newline_style,none,16714
+ordering,C,2023-05,starts_slash,False,41409
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 8)",13174
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 33)",13354
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 28)",8513
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 32)",6453
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 27)",38890
+ordering,C,2023-07,newline_style,none,15858
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 8)",12538
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 14)",3633
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 33)",8743
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 22)",16888
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 14)",5573
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 22)",10574
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 17)",32568
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 35)",3083
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 34)",7842
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 13)",16383
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 35)",13105
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 34)",3992
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 11)",8143
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 25)",10395
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 26)",2165
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 16)",5909
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 18)",9900
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 28)",26608
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 23)",3547
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 15)",4165
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 11)",10759
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 24)",12919
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 35)",34401
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 11)",7636
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 35)",12634
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 20)",27743
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 10)",7844
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 21)",9492
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 33)",2503
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 32)",5621
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 29)",37325
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 21)",21262
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 13)",2303
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 33)",6169
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 31)",25190
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 22)",8072
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 31)",18032
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 32)",4662
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 12)",1293
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 31)",5068
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 32)",5406
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 29)",4274
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 35)",13315
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 13)",15679
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 15)",13443
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 22)",780
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 9)",5943
+ordering,B,2023-04,newline_style,none,117
+ordering,B,2023-04,starts_slash,False,298
+ordering,B,2023-04,country_token_count,0,1945
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 8)",104
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 33)",1741
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 17)",6706
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 23)",3832
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 9)",630
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 35)",17720
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 33)",9471
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 5)",600
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 20)",396
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 31)",4812
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 25)",10904
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 34)",10782
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 23)",1261
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 33)",10023
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 12)",7057
+ordering,B,2023-04,line35_token,yes,2183
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 35)",96
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 29)",4949
+ordering,B,2023-04,line35_vs_lengths,"(True, True, 35)",1965
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 19)",20166
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 21)",12329
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 33)",6668
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 28)",6034
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 26)",2337
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 18)",7092
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 14)",5892
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 20)",378
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 21)",9001
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 32)",18632
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 26)",12955
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 31)",5193
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 19)",8704
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 25)",394
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 31)",1523
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 28)",538
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 34)",2915
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 29)",6729
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 25)",2262
+ordering,C,2023-04,line35_token,no,727
+ordering,C,2023-04,newline_style,actual,1254
+ordering,C,2023-04,starts_slash,True,1212
+ordering,C,2023-04,country_token_count,1,803
+ordering,C,2023-04,country_matches_bank,True,803
+ordering,C,2023-04,line35_vs_lengths,"(False, True, 35)",135
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 4)",311
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 25)",1668
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 23)",4971
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 28)",3538
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 13)",3279
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 32)",2058
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 3)",633
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 39)",166
+ordering,C,2023-04,line35_token,yes,553
+ordering,C,2023-04,line35_vs_lengths,"(True, True, 35)",496
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 27)",1607
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 27)",6471
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 31)",6917
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 35)",2410
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 24)",453
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 30)",4323
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 3)",604
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 24)",1847
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 27)",1573
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 11)",1736
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 20)",5458
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 34)",7558
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 18)",41
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 31)",1084
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 11)",2507
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 16)",4137
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 23)",1674
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 33)",30
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 24)",1358
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 38)",197
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 24)",1332
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 25)",1733
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 2)",78
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 30)",6047
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 14)",2658
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 38)",73
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 27)",2119
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 29)",5969
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 9)",4165
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 31)",4495
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 12)",7394
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 20)",548
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 36)",71
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 12)",1166
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 22)",788
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 30)",5048
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 14)",2772
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 40)",1
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 10)",1588
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 28)",570
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 33)",85
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 11)",1730
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 21)",558
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 29)",604
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 31)",1108
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 17)",4772
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 6)",412
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 3)",785
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 22)",1035
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 30)",702
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 12)",1740
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 29)",659
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 9)",420
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 4)",456
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 18)",105
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 34)",3061
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 28)",740
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 28)",68
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 26)",456
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 34)",524
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 23)",1218
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 27)",528
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 35)",2206
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 32)",1465
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 20)",124
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 26)",593
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 32)",1460
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 33)",1898
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 19)",256
+ordering,C,2023-04,newline_style,none,26
+ordering,C,2023-04,starts_slash,False,68
+ordering,C,2023-04,country_token_count,0,477
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 8)",20
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 24)",314
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 25)",348
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 21)",407
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 18)",292
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 30)",733
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 19)",338
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 7)",235
+ordering,B,2023-04,line35_vs_lengths,"(False, True, 35)",564
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 5)",448
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 5)",456
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 9)",430
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 34)",144
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 37)",2
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 10)",1153
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 25)",451
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 37)",232
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 21)",180
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 21)",401
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 27)",389
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 22)",111
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 38)",46
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 19)",142
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 10)",1214
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 21)",146
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 17)",37
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 17)",67
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 27)",389
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 20)",70
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 22)",68
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 4)",333
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 37)",151
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 18)",95
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 6)",307
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 51)",12
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 7)",195
+ordering,B,2023-07,line35_vs_lengths,"(True, False, 18)",216
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 36)",65
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 38)",129
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 17)",34
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 2)",80
+ordering,C,2023-06,line35_vs_lengths,"(False, True, 37)",5
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 39)",13
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 10)",18
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 37)",99
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 22)",97
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 19)",126
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 49)",13
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 38)",137
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 38)",49
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 26)",482
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 37)",184
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 32)",32
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 19)",187
+beneficiary,C,2023-05,line35_token,yes,964703
+beneficiary,C,2023-05,newline_style,actual,2113644
+beneficiary,C,2023-05,starts_slash,True,2036207
+beneficiary,C,2023-05,country_token_count,1,1326422
+beneficiary,C,2023-05,country_matches_bank,False,1313731
+beneficiary,C,2023-05,line35_vs_lengths,"(True, True, 35)",881294
+beneficiary,C,2023-06,line35_token,no,1599462
+beneficiary,C,2023-06,newline_style,actual,2811173
+beneficiary,C,2023-06,starts_slash,True,2707517
+beneficiary,C,2023-06,country_token_count,1,1764649
+beneficiary,C,2023-06,country_matches_bank,True,16670
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 30)",27152
+beneficiary,C,2023-07,line35_token,no,1144591
+beneficiary,C,2023-07,newline_style,actual,2011390
+beneficiary,C,2023-07,starts_slash,True,1937544
+beneficiary,C,2023-07,country_token_count,1,1261861
+beneficiary,C,2023-07,country_matches_bank,False,1249792
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 33)",27552
+beneficiary,C,2023-05,line35_token,no,1202939
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 35)",229601
+beneficiary,B,2023-06,line35_token,no,658722
+beneficiary,B,2023-06,newline_style,actual,1138085
+beneficiary,B,2023-06,starts_slash,True,1095673
+beneficiary,B,2023-06,country_token_count,0,457126
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 30)",12237
+beneficiary,C,2023-06,line35_token,yes,1283782
+beneficiary,C,2023-06,country_matches_bank,False,1747979
+beneficiary,C,2023-06,line35_vs_lengths,"(True, True, 35)",1172578
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 13)",7297
+beneficiary,B,2023-07,line35_token,yes,364123
+beneficiary,B,2023-07,newline_style,actual,815607
+beneficiary,B,2023-07,starts_slash,True,785020
+beneficiary,B,2023-07,country_token_count,1,507988
+beneficiary,B,2023-07,country_matches_bank,False,502676
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 31)",2114
+beneficiary,C,2023-06,country_token_count,0,1118595
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 12)",8576
+beneficiary,C,2023-07,line35_token,yes,918571
+beneficiary,C,2023-07,line35_vs_lengths,"(True, True, 35)",839280
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 35)",304612
+beneficiary,B,2023-05,line35_token,yes,382087
+beneficiary,B,2023-05,newline_style,actual,855070
+beneficiary,B,2023-05,starts_slash,True,822900
+beneficiary,B,2023-05,country_token_count,1,532877
+beneficiary,B,2023-05,country_matches_bank,False,527273
+beneficiary,B,2023-05,line35_vs_lengths,"(True, True, 35)",347606
+beneficiary,C,2023-05,country_token_count,0,841220
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 23)",232470
+beneficiary,B,2023-07,line35_token,no,471994
+beneficiary,B,2023-07,country_token_count,0,328129
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 35)",106802
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 25)",26096
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 20)",22718
+beneficiary,C,2023-07,country_token_count,0,801301
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 13)",12402
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 34)",219258
+beneficiary,B,2023-06,country_token_count,1,709790
+beneficiary,B,2023-06,country_matches_bank,False,702336
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 23)",102420
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 21)",34188
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 27)",31842
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 23)",308862
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 21)",13196
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 35)",217858
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 34)",209315
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 34)",292317
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 13)",17155
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 26)",25412
+beneficiary,B,2023-05,country_token_count,0,343881
+beneficiary,C,2023-06,newline_style,none,72071
+beneficiary,C,2023-06,starts_slash,False,175727
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 14)",13475
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 35)",149253
+beneficiary,B,2023-05,line35_token,no,494671
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 35)",111551
+beneficiary,B,2023-05,starts_slash,False,53858
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 35)",14598
+beneficiary,B,2023-06,newline_style,none,28831
+beneficiary,B,2023-06,starts_slash,False,71243
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 8)",25137
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 20)",30138
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 23)",221128
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 25)",11438
+beneficiary,C,2023-05,starts_slash,False,131435
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 28)",23591
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 34)",90597
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 31)",8509
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 29)",21911
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 20)",7767
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 21)",24231
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 34)",121066
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 35)",9287
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 24)",51467
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 25)",27351
+beneficiary,B,2023-06,line35_token,yes,508194
+beneficiary,B,2023-06,line35_vs_lengths,"(True, True, 35)",462671
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 14)",10037
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 8)",59653
+beneficiary,B,2023-07,line35_vs_lengths,"(True, True, 35)",331180
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 23)",77458
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 26)",34980
+beneficiary,B,2023-07,starts_slash,False,51097
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 35)",4411
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 24)",48683
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 12)",5967
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 19)",23818
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 24)",24954
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 35)",37226
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 29)",29077
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 34)",86947
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 23)",73224
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 18)",23383
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 28)",22476
+beneficiary,C,2023-07,newline_style,none,51772
+beneficiary,C,2023-07,starts_slash,False,125618
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 8)",42926
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 28)",31328
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 28)",9708
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 35)",49450
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 29)",20722
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 13)",13134
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 24)",1650
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 24)",18559
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 32)",17378
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 34)",3473
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 14)",3602
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 25)",36577
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 22)",7661
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 17)",6862
+beneficiary,B,2023-04,line35_token,no,969
+beneficiary,B,2023-04,newline_style,actual,1715
+beneficiary,B,2023-04,starts_slash,True,1633
+beneficiary,B,2023-04,country_token_count,1,1079
+beneficiary,B,2023-04,country_matches_bank,False,1070
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 23)",147
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 22)",16147
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 22)",15590
+beneficiary,C,2023-05,newline_style,none,53998
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 8)",44793
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 18)",22354
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 27)",14916
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 14)",9550
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 30)",19643
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 33)",10094
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 32)",24734
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 33)",38159
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 24)",67860
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 26)",26590
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 10)",6367
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 23)",1470
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 17)",26729
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 32)",18455
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 27)",11337
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 9)",2828
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 20)",21486
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 35)",19083
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 19)",131
+beneficiary,B,2023-05,newline_style,none,21688
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 8)",18876
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 35)",12290
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 19)",22550
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 18)",31137
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 11)",8381
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 16)",15556
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 30)",20271
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 32)",2748
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 15)",12389
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 31)",26699
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 21)",25375
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 19)",31803
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 31)",20106
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 27)",23756
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 31)",19140
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 9)",3741
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 35)",35430
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 14)",3840
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 11)",6405
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 20)",7351
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 15)",5857
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 32)",12551
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 19)",8210
+beneficiary,C,2023-07,country_matches_bank,True,12069
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 31)",4871
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 16)",14662
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 34)",7561
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 33)",12347
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 11)",3649
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 31)",12093
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 15)",16629
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 29)",12567
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 33)",11673
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 22)",21651
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 27)",22823
+beneficiary,B,2023-07,newline_style,none,20510
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 8)",17980
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 19)",430
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 32)",2965
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 18)",11132
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 35)",5976
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 9)",2756
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 33)",16344
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 28)",990
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 21)",10092
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 17)",19936
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 17)",19129
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 23)",3353
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 24)",17993
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 26)",11779
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 19)",8609
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 30)",8505
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 25)",11916
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 25)",15709
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 16)",5597
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 26)",1433
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 34)",10446
+beneficiary,C,2023-05,country_matches_bank,True,12691
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 16)",20728
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 18)",8022
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 33)",29033
+beneficiary,B,2023-07,country_matches_bank,True,5312
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 32)",9413
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 10)",4615
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 42)",452
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 28)",10328
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 27)",10976
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 30)",1529
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 29)",1116
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 33)",7129
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 29)",9346
+beneficiary,C,2023-04,line35_token,no,2408
+beneficiary,C,2023-04,newline_style,actual,4285
+beneficiary,C,2023-04,starts_slash,True,4124
+beneficiary,C,2023-04,country_token_count,1,2692
+beneficiary,C,2023-04,country_matches_bank,False,2675
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 33)",60
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 15)",11551
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 12)",3635
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 17)",7341
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 34)",7875
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 21)",9754
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 17)",9738
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 26)",15651
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 4)",132
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 29)",9001
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 31)",4483
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 12)",2526
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 23)",4611
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 23)",1028
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 10)",4898
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 26)",11152
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 24)",434
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 30)",9095
+beneficiary,C,2023-04,line35_vs_lengths,"(False, True, 35)",452
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 25)",55
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 13)",5330
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 29)",1495
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 20)",10484
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 18)",8178
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 32)",9162
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 19)",11528
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 10)",2482
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 25)",573
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 16)",7465
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 34)",4754
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 27)",1701
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 25)",1089
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 13)",5141
+beneficiary,B,2023-06,country_matches_bank,True,7454
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 12)",6482
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 23)",3565
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 11)",6023
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 16)",5367
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 28)",13548
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 22)",5440
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 28)",2147
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 24)",1156
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 10)",3528
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 27)",42
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 32)",7852
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 11)",2816
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 22)",5870
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 34)",3439
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 15)",4470
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 28)",2929
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 21)",560
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 33)",3324
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 30)",4915
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 30)",3328
+beneficiary,B,2023-04,line35_token,yes,790
+beneficiary,B,2023-04,line35_vs_lengths,"(True, True, 35)",718
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 35)",8784
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 31)",9029
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 33)",4229
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 11)",2586
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 28)",1282
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 10)",2674
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 29)",2576
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 12)",2738
+beneficiary,C,2023-04,line35_token,yes,1994
+beneficiary,C,2023-04,line35_vs_lengths,"(True, True, 35)",1801
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 26)",846
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 33)",7417
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 44)",39
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 31)",2879
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 32)",5587
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 17)",182
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 6)",174
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 35)",4577
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 9)",2041
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 36)",740
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 29)",2704
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 32)",3932
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 35)",13772
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 29)",3528
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 31)",6388
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 25)",1638
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 37)",552
+beneficiary,B,2023-05,country_matches_bank,True,5604
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 31)",2139
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 36)",23
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 26)",2052
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 33)",3221
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 36)",537
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 27)",2276
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 24)",1181
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 21)",180
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 25)",1175
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 9)",1916
+beneficiary,C,2023-04,starts_slash,False,278
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 34)",432
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 58)",103
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 15)",4244
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 29)",1177
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 30)",3566
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 28)",2159
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 9)",2654
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 18)",376
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 18)",364
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 24)",425
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 14)",5047
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 22)",177
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 32)",5875
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 2)",84
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 42)",353
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 26)",663
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 4)",128
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 30)",2132
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 20)",529
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 26)",1525
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 26)",577
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 28)",947
+beneficiary,C,2023-04,country_token_count,0,1710
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 21)",511
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 27)",1587
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 30)",1606
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 19)",609
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 37)",748
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 27)",842
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 22)",445
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 34)",200
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 21)",708
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 19)",159
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 36)",494
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 19)",42
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 25)",585
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 6)",135
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 18)",145
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 18)",506
+beneficiary,C,2023-05,line35_vs_lengths,"(True, False, 22)",492
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 20)",631
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 37)",41
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 5)",132
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 27)",666
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 23)",1077
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 20)",478
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 20)",199
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 24)",630
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 36)",239
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 2)",118
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 39)",78
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 25)",824
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 29)",42
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 30)",36
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 42)",311
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 58)",70
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 19)",214
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 37)",546
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 24)",109
+beneficiary,B,2023-04,country_token_count,0,680
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 6)",133
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 35)",17
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 37)",69
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 22)",682
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 22)",35
+beneficiary,B,2023-04,line35_vs_lengths,"(False, True, 35)",203
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 18)",113
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 27)",639
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 14)",12
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 23)",498
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 36)",21
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 38)",57
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 22)",178
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 4)",103
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 18)",128
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 7)",83
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 7)",136
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 21)",271
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 21)",179
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 7)",138
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 19)",450
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 12)",6
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 36)",139
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 43)",9
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 26)",21
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 49)",26
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 7)",180
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 42)",3
+beneficiary,C,2023-07,line35_vs_lengths,"(True, False, 17)",184
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 40)",23
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 13)",27
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 20)",134
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 3)",112
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 7)",74
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 5)",90
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 58)",7
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 37)",48
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 19)",236
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 19)",33
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 20)",153
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 44)",9
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 39)",111
+ordering,C,2023-06,line35_vs_lengths,"(True, False, 18)",162
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 36)",157
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 18)",232
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 27)",43
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 24)",21
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 42)",6
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 28)",13
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 6)",263
+ordering,B,2023-06,line35_vs_lengths,"(True, False, 17)",107
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 13)",41
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 7)",188
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 21)",130
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 37)",55
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 2)",136
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 31)",11
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 36)",84
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 20)",103
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 25)",20
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 24)",99
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 15)",14
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 14)",16
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 37)",51
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 26)",49
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 22)",10
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 37)",100
+beneficiary,C,2023-06,line35_vs_lengths,"(True, False, 17)",239
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 17)",58
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 5)",150
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 32)",12
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 39)",3
+beneficiary,B,2023-06,line35_vs_lengths,"(True, False, 22)",238
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 37)",63
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 33)",21
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 38)",20
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 41)",3
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 3)",79
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 36)",162
+beneficiary,C,2023-04,newline_style,none,117
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 20)",38
+beneficiary,B,2023-05,line35_vs_lengths,"(True, False, 17)",49
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 44)",9
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 49)",33
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 39)",12
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 9)",3
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 10)",14
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 2)",78
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 26)",50
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 3)",85
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 7)",116
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 49)",9
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 8)",97
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 38)",6
+beneficiary,B,2023-04,starts_slash,False,126
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 35)",13
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 39)",35
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 49)",65
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 15)",24
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 35)",82
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 17)",35
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 43)",16
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 39)",31
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 38)",63
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 15)",50
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 17)",55
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 12)",8
+ordering,B,2023-05,line35_vs_lengths,"(True, False, 17)",83
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 38)",8
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 45)",1
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 33)",17
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 23)",96
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 30)",55
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 36)",22
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 39)",121
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 34)",22
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 37)",76
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 10)",7
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 44)",9
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 42)",13
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 29)",69
+ordering,C,2023-05,line35_vs_lengths,"(True, False, 17)",44
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 51)",10
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 58)",6
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 31)",12
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 42)",1
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 38)",36
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 28)",49
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 44)",4
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 37)",36
+beneficiary,B,2023-07,line35_vs_lengths,"(True, False, 20)",136
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 38)",87
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 6)",19
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 49)",34
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 17)",15
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 16)",39
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 32)",6
+beneficiary,B,2023-04,newline_style,none,44
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 8)",34
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 40)",8
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 37)",84
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 11)",26
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 40)",2
+ordering,C,2023-07,line35_vs_lengths,"(True, False, 22)",82
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 36)",109
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 34)",4
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 28)",12
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 22)",17
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 16)",33
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 51)",23
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 33)",5
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 31)",46
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 49)",2
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 58)",56
+beneficiary,B,2023-04,country_matches_bank,True,9
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 25)",1
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 39)",15
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 49)",37
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 25)",18
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 6)",24
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 40)",15
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 32)",24
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 18)",17
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 49)",19
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 35)",42
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 30)",14
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 26)",12
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 36)",119
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 12)",34
+ordering,C,2023-07,line35_vs_lengths,"(False, True, 36)",3
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 25)",6
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 29)",20
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 6)",22
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 43)",14
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 44)",39
+beneficiary,C,2023-04,country_matches_bank,True,17
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 43)",9
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 42)",5
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 40)",2
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 49)",5
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 38)",5
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 49)",39
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 41)",15
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 21)",71
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 40)",3
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 9)",29
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 11)",10
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 36)",34
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 18)",22
+ordering,C,2023-06,line35_vs_lengths,"(False, True, 38)",1
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 20)",18
+ordering,C,2023-06,line35_vs_lengths,"(False, True, 36)",6
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 17)",16
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 32)",12
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 18)",32
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 24)",34
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 14)",23
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 38)",24
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 32)",28
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 43)",14
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 36)",23
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 28)",12
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 21)",50
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 44)",55
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 7)",4
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 31)",42
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 32)",9
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 23)",3
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 25)",49
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 44)",7
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 39)",8
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 37)",42
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 40)",12
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 43)",23
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 40)",14
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 20)",18
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 27)",22
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 19)",3
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 41)",14
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 29)",9
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 43)",2
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 35)",23
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 49)",8
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 39)",6
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 40)",10
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 17)",43
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 34)",14
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 16)",8
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 38)",14
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 28)",27
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 43)",14
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 16)",10
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 14)",4
+ordering,C,2023-07,line35_vs_lengths,"(False, True, 58)",4
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 21)",29
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 19)",21
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 49)",6
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 49)",7
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 30)",14
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 29)",9
+beneficiary,C,2023-07,line35_vs_lengths,"(False, False, 39)",42
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 43)",8
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 12)",11
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 34)",15
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 33)",11
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 41)",17
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 42)",9
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 19)",24
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 23)",10
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 22)",2
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 21)",18
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 35)",4
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 38)",18
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 37)",10
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 28)",1
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 39)",18
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 49)",6
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 41)",4
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 30)",6
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 3)",4
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 40)",3
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 30)",13
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 42)",3
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 58)",7
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 40)",5
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 43)",3
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 27)",13
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 26)",4
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 39)",15
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 58)",4
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 43)",7
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 40)",16
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 37)",11
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 42)",5
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 39)",5
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 38)",22
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 32)",5
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 39)",19
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 29)",2
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 36)",22
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 41)",3
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 31)",17
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 42)",1
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 11)",10
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 44)",5
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 25)",2
+ordering,C,2023-05,line35_vs_lengths,"(False, True, 58)",3
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 36)",6
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 33)",8
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 39)",6
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 27)",4
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 20)",2
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 31)",5
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 40)",1
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 13)",5
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 38)",2
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 10)",5
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 30)",4
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 25)",2
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 31)",12
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 28)",1
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 58)",1
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 21)",2
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 11)",4
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 35)",34
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 13)",6
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 24)",6
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 58)",1
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 36)",5
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 36)",9
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 15)",8
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 42)",1
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 39)",2
+ordering,B,2023-05,line35_vs_lengths,"(False, True, 38)",4
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 49)",10
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 41)",2
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 6)",1
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 29)",4
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 38)",1
+beneficiary,C,2023-05,line35_vs_lengths,"(False, False, 5)",3
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 41)",2
+ordering,C,2023-07,line35_vs_lengths,"(False, True, 41)",3
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 18)",1
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 58)",3
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 43)",1
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 51)",1
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 38)",3
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 41)",2
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 44)",1
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 39)",7
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 43)",3
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 44)",5
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 40)",2
+ordering,C,2023-05,line35_vs_lengths,"(False, True, 36)",5
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 7)",3
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 38)",1
+ordering,C,2023-07,line35_vs_lengths,"(False, True, 37)",3
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 17)",3
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 22)",1
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 24)",2
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 21)",3
+beneficiary,B,2023-05,line35_vs_lengths,"(False, False, 41)",2
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 41)",2
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 50)",1
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 5)",1
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 26)",3
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 9)",3
+beneficiary,C,2023-05,line35_vs_lengths,"(False, True, 37)",7
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 50)",1
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 36)",2
+ordering,C,2023-06,line35_vs_lengths,"(False, False, 40)",1
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 40)",3
+ordering,C,2023-06,line35_vs_lengths,"(False, True, 39)",1
+ordering,C,2023-06,line35_vs_lengths,"(False, True, 58)",3
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 46)",1
+beneficiary,C,2023-07,line35_vs_lengths,"(False, True, 58)",2
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 37)",1
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 26)",3
+ordering,B,2023-07,line35_vs_lengths,"(False, True, 47)",1
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 9)",2
+beneficiary,C,2023-06,line35_vs_lengths,"(False, True, 58)",5
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 5)",2
+ordering,B,2023-07,line35_vs_lengths,"(False, False, 49)",5
+beneficiary,C,2023-04,line35_vs_lengths,"(True, False, 27)",1
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 44)",2
+ordering,B,2023-06,line35_vs_lengths,"(False, True, 49)",1
+ordering,C,2023-05,line35_vs_lengths,"(False, False, 7)",1
+beneficiary,C,2023-06,line35_vs_lengths,"(False, False, 41)",1
+beneficiary,B,2023-07,line35_vs_lengths,"(False, False, 41)",2
+ordering,B,2023-04,line35_vs_lengths,"(True, False, 19)",1
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 23)",1
+ordering,B,2023-04,line35_vs_lengths,"(False, False, 36)",3
+ordering,C,2023-07,line35_vs_lengths,"(False, False, 40)",2
+ordering,C,2023-04,line35_vs_lengths,"(False, False, 37)",2
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 44)",2
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 40)",1
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 31)",1
+beneficiary,B,2023-04,line35_vs_lengths,"(False, False, 2)",1
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 58)",1
+beneficiary,B,2023-06,line35_vs_lengths,"(False, True, 43)",4
+ordering,C,2023-06,line35_vs_lengths,"(False, True, 41)",1
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 30)",1
+ordering,C,2023-05,line35_vs_lengths,"(False, True, 37)",1
+beneficiary,B,2023-04,line35_vs_lengths,"(True, False, 23)",1
+ordering,C,2023-04,line35_vs_lengths,"(True, False, 22)",1
+ordering,B,2023-06,line35_vs_lengths,"(False, False, 44)",1
+ordering,B,2023-05,line35_vs_lengths,"(False, False, 43)",1
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 58)",1
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 42)",1
+beneficiary,B,2023-07,line35_vs_lengths,"(False, True, 39)",1
+ordering,C,2023-05,line35_vs_lengths,"(False, True, 41)",1
+beneficiary,B,2023-05,line35_vs_lengths,"(False, True, 49)",1
+beneficiary,C,2023-04,line35_vs_lengths,"(False, False, 39)",1
+beneficiary,B,2023-06,line35_vs_lengths,"(False, False, 44)",1
+ordering,C,2023-06,line35_vs_lengths,"(False, True, 44)",1

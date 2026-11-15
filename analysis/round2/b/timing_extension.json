@@ -1,0 +1,12 @@
+{
+  "model": "one shared168hourtemplate + integercodephase, alternating fitted30iterations",
+  "july_rows": 2896968,
+  "july_nll": 4.874930620820275,
+  "july_conditional_tv": 0.054703826067245914,
+  "limits": "phases can shift any0..167hours and are not identified localtimezones; alternating localoptimum, no generatorproof",
+  "complete_weeks": 13,
+  "week_day_rows": 9991528,
+  "week_day_factorization_tv": 0.002964477169629133,
+  "week_day_relative_rms": 0.018479907188675412,
+  "week_day_max_abs_relative": 0.10366286926550804
+}

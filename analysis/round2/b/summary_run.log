@@ -1,0 +1,23 @@
+Within-currency customer role contrasts (cells at least1000 rows each):
+                 cells  median_ratio  median_log_shift  min_log_shift  max_log_shift
+contrast period                                                                     
+BB/BC    July       48      7.602558          2.008615       1.836282       2.151087
+         early      74      7.367904          2.000911       1.864637       2.184334
+BB/CB    July       19      7.394041          1.998364       1.664237       2.728230
+         early      41      7.534955          2.008986       1.460238       2.531367
+BC/CC    July       41      7.616801          2.016542       1.530064       2.558004
+         early      60      7.516120          1.984029       1.517123       2.498077
+CB/CC    July       20      7.184001          1.997063       1.884937       2.153494
+         early      42      7.139818          1.980130       1.834117       2.355577
+
+Exposure-corrected weekend/weekday daily-rate ratio: party  period  weekend_to_weekday       n
+   BB    July            0.333541  658411
+   BB MayJune            0.307300 1610622
+   BC    July            0.330391 1622438
+   BC MayJune            0.307575 3976475
+   CB    July            0.333226  177030
+   CB MayJune            0.312106  433052
+   CC    July            0.333538  439089
+   CC MayJune            0.308630 1074411
+
+Timing and currency tables saved; no local-hour or individual-bank-pair mechanism inferred.

@@ -1,0 +1,17 @@
+{
+  "ordering": {
+    "distinct_account_bic_pairs": 391132,
+    "distinct_accounts": 391132,
+    "accounts_multiple_bics": 0,
+    "repeated_accounts": 260873,
+    "max_account_occurrences": 75803
+  },
+  "beneficiary": {
+    "distinct_account_bic_pairs": 2663723,
+    "distinct_accounts": 2590877,
+    "accounts_multiple_bics": 61606,
+    "repeated_accounts": 567583,
+    "max_account_occurrences": 53350
+  },
+  "combined_accounts_multiple_bics": 61690
+}

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\analysis\round2\verify_amounts.py", line 15, in <module>
+    pd.testing.assert_frame_equal(a,b,check_exact=False,rtol=1e-12,atol=1e-8)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\.venv\Lib\site-packages\pandas\util\_decorators.py", line 219, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\.venv\Lib\site-packages\pandas\util\_decorators.py", line 219, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\.venv\Lib\site-packages\pandas\_testing\asserters.py", line 1514, in assert_frame_equal
+    raise_assert_detail(
+    ~~~~~~~~~~~~~~~~~~~^
+        obj, f"{obj} shape mismatch", f"{left.shape!r}", f"{right.shape!r}"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\yapka\Documents\UM\Y1 SEM 1\datathon\.venv\Lib\site-packages\pandas\_testing\asserters.py", line 782, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame are different
+
+DataFrame shape mismatch
+[left]:  (1220, 8)
+[right]: (1228, 8)

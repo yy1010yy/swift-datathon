@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "n": 10000000,
+  "sender_mismatch_rate": 0.0498399,
+  "receiver_mismatch_rate": 0.0499265,
+  "both_observed": 24693,
+  "both_expected_under_independence": 24883.317673499998,
+  "strata": 24,
+  "max_abs_phi": 0.07707900148647484,
+  "sender_rate_range_strata": [
+    0.0,
+    0.06111111111111111
+  ],
+  "receiver_rate_range_strata": [
+    0.0,
+    0.07777777777777778
+  ],
+  "early_weighted_sender_rate": 0.0497998724354893,
+  "july_weighted_sender_rate": 0.04993793284468311,
+  "early_weighted_receiver_rate": 0.04997520674308989,
+  "july_weighted_receiver_rate": 0.049807210689278264,
+  "candidate_rule": "Independently substitute each visible path endpoint with probability approximately 0.05.",
+  "limits": [
+    "Observed flags cannot identify whether the path endpoint or separate BIC field was changed.",
+    "Approximate Bernoulli fit does not prove the random-number call or substitution source.",
+    "Sparse April strata widen rate ranges; inspect n before interpreting extremes."
+  ]
+}
+  month    route  continuous       n  sender_rate  receiver_rate  both_observed  both_expected_independent  both_standardized       phi
+2023-04   Direct       False     210     0.033333       0.066667              1                   0.466667           0.781589  0.056719
+2023-04   Direct        True    3701     0.050257       0.052959             10                   9.850311           0.047758  0.000827
+2023-04 Indirect       False     224     0.058036       0.026786              1                   0.348214           1.105400  0.077079
+2023-04 Indirect        True    1818     0.051155       0.043454              3                   4.041254          -0.518540 -0.012751
+2023-04  Covered       False      28     0.000000       0.000000              0                   0.000000           0.000000       NaN
+2023-04  Covered        True     180     0.061111       0.077778              0                   0.855556          -0.927169 -0.074091
+2023-05   Direct       False   95771     0.049295       0.049493            248                 233.656744           0.939483  0.003190
+2023-05   Direct        True 1829043     0.049748       0.050046           4475                4553.771405          -1.168757 -0.000908
+2023-05 Indirect       False  122022     0.049966       0.048721            274                 297.050245          -1.339029 -0.004027
+2023-05 Indirect        True  870588     0.050098       0.049581           2221                2162.494171           1.259684  0.001419
+2023-05  Covered       False   15776     0.050266       0.046907             31                  37.197008          -1.017280 -0.008503
+2023-05  Covered        True  111200     0.048975       0.050333            264                 274.112068          -0.611522 -0.001927
+2023-06   Direct       False  127616     0.049539       0.049414            311                 312.394465          -0.078993 -0.000232
+2023-06   Direct        True 2433359     0.049822       0.050216           6054                6087.908688          -0.435132 -0.000293
+2023-06 Indirect       False  162133     0.049657       0.050218            383                 404.305367          -1.060905 -0.002770
+2023-06 Indirect        True 1158466     0.049822       0.049888           2858                2879.358204          -0.398527 -0.000389
+2023-06  Covered       False   20526     0.046819       0.048378             55                  46.490938           1.249367  0.009146
+2023-06  Covered        True  148060     0.049683       0.049980            369                 367.650952           0.070445  0.000192
+2023-07   Direct       False   91669     0.048948       0.050551            233                 226.824314           0.410562  0.001425
+2023-07   Direct        True 1741911     0.050001       0.049616           4242                4321.421558          -1.209663 -0.000963
+2023-07 Indirect       False  116297     0.049279       0.050543            294                 289.661969           0.255205  0.000787
+2023-07 Indirect        True  829210     0.050073       0.049916           2069                2072.569929          -0.078514 -0.000091
+2023-07  Covered       False   14932     0.051969       0.050630             43                  39.288508           0.592909  0.005108
+2023-07  Covered        True  105260     0.049126       0.050542            254                 261.350181          -0.455225 -0.001475

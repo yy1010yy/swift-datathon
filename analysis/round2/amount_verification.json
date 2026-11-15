@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "rows": 9992994,
+  "matched_currency_party_period_cells": 1228,
+  "independence": "Three separate full10M CSV scans, blank labels only, exact quantiles; same raw input.",
+  "count_check": "exact",
+  "float_tolerance": "rtol1e-12 atol1e-8",
+  "scope": "Numerical consistency; distributional/economic interpretation separately reviewed."
+}

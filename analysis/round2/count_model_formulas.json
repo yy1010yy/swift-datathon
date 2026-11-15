@@ -1,0 +1,6 @@
+{
+  "participants": "Direct P=2; non-direct P=3+K, Pr(K=k)=s*(1-s)**k; fit s=N/(N+sum(K)).",
+  "gaps": "Given P, model G as sum of P-1 geometric-failure counts: Pr(G=g)=choose(g+P-2,g)*(1-q)**(P-1)*q**g; q=sum(G)/(sum(P-1)+sum(G)).",
+  "alternative": "Independent at-most-one gap per edge is refuted by G>P-1; Poisson model compared by per-payment likelihood.",
+  "limits": "Counts reused from independently verified initial full scan; monthly fits descriptive, causal insertion order not identified."
+}

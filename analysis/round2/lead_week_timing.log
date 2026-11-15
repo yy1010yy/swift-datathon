@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "rows": 9991528,
+  "weeks": 13,
+  "dates": "2023-05-01 through 2023-07-30 UTC",
+  "week_totals": [
+    745342,
+    500252,
+    503176,
+    849087,
+    849665,
+    750832,
+    854063,
+    1198021,
+    946874,
+    500516,
+    600413,
+    751584,
+    941703
+  ],
+  "weekday_probabilities": [
+    0.18329268556320916,
+    0.1709928651553596,
+    0.17060603743491487,
+    0.1802569136572504,
+    0.18352568295860253,
+    0.04353037893703546,
+    0.06779543629362796
+  ],
+  "week_weekday_factorization": {
+    "max_abs_relative_error": 0.10366286926550805,
+    "rmse_relative_error": 0.013100192270391234,
+    "max_abs_standardized_residual": 26.192709869344107,
+    "pearson_chi_square": 1714.696452614302,
+    "degrees_of_freedom": 72
+  },
+  "party_given_day_factorization": {
+    "max_abs_relative_error": 0.07070143021768693,
+    "max_abs_standardized_residual": 3.344547857344101,
+    "pearson_chi_square": 314.5524694461434,
+    "degrees_of_freedom": 270
+  },
+  "interpretation": "Weekly volume and weekday profile are nearly separable; assess residual scale before calling it an exact independent sampler.",
+  "limits": [
+    "B numeric cache is shared extraction; lead aggregation independent.",
+    "Only 13 observed weeks; weekly-volume distribution is weakly identified.",
+    "No external holidays, timezones, or economic calendars used."
+  ]
+}

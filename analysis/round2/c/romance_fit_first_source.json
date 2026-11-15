@@ -1,0 +1,16 @@
+{
+  "known_history_rows": 1973,
+  "early_rows": 1349,
+  "July_rows": 624,
+  "early_wait_mean": 313.54633061527056,
+  "early_logratio_mean": 0.4024259713413161,
+  "early_logratio_sd": 0.41034071887326146,
+  "prior_labels": {
+    "ROMANCE_SCAM": 1973
+  },
+  "July_distribution_discrepancy": {
+    "log_amount_ratio": 0.9297322160072901,
+    "wait_seconds": 5.335844304502631
+  },
+  "limits": "Retrospective family discovery; grouped dependent sequences; no universal fit or causal proof."
+}

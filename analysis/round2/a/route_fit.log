@@ -1,0 +1,8 @@
+period    route       n  mean_participants  mean_gaps  gap_failure_mle  length_geom_success_mle
+ early  Covered  295770           3.581364   0.135494         0.049872                 0.632366
+ early   Direct 4489700           2.000000   0.052441         0.049828                      NaN
+ early Indirect 2315251           3.581468   0.135678         0.049934                 0.632324
+  july  Covered  120192           3.583824   0.137580         0.050555                 0.631383
+  july   Direct 1833580           2.000000   0.052620         0.049990                      NaN
+  july Indirect  945507           3.582365   0.135997         0.050029                 0.631966
+These fits use the prior independently produced full-file A route census, not a new independent gap scan.

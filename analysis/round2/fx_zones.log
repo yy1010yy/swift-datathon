@@ -1,0 +1,5 @@
+Direct population: 6323280 matches: 6323280
+Non-singleton zones: [['AD', 'AT', 'BE', 'CY', 'DE', 'EE', 'ES', 'FI', 'FR', 'GF', 'GP', 'GR', 'HR', 'IE', 'IT', 'LT', 'LU', 'LV', 'MC', 'ME', 'MQ', 'MT', 'NL', 'PM', 'PT', 'RE', 'SI', 'SK', 'SM', 'VA', 'XK'], ['BQ', 'EC', 'GU', 'MH', 'PR', 'PW', 'SV', 'TC', 'TL', 'US', 'VG', 'VI'], ['BJ', 'CI', 'GW', 'ML', 'NE', 'SN', 'TG'], ['AG', 'AI', 'GD', 'KN', 'LC', 'MS'], ['GB', 'GG', 'IM', 'JE'], ['AU', 'KI', 'TV'], ['CH', 'LI'], ['CK', 'NZ'], ['CW', 'SX'], ['IL', 'PS'], ['NC', 'WF']]
+Contradictions: Empty DataFrame
+Columns: [from, to, fx, currency, n, predicted_fx, match]
+Index: []

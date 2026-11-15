@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "rows": 9992994,
+  "matched_currency_party_period_cells": 1228,
+  "independence": "Three separate full10M CSV scans, blank labels only, exact quantiles; same raw input.",
+  "count_check": "exact",
+  "float_tolerance": "rtol1e-12 atol1e-8",
+  "scope": "Numerical consistency; distributional/economic interpretation separately reviewed."
+}
+       minimum_cell_n  BB_over_BC  BC_over_CC  CB_over_CC
+count       60.000000   60.000000   60.000000   60.000000
+mean      9329.483333    7.469476    7.798712    7.247828
+std      21410.779737    0.684218    1.883232    0.627670
+min       1018.000000    6.146357    4.412513    5.786050
+25%       1575.500000    6.997347    6.689672    6.824400
+50%       2218.000000    7.357306    7.521284    7.159028
+75%       5257.000000    7.913196    8.700254    7.389463
+max     138513.000000    9.555099   13.425582    9.043183

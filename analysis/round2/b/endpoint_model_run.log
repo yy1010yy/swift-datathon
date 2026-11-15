@@ -1,0 +1,28 @@
+{
+  "train_sender_rate": 0.0497998724354893,
+  "train_receiver_rate": 0.04997520674308989,
+  "rows": 10000000,
+  "sender_rate_range": [
+    0.04827965868428296,
+    0.051968925796946154
+  ],
+  "receiver_rate_range": [
+    0.047701624002202035,
+    0.050629520492901155
+  ],
+  "july_joint_tv": 0.00038253000676448417,
+  "limits": "earlyincludespartialApril; sourceBtable hasperiodnotmonth. Endpoint mismatch doesnotidentify whichfield changed or whetherdata arecorrupt."
+}
+period    route continuity       n  sender  receiver  both  sender_rate  receiver_rate  both_rate  both_independence_expected  frozen_early_expected_both  frozen_early_joint_tv
+ early  Covered          N   36330    1754      1733    86     0.048280       0.047702   0.002367                   83.668648                   90.416612               0.003672
+ early  Covered          Y  259440   12813     13011   633     0.049387       0.050150   0.002440                  642.576099                  645.683614               0.000413
+ early   Direct          N  223597   11050     11060   560     0.049419       0.049464   0.002505                  546.577101                  556.479028               0.000923
+ early   Direct          Y 4266103  212412    213926 10539     0.049791       0.050146   0.002470                10651.512519                10617.301898               0.000198
+ early Indirect          N  284379   14161     14093   658     0.049796       0.049557   0.002314                  701.778166                  707.750773               0.000418
+ early Indirect          Y 2030872  101425    101037  5082     0.049942       0.049751   0.002502                 5045.949585                 5054.350807               0.000238
+  late  Covered          N   14932     776       756    43     0.051969       0.050630   0.002880                   39.288508                   37.162148               0.002432
+  late  Covered          Y  105260    5171      5320   254     0.049126       0.050542   0.002413                  261.350181                  261.966764               0.000674
+  late   Direct          N   91669    4487      4634   233     0.048948       0.050551   0.002542                  226.824314                  228.142042               0.000905
+  late   Direct          Y 1741911   87098     86426  4242     0.050001       0.049616   0.002435                 4321.421558                 4335.196540               0.000360
+  late Indirect          N  116297    5731      5878   294     0.049279       0.050543   0.002528                  289.661969                  289.435196               0.000568
+  late Indirect          Y  829210   41521     41391  2069     0.050073       0.049916   0.002495                 2072.569929                 2063.703785               0.000273

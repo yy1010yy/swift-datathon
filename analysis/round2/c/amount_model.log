@@ -1,0 +1,23 @@
+{
+  "method": "OLS on exact weighted within-cell natural-log means; within-cell variances retained for full-row errors",
+  "training": "all no-recorded-label rows before July1UTC",
+  "test": "all no-recorded-label July rows",
+  "sender_beta": 1.9671911081755007,
+  "receiver_beta": 2.0029740979708066,
+  "sender_factor": 7.150563095179524,
+  "receiver_factor": 7.411064587158183,
+  "train": {
+    "rows": 7095842,
+    "log_rmse": 2.1506229485555597,
+    "r2_against_early_mean": 0.30683283150323704,
+    "r2_against_period_mean": 0.30683283150323704,
+    "unseen_currency_rows": 0
+  },
+  "july": {
+    "rows": 2897152,
+    "log_rmse": 2.150345415798409,
+    "r2_against_early_mean": 0.307285032304886,
+    "r2_against_period_mean": 0.30728455486798867,
+    "unseen_currency_rows": 0
+  }
+}

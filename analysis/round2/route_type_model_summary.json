@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "n": 10000000,
+  "participant_min": 2,
+  "participant_max": 22,
+  "unified_geometric_success_mle": 0.6322825114134897,
+  "direct_share": 0.632328,
+  "direct_count": 6323280,
+  "direct_rule_violations": 0,
+  "non_direct_n": 3676720,
+  "covered_given_non_direct": 0.11313398899018691,
+  "length_max_abs_relative_error_expected_at_least_100": 0.13408934437042497,
+  "length_tail_observed_expected_lt_100": 64,
+  "covered_rate_stable_strata_range_n_ge_1000": [
+    0.0992258972554539,
+    0.12464265294453973
+  ],
+  "covered_rate_may_to_july_n_ge_10000": [
+    0.11140799256505576,
+    0.11481481481481481
+  ],
+  "candidate": "Draw P=2+geometric failures with success\u22480.6323; Direct iff P=2. If P>2, choose Covered with\u22480.1131 otherwise Indirect.",
+  "limits": [
+    "The geometric family is observationally equivalent to floor of an exponential under matching parameterization.",
+    "Covered choice may depend weakly on FX, banks, currency, or other fields not represented in this aggregate fit.",
+    "The same full population supplied discovery and parameter estimates; month strata are retrospective checks."
+  ]
+}

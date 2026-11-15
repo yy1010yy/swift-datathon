@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "continuous_duration_cells": 264,
+  "continuous_duration_rows": 9232796,
+  "history_rows": 22523,
+  "history_exact_checks": "A/B/C exact n, strict-prior availability, amount-copy counts by label match",
+  "limits": [
+    "History raw extraction shared from C; scoring independent, extraction not independently replicated.",
+    "Power10 tolerance/enumeration sensitivity tracked separately; not silently merged.",
+    "Selected-pair unlabeled controls are not a random population control."
+  ]
+}

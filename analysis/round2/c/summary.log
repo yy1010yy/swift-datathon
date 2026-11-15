@@ -1,0 +1,79 @@
+HISTORY SUMMARY (all labels, same-pair controls):
+                   label     n  with_prior  without_prior  exact_prior  power10_prior
+                         15517       14788            729          209            548
+ACCOUNT_REPLACEMENT_SCAM   649           0            649            0              0
+                CEO_SCAM   945           2            943            0              0
+         CUSTOMER_RECALL   317          59            258            0              0
+       DUPLICATE_PAYMENT   679         515            164          493              0
+      FAT_FINGER_MISTAKE  1940         313           1627            0              3
+            ROMANCE_SCAM  2476        1973            503           12              1
+
+LABEL PARTY COUNTS:
+                   label party_pair       n
+                                 BC 5600965
+                                 BB 2269885
+                                 CC 1512382
+                                 CB  609762
+            ROMANCE_SCAM         CC    1811
+            ROMANCE_SCAM         CB     665
+      FAT_FINGER_MISTAKE         BC    1098
+                CEO_SCAM         BC     683
+       DUPLICATE_PAYMENT         BC     393
+      FAT_FINGER_MISTAKE         BB     445
+ACCOUNT_REPLACEMENT_SCAM         CB      34
+      FAT_FINGER_MISTAKE         CC     296
+ACCOUNT_REPLACEMENT_SCAM         BC     370
+ACCOUNT_REPLACEMENT_SCAM         CC     107
+ACCOUNT_REPLACEMENT_SCAM         BB     138
+                CEO_SCAM         BB     262
+         CUSTOMER_RECALL         BB      63
+         CUSTOMER_RECALL         BC     183
+      FAT_FINGER_MISTAKE         CB     101
+       DUPLICATE_PAYMENT         CC     113
+       DUPLICATE_PAYMENT         BB     152
+         CUSTOMER_RECALL         CC      49
+         CUSTOMER_RECALL         CB      22
+       DUPLICATE_PAYMENT         CB      21
+
+CONDITIONAL AMOUNT EFFECTS (cells each n>=1000):
+                                           currency_cells  median_ratio_across_currencies  min_ratio  max_ratio  min_log_effect  max_log_effect
+comparison                       period                                                                                                        
+business_receiver_given_B_sender july                  48                        7.602558   6.146357   9.555099        1.836282        2.151087
+                                 pre_july              74                        7.367904   5.957857   9.353323        1.864637        2.184334
+business_receiver_given_C_sender july                  20                        7.184001   6.528848   8.671907        1.884937        2.153494
+                                 pre_july              42                        7.139818   5.786050  10.111550        1.834117        2.355577
+business_sender_given_B_receiver july                  19                        7.394041   5.508445  14.529388        1.664237        2.728230
+                                 pre_july              41                        7.534955   3.951328  12.452744        1.460238        2.531367
+business_sender_given_C_receiver july                  41                        7.616801   4.413680  13.425582        1.530064        2.558004
+                                 pre_july              60                        7.516120   4.412513  12.054101        1.517123        2.498077
+
+USD amounts excluding labels:
+currency party_pair   period  labelled      n      p01      p10    median        p90          p99          mean  mean_log   sd_log  round_dollar
+     USD         BC pre_july     False 677464  30.0000  336.810  5226.825  80101.532  700000.0000  48387.491970  8.538877 2.151570        262029
+     USD         CC pre_july     False 169305   4.0000   45.180   695.030  10000.000  100000.0000   6417.064758  6.503468 2.158056         64784
+     USD         CC     july     False  70251   4.2550   44.200   695.200  10000.000   94288.3350   6123.676606  6.495215 2.158532         26970
+     USD         CB pre_july     False  71204  28.7312  311.207  5000.000  74288.633  659486.6159  44662.683267  8.474748 2.150345         27487
+     USD         BB     july     False 118985 210.9908 2426.772 40308.210 590526.744 5327168.3296 360901.334148 10.540808 2.161020         46007
+     USD         BC     july     False 278836  30.1035  341.530  5230.995  81245.465  711890.0485  47508.399658  8.546043 2.150272        107853
+     USD         BB pre_july     False 286308 214.0014 2467.735 40194.400 584040.824 5080075.9973 350532.290755 10.541410 2.150207        111111
+     USD         CB     july     False  29686  29.0425  308.550  5000.000  76874.500  670017.8650  44910.707609  8.483063 2.161746         11363
+
+Same amount prior lag distributions for each label:
+<unlabelled controls> 209 {0.0: 54.0, 0.1: 4215.4, 0.5: 32794.0, 0.9: 3103787.6000000015, 1.0: 7276399.0}
+DUPLICATE_PAYMENT 493 {0.0: 1.0, 0.1: 153.2, 0.5: 1100.0, 0.9: 3373.8, 1.0: 6940.0}
+ROMANCE_SCAM 12 {0.0: 7.0, 0.1: 16.10000000000001, 0.5: 205.0, 0.9: 758.0000000000001, 1.0: 823.0}
+
+Power exponents by recorded label:
+label               power_exponent
+                    -1                250
+                    -2                153
+                    -3                 53
+                    -4                 12
+                    -5                  3
+                    1                  65
+                    2                   8
+                    3                   4
+FAT_FINGER_MISTAKE  -1                  1
+                    -2                  1
+                    -4                  1
+ROMANCE_SCAM        1                   1

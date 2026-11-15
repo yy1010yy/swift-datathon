@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "period": "july",
+      "rows": 2897152,
+      "rmse_difference": -4.440892098500626e-16,
+      "r2_difference": 4.440892098500626e-16
+    },
+    {
+      "period": "train",
+      "rows": 7095842,
+      "rmse_difference": 0.0,
+      "r2_difference": 1.1102230246251565e-16
+    }
+  ],
+  "note": "C full-file exact group log moments vs B raw-numeric cache; no unobserved outcome assumptions"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "model": "currency_sender_receiver",
+    "period": "July",
+    "n": 2897152,
+    "r2_log_amount": 0.3072845548679891,
+    "rmse_log_amount": 2.1503454157984088,
+    "params": {
+      "sender_business_log_shift": 1.9671911081754985,
+      "receiver_business_log_shift": 2.002974097970811,
+      "sender_business_factor": 7.150563095179508,
+      "receiver_business_factor": 7.411064587158216
+    }
+  },
+  {
+    "model": "currency_sender_receiver",
+    "period": "early",
+    "n": 7095842,
+    "r2_log_amount": 0.30683283150323715,
+    "rmse_log_amount": 2.1506229485555597,
+    "params": {
+      "sender_business_log_shift": 1.9671911081754985,
+      "receiver_business_log_shift": 2.002974097970811,
+      "sender_business_factor": 7.150563095179508,
+      "receiver_business_factor": 7.411064587158216
+    }
+  },
+  {
+    "model": "currency_sender_receiver_interaction",
+    "period": "July",
+    "n": 2897152,
+    "r2_log_amount": 0.307287357429749,
+    "rmse_log_amount": 2.1503410659012245,
+    "params": {
+      "sender_business_log_shift": 1.957967632413338,
+      "receiver_business_log_shift": 1.9776842860486383,
+      "business_both_interaction": 0.03208941610068988,
+      "sender_business_factor": 7.084913274963658,
+      "receiver_business_factor": 7.225990268919922
+    }
+  },
+  {
+    "model": "currency_sender_receiver_interaction",
+    "period": "early",
+    "n": 7095842,
+    "r2_log_amount": 0.30683811693593743,
+    "rmse_log_amount": 2.1506147492386827,
+    "params": {
+      "sender_business_log_shift": 1.957967632413338,
+      "receiver_business_log_shift": 1.9776842860486383,
+      "business_both_interaction": 0.03208941610068988,
+      "sender_business_factor": 7.084913274963658,
+      "receiver_business_factor": 7.225990268919922
+    }
+  }
+]

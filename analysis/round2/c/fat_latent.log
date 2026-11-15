@@ -1,0 +1,35 @@
+{
+  "baseline_sigma": 2.1506229485555597,
+  "early_residual_mean": 3.553931000066388,
+  "early_residual_sd": 5.1173595306787325,
+  "July_residual_mean": 3.7249280811995646,
+  "July_residual_sd": 5.069244302996709,
+  "limits": [
+    "Baseline normality approximate; multiple mixtures can fit.",
+    "FAT labels used to choose mixture, July retrospective model checking.",
+    "No row-level original amount recovered; latent powers are distributional explanations."
+  ]
+}
+                            name       sd  parameters  early_n  July_n  early_mean_loglik  July_mean_loglik    early_AIC  iterations
+     EM_decimal_4_withzero_False 2.150623           7     1351     589          -2.956985         -2.958705  8003.773635      2000.0
+      EM_decimal_4_withzero_True 2.150623           8     1351     589          -2.956985         -2.958705  8005.773635      2000.0
+     EM_decimal_6_withzero_False 2.150623          11     1351     589          -2.956985         -2.958705  8011.773635      2000.0
+      EM_decimal_6_withzero_True 2.150623          12     1351     589          -2.956985         -2.958705  8013.773635      2000.0
+     EM_decimal_3_withzero_False 2.150623           5     1351     589          -2.991113         -2.977854  8091.986646      2000.0
+      EM_decimal_3_withzero_True 2.150623           6     1351     589          -2.991113         -2.977854  8093.986646      2000.0
+                     free_normal 5.117360           2     1351     589          -3.051577         -3.042777  8249.361385         NaN
+uniform_decimal_4_withzero_False 2.150623           0     1351     589          -3.170313         -3.170196  8566.185076         NaN
+ uniform_decimal_4_withzero_True 2.150623           0     1351     589          -3.181927         -3.180252  8597.567667         NaN
+uniform_decimal_3_withzero_False 2.150623           0     1351     589          -3.214216         -3.222036  8684.810855         NaN
+     EM_decimal_2_withzero_False 2.150623           3     1351     589          -3.235834         -3.256985  8749.223148       212.0
+      EM_decimal_2_withzero_True 2.150623           4     1351     589          -3.235834         -3.256985  8751.223148       667.0
+ uniform_decimal_3_withzero_True 2.150623           0     1351     589          -3.261214         -3.267512  8811.799813         NaN
+ uniform_decimal_6_withzero_True 2.150623           0     1351     589          -3.404567         -3.404087  9199.140793         NaN
+uniform_decimal_6_withzero_False 2.150623           0     1351     589          -3.430628         -3.431708  9269.557333         NaN
+uniform_decimal_2_withzero_False 2.150623           0     1351     589          -3.568024         -3.594910  9640.800183         NaN
+ uniform_decimal_2_withzero_True 2.150623           0     1351     589          -3.674559         -3.700352  9928.659153         NaN
+     EM_decimal_1_withzero_False 2.150623           1     1351     589          -4.206976         -4.254395 11369.250243        15.0
+      EM_decimal_1_withzero_True 2.150623           2     1351     589          -4.206976         -4.254395 11371.250243        34.0
+uniform_decimal_1_withzero_False 2.150623           0     1351     589          -4.370019         -4.421764 11807.792429         NaN
+ uniform_decimal_1_withzero_True 2.150623           0     1351     589          -4.584688         -4.637428 12387.827700         NaN
+              unchanged_baseline 2.150623           0     1351     589          -5.881052         -5.962620 15890.602204         NaN

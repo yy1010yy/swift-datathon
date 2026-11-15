@@ -1,0 +1,17 @@
+sender scan 1000000 8.3
+sender scan 2000000 17.0
+sender scan 3000000 25.1
+sender scan 4000000 31.6
+sender scan 5000000 37.9
+sender scan 6000000 44.2
+sender scan 7000000 50.7
+sender scan 8000000 57.7
+sender scan 9000000 64.8
+sender scan 10000000 72.1
+                   label    n  with_prior_sender  exact_same_beneficiary  exact_different_beneficiary  power10_any_beneficiary
+ACCOUNT_REPLACEMENT_SCAM  649                603                       0                            8                       16
+                CEO_SCAM  945                822                       0                            9                       12
+         CUSTOMER_RECALL  317                301                       0                            6                       13
+       DUPLICATE_PAYMENT  679                661                     493                           13                       20
+      FAT_FINGER_MISTAKE 1940               1788                       0                           16                       88
+            ROMANCE_SCAM 2476               2066                      12                            0                        3

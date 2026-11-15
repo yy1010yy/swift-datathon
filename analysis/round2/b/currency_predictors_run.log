@@ -1,0 +1,10 @@
+            predictor party       n  known_n  correct_n
+  sender_country_mode    BB  658937   658937     588569
+  sender_country_mode    BC 1623722  1623722    1452170
+  sender_country_mode    CB  177180   177180     158230
+  sender_country_mode    CC  439440   439440     393784
+receiver_country_mode    BB  658937   658937     213139
+receiver_country_mode    BC 1623722  1623722     522494
+receiver_country_mode    CB  177180   177180      56473
+receiver_country_mode    CC  439440   439440     140458
+Mode discovery uses all earlier records without roleconditioning; heldJuly scores are conditional predictive associations, not causal preferences.

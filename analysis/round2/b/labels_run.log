@@ -1,0 +1,30 @@
+2000000 7.3
+4000000 14.7
+6000000 22.5
+8000000 30.4
+10000000 38.0
+ordering_type beneficiary_type             anomaly_type       n
+            B                C                          5600965
+            B                B                          2269885
+            C                B                           609762
+            C                C                          1512382
+            B                B       FAT_FINGER_MISTAKE     445
+            C                C             ROMANCE_SCAM    1811
+            B                C ACCOUNT_REPLACEMENT_SCAM     370
+            C                B ACCOUNT_REPLACEMENT_SCAM      34
+            C                B             ROMANCE_SCAM     665
+            B                C       FAT_FINGER_MISTAKE    1098
+            C                C ACCOUNT_REPLACEMENT_SCAM     107
+            B                C                 CEO_SCAM     683
+            B                B ACCOUNT_REPLACEMENT_SCAM     138
+            B                C        DUPLICATE_PAYMENT     393
+            B                B                 CEO_SCAM     262
+            C                C       FAT_FINGER_MISTAKE     296
+            B                B          CUSTOMER_RECALL      63
+            C                B       FAT_FINGER_MISTAKE     101
+            B                C          CUSTOMER_RECALL     183
+            C                C        DUPLICATE_PAYMENT     113
+            B                B        DUPLICATE_PAYMENT     152
+            C                C          CUSTOMER_RECALL      49
+            C                B          CUSTOMER_RECALL      22
+            C                B        DUPLICATE_PAYMENT      21

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "history_rows": 22523,
+  "amount_currency_party_period_cells": 1228,
+  "amount_rows": 9992994,
+  "checks": [
+    "B/C all history eligibility/exact/nearest-decade-power row indicators",
+    "B/C unlabeled exact amount quantiles/moments/counts across every currency party period",
+    "B/A full month/type/side token-country joint tables"
+  ],
+  "scope": "History uses C shared raw extraction; amount/token scans independent."
+}

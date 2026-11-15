@@ -1,0 +1,21 @@
+side,class,source_record,account,bic,firstline
+ordering,"[True, True, True, False, False]",1,_FAKE_00.-0/0092Y9262,0621US30,/00.-0/0092Y9262
+ordering,"[True, True, True, False, False]",3,_FAKE_00 000 000B0623 133W,0007JEH0,/00 000 000B0623 133W
+ordering,"[True, True, True, True, True]",2,_FAKE_TR53002400000000890222,0024TRI0,/TR53002400000000890222
+ordering,"[True, True, True, True, True]",5,_FAKE_DE13001700000000291498,0017DEF0,/DE13001700000000291498
+ordering,"[True, False, False, False, False]",9,_FAKE_0-0E0-000J840805,0001RUM0,SELIVERST DROZDOVA 4/9 NAB. ENISEIS
+ordering,"[True, False, False, False, False]",148,_FAKE_00.-0/0095Y4437,0621US30,KIMBERLY+REBECCA MORALES STREET 997
+ordering,"[True, False, True, False, False]",26,_FAKE_/ Q00000008575   56,0028SGS0,// Q00000008575   56
+ordering,"[True, False, True, False, False]",49,_FAKE_/ Q00000008577   50,0028SGS0,// Q00000008577   50
+ordering,"[True, False, False, True, True]",47,_FAKE_IT67009700000000623001,0097IT20,0097IT20
+ordering,"[True, False, False, True, True]",59,_FAKE_DE65005500000000293005,0055DEF0,0055DEF0
+beneficiary,"[True, True, True, False, False]",1,_FAKE_0009559K28N,0219US30,/0009559K28N
+beneficiary,"[True, True, True, False, False]",2,_FAKE_0000000008A79136,0380CNB0,//0000000008A79136
+beneficiary,"[True, True, True, True, True]",3,_FAKE_GB30029500000000623158,0295GB20,/GB30029500000000623158
+beneficiary,"[True, True, True, True, True]",4,_FAKE_DE49003700000000292310,0037DEF0,/DE49003700000000292310
+beneficiary,"[True, False, False, True, True]",51,_FAKE_LU35012400000000669820,0124LUL0,MAJANI IBRAHIM
+beneficiary,"[True, False, False, True, True]",59,_FAKE_BE17012600000000296934,0126BEB0,0126BEB0
+beneficiary,"[True, False, False, False, False]",56,_FAKE_0000000002A49635,0380CNB0,"CRUZ, HARRIS PATEL RIDGE 996 BB5 2Y"
+beneficiary,"[True, False, False, False, False]",65,_FAKE_00000595-371,0098US30,1/ELUH RAHAYU
+beneficiary,"[True, False, True, False, False]",78,_FAKE_/ Q00000009255   05,0028SGS0,// Q00000009255   05
+beneficiary,"[True, False, True, False, False]",179,_FAKE_/I0000009-202USD80,0231US30,//I0000009-202USD80

@@ -1,0 +1,24 @@
+A row columns: ['source_record', 'label', 'has_prior', 'exact', 'power_1cent', 'power_exact']
+B row columns: ['source_record', 'anomaly_type', 'history_n', 'prior_exact', 'prior_power10', 'example_power_prior', 'example_power']
+C row columns: ['source_record', 'label', 'party_pair', 'epoch_seconds', 'prior_same_pair_currency', 'same_amount_prior', 'power10_prior', 'latest_exact_record', 'latest_power_record', 'power_exponent', 'seconds_since_latest_exact', 'seconds_since_last', 'ratio_to_last']
+{
+  "status": "PASS",
+  "continuous_duration_cells": 264,
+  "continuous_duration_rows": 9232796,
+  "history_rows": 22523,
+  "history_exact_checks": "A/B/C exact n, strict-prior availability, amount-copy counts by label match",
+  "limits": [
+    "History raw extraction shared from C; scoring independent, extraction not independently replicated.",
+    "Power10 tolerance/enumeration sensitivity tracked separately; not silently merged.",
+    "Selected-pair unlabeled controls are not a random population control."
+  ]
+}
+                              n  with_prior  exact
+label                                             
+                          15517       14788    209
+ACCOUNT_REPLACEMENT_SCAM    649           0      0
+CEO_SCAM                    945           2      0
+CUSTOMER_RECALL             317          59      0
+DUPLICATE_PAYMENT           679         515    493
+FAT_FINGER_MISTAKE         1940         313      0
+ROMANCE_SCAM               2476        1973     12

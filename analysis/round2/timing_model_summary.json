@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "source_rows": 9991528,
+  "MayJune_rows": 7094560,
+  "July_rows": 2896968,
+  "complete_dates": "2023-05-01 through 2023-07-30 UTC",
+  "weekday_max_party_probability_range": 0.0016882912497381136,
+  "weekday_max_temporal_ratio_change": 0.09274328987528957,
+  "hour_model_scores": [
+    {
+      "alpha": 10,
+      "n": 2896963,
+      "party_nll": 3.1410364415267242,
+      "country_party_nll": 3.012203054355082,
+      "improvement_nats": 0.12883338717164225
+    },
+    {
+      "alpha": 100,
+      "n": 2896963,
+      "party_nll": 3.1410364415267242,
+      "country_party_nll": 3.011962767298556,
+      "improvement_nats": 0.1290736742281686
+    },
+    {
+      "alpha": 1000,
+      "n": 2896963,
+      "party_nll": 3.1410364415267242,
+      "country_party_nll": 3.013979982281512,
+      "improvement_nats": 0.12705645924521222
+    }
+  ],
+  "stable_country_party_cells": 370,
+  "stable_cells_mode_within_1_hour_fraction": 0.6594594594594595,
+  "stable_rows_mode_within_1_hour_fraction": 0.7476470993949962,
+  "limits": [
+    "UTC profiles only; no external timezone mapping.",
+    "Country-party model uses observed BIC country substring and smoothing chosen before score inspection.",
+    "May-June and July are retrospective development/check periods from one synthetic population.",
+    "Hour model does not yet condition on individual bank or corridor."
+  ]
+}

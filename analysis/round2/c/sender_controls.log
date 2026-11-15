@@ -1,0 +1,13 @@
+                   label          role    n  known  exact_same  exact_different  power_exact
+ACCOUNT_REPLACEMENT_SCAM prior_control  603    591           0               12            9
+ACCOUNT_REPLACEMENT_SCAM        target  649    603           0                8            5
+                CEO_SCAM prior_control  822    765           0               15           10
+                CEO_SCAM        target  945    822           0                9            7
+         CUSTOMER_RECALL prior_control  301    293           2               12            4
+         CUSTOMER_RECALL        target  317    301           0                6            7
+       DUPLICATE_PAYMENT prior_control  619    601           0                8            7
+       DUPLICATE_PAYMENT        target  679    661         493               13           16
+      FAT_FINGER_MISTAKE prior_control 1787   1723           1               34           32
+      FAT_FINGER_MISTAKE        target 1940   1788           0               16           23
+            ROMANCE_SCAM prior_control  477    243           0                4            0
+            ROMANCE_SCAM        target 2476   2066          12                0            0

@@ -1,0 +1,12 @@
+             label     n   lag_p10  lag_median   lag_p90  ratio_p10  ratio_median    ratio_p90  increase_fraction  decrease_fraction  equal_fraction
+          CEO_SCAM     2 1079097.6   3746716.0 6414334.4   3.285244      4.255334     5.225423           1.000000           0.000000        0.000000
+   CUSTOMER_RECALL    59   32551.2    639455.0 2819196.2   0.033654      0.838035    36.541081           0.440678           0.559322        0.000000
+ DUPLICATE_PAYMENT   515     156.2      1163.0    3763.2   1.000000      1.000000     1.000000           0.015534           0.027184        0.957282
+FAT_FINGER_MISTAKE   313   33083.2    696622.0 3593950.4   0.007228     88.974303 19144.164261           0.747604           0.252396        0.000000
+      ROMANCE_SCAM  1973      32.2       215.0     709.8   0.894982      1.500000     2.489667           0.830715           0.163710        0.005575
+         __BLANK__ 14788     694.0     14410.5  399939.4   0.020272      0.973219    43.269663           0.495266           0.503516        0.001217
+period    n   lag_mean     lag_sd  lag_above600_fraction  logratio_mean  logratio_sd  increase_fraction  lag_p10  lag_median  lag_p90  ratio_p10  ratio_median  ratio_p90
+ early 1349 313.546331 310.414492               0.146034       0.401378     0.408683           0.828762     32.0       217.0    713.0   0.893791      1.500000   2.498858
+  july  624 292.689103 279.872349               0.123397       0.403295     0.409891           0.834936     33.3       212.0    673.4   0.902683      1.488602   2.465461
+Candidate lag Exp(mean300sec), multiplier LogNormal(logmean0.4,logSD0.4); empirical log moments close, not unique code identification.
+Selected-pair controls; same-currency; exact account strings; latest strictly earlier timestamp; maxsource tie. No causal claim.

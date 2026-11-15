@@ -1,0 +1,47 @@
+               model party       n  strata  unknown_n  july_nll  july_tv_weighted
+    calendar_uniform    BB  658411     221          2  5.161062          0.343841
+    calendar_uniform    BC 1622438     226          1  5.161321          0.340287
+    calendar_uniform    CB  177030     218          0  5.161088          0.355855
+    calendar_uniform    CC  439089     223          2  5.161062          0.343046
+         global_full    BB  658411     221          2  5.021192          0.219336
+         global_full    BC 1622438     226          1  5.018511          0.210741
+         global_full    CB  177030     218          0  5.018676          0.242845
+         global_full    CC  439089     223          2  5.016682          0.219700
+      global_weekday    BB  658411     221          2  5.028519          0.221523
+      global_weekday    BC 1622438     226          1  5.025584          0.212522
+      global_weekday    CB  177030     218          0  5.026843          0.244607
+      global_weekday    CC  439089     223          2  5.024477          0.221221
+      global_weekend    BB  658411     221          2  5.031895          0.226664
+      global_weekend    BC 1622438     226          1  5.029159          0.218300
+      global_weekend    CB  177030     218          0  5.030340          0.249608
+      global_weekend    CC  439089     223          2  5.027818          0.226899
+     party_only_full    BB  658411     221          2  5.021165          0.220102
+     party_only_full    BC 1622438     226          1  5.018496          0.210790
+     party_only_full    CB  177030     218          0  5.018134          0.241933
+     party_only_full    CC  439089     223          2  5.016211          0.218237
+    sender_only_full    BB  658411     221          2  4.876230          0.059552
+    sender_only_full    BC 1622438     226          1  4.875444          0.041703
+    sender_only_full    CB  177030     218          0  4.880158          0.110663
+    sender_only_full    CC  439089     223          2  4.879393          0.075508
+   sender_party_full    BB  658411     221          2  4.882329          0.066213
+   sender_party_full    BC 1622438     226          1  4.876982          0.043647
+   sender_party_full    CB  177030     218          0  4.897688          0.121055
+   sender_party_full    CC  439089     223          2  4.886770          0.078816
+sender_party_weekday    BB  658411     221          2  4.894527          0.081095
+sender_party_weekday    BC 1622438     226          1  4.892884          0.063964
+sender_party_weekday    CB  177030     218          0  4.900991          0.128718
+sender_party_weekday    CC  439089     223          2  4.897769          0.092686
+sender_party_weekend    BB  658411     221          2  4.899695          0.087543
+sender_party_weekend    BC 1622438     226          1  4.898369          0.072316
+sender_party_weekend    CB  177030     218          0  4.906195          0.133872
+sender_party_weekend    CC  439089     223          2  4.903066          0.099336
+    calendar_uniform   ALL 2896968     888          5  5.161209          0.342464
+         global_full   ALL 2896968     888          5  5.018853          0.216015
+      global_weekday   ALL 2896968     888          5  5.026160          0.217847
+      global_weekend   ALL 2896968     888          5  5.029650          0.223418
+     party_only_full   ALL 2896968     888          5  5.018734          0.215938
+    sender_only_full   ALL 2896968     888          5  4.876509          0.055097
+   sender_party_full   ALL 2896968     888          5  4.880946          0.058837
+sender_party_weekday   ALL 2896968     888          5  4.894493          0.076168
+sender_party_weekend   ALL 2896968     888          5  4.899861          0.083634
+Train weekday exposures: [9.0, 9.0, 9.0, 9.0, 9.0, 8.0, 8.0] July: [4.0, 4.0, 4.0, 4.0, 4.0, 5.0, 5.0]

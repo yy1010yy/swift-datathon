@@ -1,0 +1,54 @@
+{
+  "population": "all records including labelled",
+  "training": "preJuly",
+  "evaluation": "July",
+  "input": "B independently extracted full10M corridor/party/currency count table; shared input with lead, independent heuristic implementation",
+  "global_early_mode": "EUR",
+  "all": {
+    "n": 2899279,
+    "sender_hit": 2592753,
+    "receiver_hit": 932564,
+    "either_hit": 2727417,
+    "global_hit": 926598,
+    "sender_unseen": 0,
+    "receiver_unseen": 0
+  },
+  "by_party": {
+    "BB": {
+      "n": 658937,
+      "sender_hit": 588569,
+      "receiver_hit": 213139,
+      "either_hit": 620123,
+      "global_hit": 212102,
+      "sender_unseen": 0,
+      "receiver_unseen": 0
+    },
+    "BC": {
+      "n": 1623722,
+      "sender_hit": 1452170,
+      "receiver_hit": 522494,
+      "either_hit": 1527351,
+      "global_hit": 518176,
+      "sender_unseen": 0,
+      "receiver_unseen": 0
+    },
+    "CB": {
+      "n": 177180,
+      "sender_hit": 158230,
+      "receiver_hit": 56473,
+      "either_hit": 166561,
+      "global_hit": 56509,
+      "sender_unseen": 0,
+      "receiver_unseen": 0
+    },
+    "CC": {
+      "n": 439440,
+      "sender_hit": 393784,
+      "receiver_hit": 140458,
+      "either_hit": 413382,
+      "global_hit": 139811,
+      "sender_unseen": 0,
+      "receiver_unseen": 0
+    }
+  }
+}

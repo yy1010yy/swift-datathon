@@ -1,0 +1,24 @@
+1000000 24.5
+2000000 50.5
+3000000 78.4
+4000000 105.8
+5000000 133.8
+6000000 162.5
+7000000 191.7
+8000000 221.0
+9000000 248.2
+10000000 276.0
+side         token_n  matches_own_bank  matches_other_bank  matches_other_token
+beneficiary  0        False             False               False                  3892642
+             1        False             False               False                  5963462
+                                        True                False                    33575
+                                                            True                     50495
+                      True              False               False                    55563
+                                        True                False                     1709
+                                                            True                      2554
+ordering     0        False             False               False                  3915405
+             1        True              False               False                  5607269
+                                                            True                     50495
+                                        True                False                   424277
+                                                            True                      2554
+ROWS 10000000

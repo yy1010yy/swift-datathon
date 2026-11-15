@@ -1,0 +1,15 @@
+Countrylikecode groups>=10000 86 weekshareTV range 0.0016250058601657742 0.0172807132485087
+sender_country_code       n  week_share_TV_vs_global  max_quantization_error  first_week_difference  last_week_difference
+                 US 1580778                 0.001662                0.000709              -0.000307              0.000196
+                 CH  786045                 0.001625                0.000729              -0.000175              0.000817
+                 GB  662495                 0.002459                0.000917               0.000173              0.000698
+                 FR  538592                 0.002076                0.000524              -0.000101              0.000727
+                 DE  509210                 0.002058                0.000898               0.000156              0.000685
+                 SG  392285                 0.004836                0.002180              -0.000720             -0.001430
+                 CN  341438                 0.002922                0.002395              -0.000036             -0.001645
+                 IT  298504                 0.002133                0.001042               0.000360             -0.000087
+                 BE  295854                 0.003636                0.001239               0.000744              0.001081
+                 LU  290021                 0.002885                0.001318               0.000163              0.000322
+                 NL  210559                 0.002988                0.001116              -0.000300              0.000365
+                 HK  209423                 0.003735                0.002441               0.000991             -0.001691
+Differences can reflect finite-count noise or UTC boundary effects; these tests do not identify local week boundaries.

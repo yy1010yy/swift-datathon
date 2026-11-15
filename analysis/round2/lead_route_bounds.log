@@ -1,0 +1,82 @@
+Joint support of FX count by continuity and route:
+continuity  route_type  fx_steps
+N           Covered     0              1610
+                        1              6046
+                        2             24096
+                        3             11368
+                        4              4899
+                        5              1962
+                        6               823
+                        7               298
+                        8               112
+                        9                31
+                        10                9
+                        11                4
+                        12                4
+            Direct      0             49644
+                        1            265622
+            Indirect    0              8203
+                        1             51624
+                        2            187160
+                        3             89595
+                        4             38574
+                        5             15608
+                        6              6130
+                        7              2391
+                        8               869
+                        9               334
+                        10              126
+                        11               43
+                        12               12
+                        13                3
+                        15                2
+                        16                1
+                        17                1
+Y           Covered     0             13346
+                        1             53787
+                        2            205640
+                        3             62595
+                        4             20162
+                        5              6273
+                        6              1964
+                        7               638
+                        8               198
+                        9                62
+                        10               25
+                        11                5
+                        12                4
+                        13                1
+            Direct      0            942226
+                        1           5065788
+            Indirect    0             71502
+                        1            452974
+                        2           1601096
+                        3            503047
+                        4            158427
+                        5             50120
+                        6             15758
+                        7              4936
+                        8              1502
+                        9               488
+                        10              152
+                        11               57
+                        12               16
+                        13                5
+                        14                1
+                        15                1
+
+Test: FX steps cannot exceed participant_count - 1:
+continuity  route_type  exceeds
+N           Covered     False        51262
+            Direct      False       315266
+            Indirect    False       400676
+Y           Covered     False       364700
+            Direct      False      6008014
+            Indirect    False      2860082
+
+Participant bounds by route:
+            min  max
+route_type          
+Covered       3   15
+Direct        2    2
+Indirect      3   22

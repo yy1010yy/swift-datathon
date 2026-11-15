@@ -1,0 +1,39 @@
+1000000 64.5
+2000000 149.8
+3000000 243.5
+4000000 331.0
+5000000 427.0
+6000000 509.3
+7000000 594.4
+8000000 674.2
+9000000 749.4
+10000000 824.2
+ROWS 10000000
+{
+  "ordering": {
+    "distinct_account_bic_pairs": 391132,
+    "distinct_accounts": 391132,
+    "accounts_multiple_bics": 0,
+    "repeated_accounts": 260873,
+    "max_account_occurrences": 75803
+  },
+  "beneficiary": {
+    "distinct_account_bic_pairs": 2663723,
+    "distinct_accounts": 2590877,
+    "accounts_multiple_bics": 61606,
+    "repeated_accounts": 567583,
+    "max_account_occurrences": 53350
+  },
+  "combined_accounts_multiple_bics": 61690
+}
+side         fake_prefix  exact_firstline  literal_anywhere  normalized_anywhere  iban_looking  iban_prefix_matches_bank
+beneficiary  True         False            False             False                False         False                        279111
+                                                                                  True          True                         330271
+                                           True              True                 False         False                        116249
+                          True             True              True                 False         False                       4199605
+                                                                                  True          True                        5074764
+ordering     True         False            False             False                False         False                        256659
+                                                                                  True          True                         306451
+                                           True              True                 False         False                        127899
+                          True             True              True                 False         False                       4172811
+                                                                                  True          True                        5136180

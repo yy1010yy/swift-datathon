@@ -1,0 +1,8 @@
+{
+  "directed_pairs": 500,
+  "labelled_rows": 2476,
+  "first_timestamp_extra_rows": 3,
+  "first_timestamp_tie_pairs": 3,
+  "all_tied_timestamp_cells": 4,
+  "all_tied_timestamp_extra_rows": 4
+}

@@ -1,0 +1,8 @@
+{
+  "shared_extraction_rows": 2528044,
+  "targets": 7006,
+  "elapsed_seconds": 102.51356359999045,
+  "controls": "nearest earlier blank same sender/currency; earliest numeric source among timestamp ties; prior to controls own time",
+  "amounts": "Decimal integer cents; exact powers10 exponents nonzero\u00b11..6; no tolerance",
+  "scope": "independent scorer, shared C full-source targeted extraction"
+}

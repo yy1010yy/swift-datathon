@@ -1,0 +1,89 @@
+part_00.csv 308811 258902 7.2
+part_01.csv 633944 531070 14.4
+part_02.csv 980988 813399 21.8
+part_03.csv 1297969 1078269 28.8
+part_04.csv 1596064 1327171 35.3
+part_05.csv 1925227 1605671 42.6
+part_06.csv 2230569 1858819 49.4
+part_07.csv 2545661 2123686 56.6
+part_08.csv 2863093 2392220 63.5
+part_09.csv 3150362 2634143 69.6
+part_10.csv 3434338 2875349 76.1
+part_11.csv 3758141 3142502 83.5
+part_12.csv 4079506 3408647 90.5
+part_13.csv 4380099 3660261 97.2
+part_14.csv 4674829 3910195 103.5
+part_15.csv 4972511 4161051 110.7
+part_16.csv 5298697 4423864 118.1
+part_17.csv 5592480 4672431 125.2
+part_18.csv 5906088 4932970 132.5
+part_19.csv 6187721 5163500 139.2
+part_20.csv 6513503 5427806 146.5
+part_21.csv 6818100 5681295 153.7
+part_22.csv 7238875 5987011 163.6
+part_23.csv 7538679 6241262 171.2
+part_24.csv 7827008 6481045 178.7
+part_25.csv 8100882 6710080 185.9
+part_26.csv 8450612 6991617 194.8
+part_27.csv 8804302 7264564 202.5
+part_28.csv 9098367 7509106 210.0
+part_29.csv 9392008 7756134 216.5
+part_30.csv 9697053 8009232 223.1
+part_31.csv 9992994 8258480 230.8
+{
+  "records": 9992994,
+  "pairs": 8258480,
+  "mixed_type_pairs": 0,
+  "first_timestamp_rows_without_prior": 8258480,
+  "strict_prior_rows": 1734514,
+  "extra_same_timestamp_rows": 8,
+  "elapsed_seconds": 231.2645704000024,
+  "scope": "Independent exact grouping and predecessor calculation; shared C raw fullpopulation partition extraction; only no-recorded-label rows."
+}
+party period   pairs  payments     mean  singletons  repeated_pairs  max_payments
+   BB   July  585101    658639 1.125684      553610           31491           285
+   BB  early 1354701   1611246 1.189374     1257438           97263           651
+   BB   full 1859443   2269885 1.220734     1711647          147796           936
+   BC   July 1429473   1622906 1.135318     1346561           82912           689
+   BC  early 3300701   3978059 1.205216     3046819          253882          1621
+   BC   full 4520169   5600965 1.239105     4136637          383532          2310
+   CB   July  165993    176900 1.065708      160718            5275           122
+   CB  early  392470    432862 1.102917      375176           17294           366
+   CB   full  544151    609762 1.120575      517437           26714           488
+   CC   July  408490    438707 1.073972      394137           14353           139
+   CC  early  964005   1073675 1.113765      918135           45870           336
+   CC   full 1334717   1512382 1.133111     1264181           70536           475
+party period              model  parameter       tv      pearson  cells_expected_ge10
+   BB   July         zt_poisson   0.241646 0.072150 1.343906e+05                    5
+   BB   July positive_geometric   0.888349 0.066900 3.819144e+05                    6
+   BB  early         zt_poisson   0.357493 0.110037 2.160250e+05                    5
+   BB  early positive_geometric   0.840779 0.098807 3.927702e+05                    6
+   BB   full         zt_poisson   0.413106 0.128105 4.116311e+06                    6
+   BB   full positive_geometric   0.819179 0.113224 4.386621e+05                    6
+   BC   July         zt_poisson   0.259431 0.076620 2.747858e+05                    5
+   BC   July positive_geometric   0.880811 0.070675 7.966211e+05                    6
+   BC  early         zt_poisson   0.385700 0.118326 9.036439e+06                    6
+   BC  early positive_geometric   0.829727 0.105300 8.692797e+05                    6
+   BC   full         zt_poisson   0.445274 0.137630 8.665720e+06                    6
+   BC   full positive_geometric   0.807034 0.120443 1.008361e+06                    6
+   CB   July         zt_poisson   0.128657 0.038989 1.212041e+04                    4
+   CB   July positive_geometric   0.938344 0.036565 6.499809e+03                    4
+   CB  early         zt_poisson   0.199224 0.062022 2.770854e+04                    4
+   CB  early positive_geometric   0.906686 0.057097 3.313270e+04                    5
+   CB   full         zt_poisson   0.232174 0.072348 1.302579e+05                    5
+   CB   full positive_geometric   0.892399 0.067406 4.376677e+04                    5
+   CC   July         zt_poisson   0.144468 0.043782 2.967610e+04                    4
+   CC   July positive_geometric   0.931123 0.040774 1.659463e+04                    4
+   CC  early         zt_poisson   0.219506 0.067909 2.437051e+05                    5
+   CC  early positive_geometric   0.897855 0.063003 7.784820e+05                    6
+   CC   full         zt_poisson   0.255365 0.079819 2.784400e+05                    5
+   CC   full positive_geometric   0.882526 0.074059 7.645381e+05                    6
+party period      n  earlier_mean_seconds       tv       pearson
+   BB   July 153897         895777.411670 0.160876  24816.654356
+   BB  early 256545         895777.411670 0.125700  83641.520459
+   BC   July 403438         888042.249224 0.160477  64651.998955
+   BC  early 677358         888042.249224 0.123696 221536.514460
+   CB   July  25219         996599.337146 0.153463   2826.953550
+   CB  early  40392         996599.337146 0.089368   6198.240874
+   CC   July  67995         968606.369974 0.149462   7524.281436
+   CC  early 109670         968606.369974 0.094703  18303.367759

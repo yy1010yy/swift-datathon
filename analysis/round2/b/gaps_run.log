@@ -1,0 +1,25 @@
+{'offset': 0, 'model': 'nb', 'period': 'July', 'parameter': np.float64(0.03116472289053722), 'pearson': 9551.058350944253, 'cells': 39}
+{'offset': 0, 'model': 'binomial', 'period': 'July', 'parameter': np.float64(0.032167204917968845), 'pearson': 26627.020379023383, 'cells': 37}
+{'offset': 0, 'model': 'nb', 'period': 'early', 'parameter': np.float64(0.03116472289053722), 'pearson': 23297.84108089383, 'cells': 49}
+{'offset': 0, 'model': 'binomial', 'period': 'early', 'parameter': np.float64(0.032167204917968845), 'pearson': 62418.37859016488, 'cells': 43}
+{'offset': -1, 'model': 'nb', 'period': 'July', 'parameter': np.float64(0.04988721259347412), 'pearson': 27.764758574775037, 'cells': 47}
+{'offset': -1, 'model': 'binomial', 'period': 'July', 'parameter': np.float64(0.052506621587157756), 'pearson': 9128.489721651471, 'cells': 39}
+{'offset': -1, 'model': 'nb', 'period': 'early', 'parameter': np.float64(0.04988721259347412), 'pearson': 40.122505407397576, 'cells': 53}
+{'offset': -1, 'model': 'binomial', 'period': 'early', 'parameter': np.float64(0.052506621587157756), 'pearson': 22715.557861681547, 'cells': 43}
+{'offset': 1, 'model': 'nb', 'period': 'July', 'parameter': np.float64(0.022660368784871803), 'pearson': 21102.981090351197, 'cells': 38}
+{'offset': 1, 'model': 'binomial', 'period': 'July', 'parameter': np.float64(0.02318576681137766), 'pearson': 35403.60692718982, 'cells': 37}
+{'offset': 1, 'model': 'nb', 'period': 'early', 'parameter': np.float64(0.022660368784871803), 'pearson': 51285.24983053561, 'cells': 44}
+{'offset': 1, 'model': 'binomial', 'period': 'early', 'parameter': np.float64(0.02318576681137766), 'pearson': 85300.18197715053, 'cells': 42}
+   route  period       n  participant_mean  gap_mean  gap_n  participants_2_n
+ Covered 2023-04     208          3.480769  0.139423     28                 0
+ Covered 2023-05  126976          3.585552  0.137428  15776                 0
+ Covered 2023-06  168586          3.578334  0.134032  20526                 0
+ Covered 2023-07  120192          3.583824  0.137580  14932                 0
+  Direct 2023-04    3911          2.000000  0.055485    210              3911
+  Direct 2023-05 1924814          2.000000  0.052410  95771           1924814
+  Direct 2023-06 2560975          2.000000  0.052459 127616           2560975
+  Direct 2023-07 1833580          2.000000  0.052620  91669           1833580
+Indirect 2023-04    2042          3.570519  0.122429    224                 0
+Indirect 2023-05  992610          3.581795  0.135754 122022                 0
+Indirect 2023-06 1320599          3.581239  0.135641 162133                 0
+Indirect 2023-07  945507          3.582365  0.135997 116297                 0

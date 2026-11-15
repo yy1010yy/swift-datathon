@@ -1,0 +1,24 @@
+July records 2899279
+ party  both_modes_same mode_category       n
+     0            False       neither   27033
+     0            False receiver_only   31554
+     0            False   sender_only  406984
+     0             True          both  181585
+     0             True       neither   11781
+     1            False       neither   67154
+     1            False receiver_only   75181
+     1            False   sender_only 1004857
+     1             True          both  447313
+     1             True       neither   29217
+     2            False       neither    7503
+     2            False receiver_only    8331
+     2            False   sender_only  110088
+     2             True          both   48142
+     2             True       neither    3116
+     3            False       neither   18357
+     3            False receiver_only   19598
+     3            False   sender_only  272924
+     3             True          both  120860
+     3             True       neither    7701
+Sender mode accuracy 0.8942750939112794
+Either mode coverage 0.9407225037673159

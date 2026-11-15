@@ -1,0 +1,30 @@
+1000000 30.7
+2000000 61.5
+3000000 102.8
+4000000 144.9
+5000000 180.6
+6000000 214.6
+7000000 248.4
+8000000 283.0
+9000000 318.2
+10000000 354.9
+             fake_prefix  single_slash_match  strip_all_slash_match  slash_prefix_match  identifier_anywhere  actual_LF  literal_backslash_n
+side                                                                                                                                        
+beneficiary     10000000             8531258                9274369             9390618              9390618    9750969                    0
+ordering        10000000             8643632                9308991             9436890              9436890    9764612                    0
+{
+  "rows": 10000000,
+  "seconds": 354.93801420001546,
+  "sample_selection": "SHA256(rawaccount UTF8) firstbyte<3,3/256accountsubset; allselectedoccurrences",
+  "sample_unique_side_accounts": 34884,
+  "sample_records_by_side": {
+    "ordering": 114253,
+    "beneficiary": 113951
+  },
+  "sample_conflicting_side_accounts": {
+    "details": 8500,
+    "bic": 731,
+    "type": 0
+  },
+  "scope": "Account/detailalignmentfullcensus;identityconsistencysampleonly;exactrawstringcomparison"
+}

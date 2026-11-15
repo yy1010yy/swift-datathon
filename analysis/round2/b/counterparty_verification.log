@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "records": 9992994,
+  "pairs": 8258480,
+  "strict_prior_rows": 1734514,
+  "checks": [
+    "Exact count histograms byparty/period/count",
+    "Exact early/July observedpaircohorts",
+    "All8 interval counts/means/SD/quantiles"
+  ],
+  "disclosure": "Shared C rawpartitionextraction; independent fullstring regrouping and latestdistincttimestamp join."
+}

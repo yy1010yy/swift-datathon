@@ -1,0 +1,8 @@
+{
+  "trained_population": "preJuly observedprior romance labels",
+  "n": 1349,
+  "exponential_mean_seconds": 313.54633061527056,
+  "normal_logratio_mean": 0.4013776394958731,
+  "normal_logratio_sd": 0.40868280483317115,
+  "limits": "KS descriptive with clustered pairs and fitted early parameters; no iid significance claim. Same-pair selected controls are not representative."
+}

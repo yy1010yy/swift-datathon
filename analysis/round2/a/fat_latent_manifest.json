@@ -1,0 +1,21 @@
+{
+  "baseline": "early blank-label weighted log-mean additive currency+senderBusiness+receiverBusiness; currency residual SD",
+  "sender_business_shift_ln": 1.9671911081754927,
+  "receiver_business_shift_ln": 2.0029740979708164,
+  "blank_training_rows": 7095842,
+  "unknown_currency_exclusions": 0,
+  "fat_early": 1351,
+  "fat_july": 589,
+  "continuous_shift_ln": 3.5482929347233054,
+  "continuous_scale": 34.753939577555904,
+  "continuous_extra_variance_fit": {
+    "location": 3.552929421839657,
+    "extra_log_sd": 4.6450000000000005,
+    "early_nll": 3.051643357379816
+  },
+  "limitations": [
+    "Normal logamount baseline approximate; heaping and bank mix remain.",
+    "Latent amount shifts do not identify actual earlier intended transfer or unique error mechanism.",
+    "Negative-control sample deterministic every997th blank record; no sampling representation claim."
+  ]
+}

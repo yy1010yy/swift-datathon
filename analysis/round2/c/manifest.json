@@ -1,0 +1,11 @@
+{
+  "scope_rows": 10000000,
+  "labelled_rows": 7006,
+  "target_directed_pairs": 4535,
+  "history_rows": 22523,
+  "seconds": 346.01705150000635,
+  "input_bytes": 2050598614,
+  "input_mtime_ns": 1794563110205336900,
+  "controls": "Unlabelled rows in labelled account pairs, NOT population representative.",
+  "history": "Only strict earlier epoch timestamps; same pair and currency; tie-time excluded."
+}

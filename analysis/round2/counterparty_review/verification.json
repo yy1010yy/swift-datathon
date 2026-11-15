@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "blank_rows": 9992994,
+  "directed_pairs": 8258480,
+  "singleton_pairs": 7629902,
+  "repeated_pairs": 628578,
+  "strict_prior_rows": 1734514,
+  "equal_time_extra_rows": 8,
+  "matched_count_cells": 12,
+  "matched_interval_cells": 8,
+  "matched_cohort_cells": 12,
+  "recomputed_count_model_tv_cells": 24,
+  "shared_input_limit": "B and C independently regrouped/scored C's same 32 raw blank-label partitions; raw filtering was not independently replicated.",
+  "final_scope": "Homogeneous observed-pair count and exponential waiting families fail; the data do not identify whether sender activity, receiver popularity, corridor mix, pair affinity, or several mechanisms create the heterogeneity."
+}

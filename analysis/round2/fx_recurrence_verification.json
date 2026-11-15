@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "fx_rows": 10000000,
+  "unrefined_non_direct_errors": 13,
+  "refined_errors": 0,
+  "romance_latest_predecessor_rows": 1973,
+  "raw_sources": "FX country-sequence extraction shared from A; recurrence raw pair extraction shared from C. Scoring/lead graph implementation independent.",
+  "limits": "Final FX refinement uses held-out exceptions; full fit is discovery, not untouched validation. Romance equal-time predecessor ambiguity preserved in sensitivity records."
+}

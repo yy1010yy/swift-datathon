@@ -1,0 +1,9 @@
+model  residual
+FM_US  -1                 5
+        0           9999995
+MP_US  -1                 8
+        0           9999992
+base   -1                13
+        0           9999987
+both    0          10000000
+Both links were inferred from residual paths using all data; this is refined-discovery fit, not validation. Temporal and excluded-route results remain separate.

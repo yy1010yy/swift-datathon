@@ -1,0 +1,24 @@
+{
+  "observed": {
+    "n": 1973,
+    "mean_logratio": 0.4019840528853436,
+    "sd_logratio": 0.4090662090795085,
+    "increase_fraction": 0.8307146477445514
+  },
+  "permutations": 200,
+  "seed": 20261114,
+  "control_mean_logratio_range": [
+    -0.04518728287102163,
+    0.03988984766819521
+  ],
+  "control_increase_fraction_range": [
+    0.4718702483527623,
+    0.5261023821591485
+  ],
+  "control_sd_logratio_range": [
+    1.1392874932439256,
+    1.2132381023750245
+  ],
+  "controls_mean_at_least_observed": 0,
+  "limits": "Order-shuffle diagnostic, not proof of scam intention or a recovered source program."
+}

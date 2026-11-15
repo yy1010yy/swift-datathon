@@ -1,0 +1,80 @@
+scan 1000000 blank 998539 seconds 9.2
+scan 2000000 blank 1997015 seconds 18.4
+scan 3000000 blank 2996150 seconds 27.9
+scan 4000000 blank 3995731 seconds 37.8
+scan 5000000 blank 4995278 seconds 47.1
+scan 6000000 blank 5994840 seconds 57.3
+scan 7000000 blank 6994366 seconds 66.8
+scan 8000000 blank 7993927 seconds 77.7
+scan 9000000 blank 8993450 seconds 87.4
+scan 10000000 blank 9992994 seconds 97.1
+analyze part_00.csv rows 308811 pairs 258902 seconds 3.4
+analyze part_01.csv rows 633944 pairs 531070 seconds 7.1
+analyze part_02.csv rows 980988 pairs 813399 seconds 11.8
+analyze part_03.csv rows 1297969 pairs 1078269 seconds 17.3
+analyze part_04.csv rows 1596064 pairs 1327171 seconds 22.1
+analyze part_05.csv rows 1925227 pairs 1605671 seconds 25.6
+analyze part_06.csv rows 2230569 pairs 1858819 seconds 28.5
+analyze part_07.csv rows 2545661 pairs 2123686 seconds 31.8
+analyze part_08.csv rows 2863093 pairs 2392220 seconds 35.4
+analyze part_09.csv rows 3150362 pairs 2634143 seconds 38.5
+analyze part_10.csv rows 3434338 pairs 2875349 seconds 41.7
+analyze part_11.csv rows 3758141 pairs 3142502 seconds 46.0
+analyze part_12.csv rows 4079506 pairs 3408647 seconds 49.0
+analyze part_13.csv rows 4380099 pairs 3660261 seconds 52.2
+analyze part_14.csv rows 4674829 pairs 3910195 seconds 55.7
+analyze part_15.csv rows 4972511 pairs 4161051 seconds 59.2
+analyze part_16.csv rows 5298697 pairs 4423864 seconds 62.8
+analyze part_17.csv rows 5592480 pairs 4672431 seconds 66.3
+analyze part_18.csv rows 5906088 pairs 4932970 seconds 70.4
+analyze part_19.csv rows 6187721 pairs 5163500 seconds 73.8
+analyze part_20.csv rows 6513503 pairs 5427806 seconds 78.1
+analyze part_21.csv rows 6818100 pairs 5681295 seconds 82.3
+analyze part_22.csv rows 7238875 pairs 5987011 seconds 87.2
+analyze part_23.csv rows 7538679 pairs 6241262 seconds 90.8
+analyze part_24.csv rows 7827008 pairs 6481045 seconds 94.1
+analyze part_25.csv rows 8100882 pairs 6710080 seconds 97.5
+analyze part_26.csv rows 8450612 pairs 6991617 seconds 101.2
+analyze part_27.csv rows 8804302 pairs 7264564 seconds 105.3
+analyze part_28.csv rows 9098367 pairs 7509106 seconds 108.7
+analyze part_29.csv rows 9392008 pairs 7756134 seconds 112.0
+analyze part_30.csv rows 9697053 pairs 8009232 seconds 115.4
+analyze part_31.csv rows 9992994 pairs 8258480 seconds 118.7
+{
+  "scope_rows": 10000000,
+  "blank_rows": 9992994,
+  "input_bytes": 2050598614,
+  "input_mtime_ns": 1794563110205336900,
+  "partition_count": 32,
+  "identity": "Exact raw sender/receiver strings; hash only assigns partition.",
+  "scan_seconds": 97.09269269998185,
+  "pairs": 8258480,
+  "mixed_party_pairs": 0,
+  "equal_time_adjacent_pairs": 8,
+  "analyze_seconds": 118.95875380001962,
+  "complete": true,
+  "interval_definition": "strict earlier distinct timestamp per directedpair; tied rows use same earlier distincttimestamp, firsttimestamp rows excluded",
+  "count_models": "Conditioned on observed pairs only; no absent-pair denominator. Period models fitted separately, not a universal generator."
+}
+party period   pairs  payments  mean_payments  singleton_pairs  repeated_pairs  max_payments  zt_poisson_lambda  positive_geometric_p
+   BB   July  585101    658639       1.125684           553610           31491           285           0.241646              0.888349
+   BB  early 1354701   1611246       1.189374          1257438           97263           651           0.357493              0.840779
+   BB   full 1859443   2269885       1.220734          1711647          147796           936           0.413106              0.819179
+   BC   July 1429473   1622906       1.135318          1346561           82912           689           0.259431              0.880811
+   BC  early 3300701   3978059       1.205216          3046819          253882          1621           0.385700              0.829727
+   BC   full 4520169   5600965       1.239105          4136637          383532          2310           0.445274              0.807034
+   CB   July  165993    176900       1.065708           160718            5275           122           0.128657              0.938344
+   CB  early  392470    432862       1.102917           375176           17294           366           0.199224              0.906686
+   CB   full  544151    609762       1.120575           517437           26714           488           0.232174              0.892399
+   CC   July  408490    438707       1.073972           394137           14353           139           0.144468              0.931123
+   CC  early  964005   1073675       1.113765           918135           45870           336           0.219506              0.897855
+   CC   full 1334717   1512382       1.133111          1264181           70536           475           0.255365              0.882526
+party period      n  mean_seconds   sd_seconds  min_seconds  max_seconds     p01     p10    median       p90        p99
+   BB   July 153897  1.771215e+06 1.804875e+06            2      7830239 2133.96 52982.0 1139788.0 4603502.8 6917849.92
+   BB  early 256545  8.957774e+05 1.047693e+06            1      5255620 1190.00 21946.4  479992.0 2453814.2 4377163.92
+   BC   July 403438  1.758201e+06 1.795421e+06            1      7837350 1903.37 53876.7 1131750.0 4582903.7 6901310.45
+   BC  early 677358  8.880422e+05 1.039106e+06            1      5254609 1048.00 22521.0  476901.0 2431742.3 4348744.08
+   CB   July  25219  1.940294e+06 1.835397e+06           38      7831510 3895.70 83657.8 1380363.0 4816170.0 6971573.06
+   CB  early  40392  9.965993e+05 1.082905e+06            6      5235910 1834.82 38310.1  591283.5 2607367.8 4469850.47
+   CC   July  67995  1.894367e+06 1.822867e+06            3      7818066 3487.88 80654.4 1307492.0 4766974.6 6958350.14
+   CC  early 109670  9.686064e+05 1.072049e+06            1      5246255 1865.69 35959.1  555332.0 2575259.3 4407449.56

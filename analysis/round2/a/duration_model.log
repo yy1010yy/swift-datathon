@@ -1,0 +1,88 @@
+ route  participants              model  early_n  july_n  july_nll_nats  july_total_variation
+     0             2 single_exponential  4266103 1741911       7.495925              0.577931
+     0             2   single_lognormal  4266103 1741911       6.827667              0.393964
+     0             2     two_lognormals  4266103 1741911       6.447098              0.132463
+     1             3 single_exponential  1321189  539243       7.739983              0.493606
+     1             3   single_lognormal  1321189  539243       7.300805              0.379345
+     1             3     two_lognormals  1321189  539243       6.946406              0.130387
+     1             4 single_exponential   462197  188638       7.951534              0.388693
+     1             4   single_lognormal   462197  188638       7.719762              0.341288
+     1             4     two_lognormals   462197  188638       7.433509              0.133977
+     2             3 single_exponential   169004   68470       7.699331              0.390191
+     2             3   single_lognormal   169004   68470       7.395319              0.326107
+     2             3     two_lognormals   169004   68470       7.203700              0.171727
+[
+  {
+    "route": 0,
+    "participants": 2,
+    "mix": [
+      0.5939558654093299,
+      0.40604413459067
+    ],
+    "logmeans": [
+      3.113879221775212,
+      7.000045798546106
+    ],
+    "logstds": [
+      0.6104201850648499,
+      0.9349938810355323
+    ],
+    "single_logmean": 4.6918343663153355,
+    "single_logstd": 2.053908213888984
+  },
+  {
+    "route": 1,
+    "participants": 3,
+    "mix": [
+      0.5094255782408452,
+      0.49057442175915483
+    ],
+    "logmeans": [
+      3.4262796208578346,
+      7.055816685299714
+    ],
+    "logstds": [
+      0.5348287789384915,
+      0.9365228396845144
+    ],
+    "single_logmean": 5.20683766749983,
+    "single_logstd": 1.9667745332144893
+  },
+  {
+    "route": 1,
+    "participants": 4,
+    "mix": [
+      0.40384539541173153,
+      0.5961546045882684
+    ],
+    "logmeans": [
+      3.673077645167522,
+      7.056859867537235
+    ],
+    "logstds": [
+      0.4799788268717661,
+      0.9617154690689904
+    ],
+    "single_logmean": 5.690334997957151,
+    "single_logstd": 1.8441939985613245
+  },
+  {
+    "route": 2,
+    "participants": 3,
+    "mix": [
+      0.39548539805853566,
+      0.6045146019414642
+    ],
+    "logmeans": [
+      3.3805027407700856,
+      6.663174986469982
+    ],
+    "logstds": [
+      0.5401277212662272,
+      1.0652193936878538
+    ],
+    "single_logmean": 5.364926046683651,
+    "single_logstd": 1.8378225302493345
+  }
+]
+Two lognormals are identifiable as a fitted mixture, not proof of actual generator families or which bank delayed.

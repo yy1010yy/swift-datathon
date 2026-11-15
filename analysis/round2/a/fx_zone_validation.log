@@ -1,0 +1,31 @@
+extract 1000000 12.2
+extract 2000000 24.9
+extract 3000000 37.3
+extract 4000000 50.1
+extract 5000000 63.4
+extract 6000000 75.8
+extract 7000000 87.8
+extract 8000000 99.6
+extract 9000000 111.7
+extract 10000000 123.7
+early    route q  known  equal  residual       n
+ True   Direct Y   True   True         0 4266103
+False   Direct Y   True   True         0 1741907
+ True Indirect Y   True   True         0 2030856
+ True  Covered Y   True   True         0  259435
+False  Covered Y   True   True         0  105259
+ True Indirect N   True   True         0  284378
+False Indirect Y   True   True         0  829202
+ True   Direct N   True   True         0  223597
+False   Direct N   True   True         0   91669
+False  Covered N   True   True         0   14932
+ True  Covered N   True   True         0   36330
+False Indirect N   True   True         0  116296
+False   Direct Y   True  False        -1       4
+ True Indirect Y   True  False        -1      16
+ True  Covered Y   True  False        -1       5
+False Indirect Y   True  False        -1       8
+ True Indirect N   True  False        -1       1
+False Indirect N   True  False        -1       1
+False  Covered Y   True  False        -1       1
+ALL ROWS 10000000 training country codes 229 SECONDS 154.87201160000404
